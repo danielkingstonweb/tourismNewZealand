@@ -127,6 +127,11 @@ button{
     &-results{
         height: 100vh;
         width: 55%;
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+        overflow-y: scroll;
     }
 
     &-map{
@@ -135,6 +140,15 @@ button{
     }
 }
 
+.card{
+    margin: 2em;
+
+    &-top{
+        display: flex;
+        flex-direction: row;
+        justify-content: space-between;
+    }
+}
 // .fa-search{
 //     padding: 0.5em;
 // }

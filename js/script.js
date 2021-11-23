@@ -858,7 +858,7 @@ function generateCard(x){
     // let x = i;
     $('#searchResults').append(
         `
-        <div class="card" style="width: 18rem;">
+        <div class="card" style="width: 35rem;">
             <img class="card-img-top" src="..." alt="Card image cap">
                 <div class="card-body">
                     <div class="card-top">
@@ -870,7 +870,7 @@ function generateCard(x){
                     <p></p>
                 </div>
                 <div class="card-price-section">
-                    <p class="card-price-day">${acom[x].price}</p>
+                    <p class="card-price-day">${acom[x].priceNight}</p>
                     <p class="card-price-stay"></p>
                 </div>
             </div>
