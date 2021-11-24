@@ -7816,33 +7816,33 @@ button {
   border: none;
   background: none; }
 
-.header {
+.hero {
   height: 100vh;
   width: 100%;
   display: grid;
   background: #000;
   grid-template-rows: repeat(11, 1fr);
   grid-template-columns: repeat(10, 1fr); }
-  .header-img {
+  .hero-img {
     grid-column: 1/11;
     grid-row: 1/9;
     background: url(../img/hero.jfif);
     background-size: cover;
     background-repeat: no-repeat; }
-  .header-logo {
+  .hero-logo {
     grid-column: 4/8;
     grid-row: 10/12;
     text-align: center; }
-  .header-logo-img {
+  .hero-logo-img {
     height: 50%;
     margin: auto; }
-  .header-heading {
+  .hero-heading {
     grid-column: 2/5;
     grid-row: 2/4;
     font-family: pure-pakati;
     color: #fff;
     letter-spacing: 2px; }
-  .header-heading h1 {
+  .hero-heading h1 {
     font-size: 6rem; }
 
 .search {
@@ -7877,12 +7877,12 @@ button {
     margin: 0; }
 
 .content-one {
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   display: flex;
   flex-direction: row; }
   .content-one-results {
-    height: 100vh;
+    height: 80vh;
     width: 55%;
     display: flex;
     flex-direction: row;
@@ -7890,14 +7890,34 @@ button {
     justify-content: center;
     overflow-y: scroll; }
   .content-one-map {
-    height: 100vh;
+    height: 80vh;
     width: 45%; }
 
 .card {
-  margin: 2em; }
+  margin: 2em;
+  text-align: left; }
   .card-top {
     display: flex;
     flex-direction: row;
     justify-content: space-between; }
+
+.nav {
+  height: 10vh;
+  width: 100%;
+  background: red;
+  z-index: 1000;
+  position: fixed; }
+
+.footer {
+  height: 10vh;
+  width: 100%;
+  background: red;
+  z-index: 999;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly; }
 
 /*# sourceMappingURL=style.css.map */

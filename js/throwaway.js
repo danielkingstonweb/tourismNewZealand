@@ -74,3 +74,8 @@
     // };
 
     // Old iniMap ends
+
+    // for (let i = 0; i <document.length; i++){
+    //     const mainSearch = document.getElementsByClassName(".mainSearch");
+    //     mainSearch.addEventListener("click", mainFilters);
+    //     };

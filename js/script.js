@@ -24,7 +24,7 @@ let acom = [
     {
         id: 101,
         // name: 'The Ranch',
-        location: 'queenstown',
+        location: 'Queenstown, New Zealand',
         rating: 4.5,
         beds: 5,
         rooms: 4,
@@ -69,7 +69,7 @@ let acom = [
     {
        id: 102,
     //    name: 'The Hilton',
-       location: 'queenstown',
+       location: 'Queenstown, New Zealand',
        rating: 4.4,
        beds: 1,
        rooms: 1,
@@ -114,7 +114,7 @@ let acom = [
     {
        id: 103,
     //    name: 'Four Seasons',
-       location: 'queenstown',
+       location: 'Queenstown, New Zealand',
        rating: 4.0,
        beds: 4,
        rooms: 2,
@@ -153,13 +153,13 @@ let acom = [
        dinnerPicture2: '',
        dinnerBio2: 'Steak Dinner',
        dinnerDiet2: '',
-       latitude: -45.028776,
-       longitude: 168.728284,
+       latitude: -45.033135,
+       longitude: 168.665212,
     },
     {
         id: 104,
         // name: 'YHA',
-        location: 'queenstown',
+        location: 'Queenstown, New Zealand',
         rating: 3.9,
         beds: 1,
         rooms: 1,
@@ -198,13 +198,13 @@ let acom = [
         dinnerPicture2: '',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
-        latitude: -45.028776,
-        longitude: 168.728284,
+        latitude: -45.032264,
+        longitude: 168.659218,
     },
     {
         id: 105,
         // name: 'My Home',
-        location: 'auckland',
+        location: 'Auckland, New Zealand',
         rating: 4.9,
         beds: 4,
         rooms: 3,
@@ -243,13 +243,13 @@ let acom = [
         dinnerPicture2: '',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
-        latitude: -45.028776,
-        longitude: 168.728284,
+        latitude: -36.861154,
+        longitude: 174.767731,
     },
     {
         id: 106,
         // name: 'Sky City',
-        location: 'auckland',
+        location: 'Auckland, New Zealand',
         rating: 4.6,
         beds: 1,
         rooms: 1,
@@ -288,13 +288,13 @@ let acom = [
         dinnerPicture2: '',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
-        latitude: -45.028776,
-        longitude: 168.728284,
+        latitude: -36.848445,
+        longitude: 174.761848,
     },
     {
         id: 107,
         // name: 'Fernz',
-        location: 'auckland',
+        location: 'Auckland, New Zealand',
         rating: 4.2,
         beds: 3,
         rooms: 2,
@@ -333,13 +333,13 @@ let acom = [
         dinnerPicture2: '',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
-        latitude: -45.028776,
-        longitude: 168.728284,
+        latitude: -36.813536,
+        longitude: 174.725902,
     },
     {
         id: 108,
         // name: 'Haka Lodge',
-        location: 'auckland',
+        location: 'Auckland, New Zealand',
         rating: 4.8,
         beds: 1,
         rooms: 1,
@@ -379,13 +379,13 @@ let acom = [
         dinnerPicture2: '',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
-        latitude: -45.028776,
-        longitude: 168.728284,
+        latitude: -36.858026,
+        longitude: 174.756701,
     },
     {
         id: 109,
         // name: 'Te Whare iti',
-        location: 'wellngton',
+        location: 'Wellington, New Zealand',
         rating: 4.5,
         beds: 3,
         rooms: 2,
@@ -424,13 +424,13 @@ let acom = [
         dinnerPicture2: '',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
-        latitude: -45.028776,
-        longitude: 168.728284,
+        latitude: -41.253140,
+        longitude: 174.773718,
     },
     {
         id: 110,
         // name: '',
-        location: 'wellington',
+        location: 'Wellington, New Zealand',
         rating: 4.8,
         beds: 5,
         rooms: 4,
@@ -469,13 +469,13 @@ let acom = [
         dinnerPicture2: '',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
-        latitude: -45.028776,
-        longitude: 168.728284,
+        latitude:-41.284855,
+        longitude: 174.776839,
     },
     {
         id: 111,
         // name: 'Bella Vista Motel',
-        location: 'wellington',
+        location: 'Wellington, New Zealand',
         rating: 4.5,
         beds: 5,
         rooms: 4,
@@ -483,7 +483,7 @@ let acom = [
         type: 'motel',
         bio: 'We are easy to find on Evans Bay, just minutes from Wellington Airport. From our motel, Wellington waterfront is easily accessible by car, full of restaurants, cafes, shops, galleries and, most famously Te Papa, the Museum of New Zealand. The city also hosts various performing arts, festivals, international and national sporting events and conferences.',
         header: 'Right by the airport!',
-        subHeader: 'Barney and Bhagi welcome you to the Bella Vista Motel Wellington',
+        subHeader: 'We welcome you to the Bella Vista Motel Wellington',
         minGuest: 2,
         maxGuest: 4,
         minNight: 3,
@@ -514,13 +514,13 @@ let acom = [
         dinnerPicture2: '',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
-        latitude: -45.028776,
-        longitude: 168.728284,
+        latitude: -41.302023,
+        longitude: 174.804424,
     },
     {
         id: 112,
         // name: 'Nomads',
-        location: 'queenstown',
+        location: 'Wellington, New Zealand',
         rating: 5.0,
         beds: 1,
         rooms: 1,
@@ -559,13 +559,13 @@ let acom = [
         dinnerPicture2: '',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
-        latitude: -45.028776,
-        longitude: 168.728284,
+        latitude:-41.289617,
+        longitude: 174.777075,
     },
     {
         id: 113,
         // name: '',
-        location: 'Christchurch',
+        location: 'Christchurch, New Zealand',
         rating: 4.8,
         beds: 3,
         rooms: 2,
@@ -604,13 +604,13 @@ let acom = [
         dinnerPicture2: '',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
-        latitude: -45.028776,
-        longitude: 168.728284,
+        latitude: -43.544752,
+        longitude: 172.644521,
     },
     {
         id: 114,
         // name: 'Wyndham',
-        location: 'Christchurch',
+        location: 'Christchurch, New Zealand',
         rating: 4.5,
         beds: 1,
         rooms: 1,
@@ -618,7 +618,7 @@ let acom = [
         type: 'hotel',
         bio: 'Surrounded by bars and restaurants, 10 kilometers from Christchurch International Airport (CHC), Wyndham Garden Christchurch Kilmore Street offers convenient amenities like a gym, café, and free WiFi. Pick up local goods at Riverside Market, learn about the area’s history in the Canterbury Museum, or try your luck at Christchurch Casino. You’ll be walking distance from attractions like Quake City, the Bridge of Remembrance, and Cathedral Square. Our central business district hotel is also minutes from Te Pae The Christchurch Convention Centre.',
         header: 'Get Comfortable in Christchurch',
-        subHeader: 'Modern CBD hotel by Riverside Market and Christchurch Casino',
+        subHeader: 'CBD hotel by Riverside Market and Christchurch Casino',
         minGuest: 1,
         maxGuest: 2,
         minNight: 1,
@@ -649,13 +649,13 @@ let acom = [
         dinnerPicture2: '',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
-        latitude: -45.028776,
-        longitude: 168.728284,
+        latitude:-43.526562,
+        longitude: 172.632709,
     },
     {
         id: 115,
         // name: 'Christchurch Motel',
-        location: 'queenstown',
+        location: 'Christchurch, New Zealand',
         rating: 3.7,
         beds: 3,
         rooms: 2,
@@ -694,13 +694,13 @@ let acom = [
         dinnerPicture2: '',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
-        latitude: -45.028776,
-        longitude: 168.728284,
+        latitude:-43.530893,
+        longitude: 172.585291,
     },
     {
         id: 116,
         // name: 'Jailhouse Accomodation',
-        location: 'Christchurch',
+        location: 'Christchurch, New Zealand',
         rating: 4.5,
         beds: 5,
         rooms: 4,
@@ -739,8 +739,8 @@ let acom = [
         dinnerPicture2: '',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
-        latitude: -45.028776,
-        longitude: 168.728284,
+        latitude: -43.542727,
+        longitude: 172.613301,
     },
 ];
 
@@ -797,10 +797,14 @@ function mainFilters(event){
     let numberOfDays = dateDifference/msDay;
     console.log(numberOfDays);
 
+    let location = $("#location").val();
+    console.log(location);
+
     let numberOfPeople = $("#visitors").val();
     console.log(numberOfPeople);
 
     displayOptions(numberOfDays, numberOfPeople);
+
 }
 
 
@@ -858,23 +862,25 @@ function generateCard(x){
     // let x = i;
     $('#searchResults').append(
         `
-        <div class="card" style="width: 35rem;">
-            <img class="card-img-top" src="..." alt="Card image cap">
-                <div class="card-body">
-                    <div class="card-top">
-                        <h6 class="card-subheading">${acom[x].subHeader}</h6>
-                        <div class="card-rating">${acom[x].rating}</div>
+        <button>
+            <div class="card" style="width: 35rem;">
+                <img class="card-img-top" src="..." alt="Card image cap">
+                    <div class="card-body">
+                        <div class="card-top">
+                            <h6 class="card-subheading">${acom[x].subHeader}</h6>
+                            <div class="card-rating">${acom[x].rating}</div>
+                        </div>
+                        <h5 class="card-title">${acom[x].header}</h5>
+                    <div class="card-amenities">
+                        <p></p>
                     </div>
-                    <h5 class="card-title">${acom[x].header}</h5>
-                <div class="card-amenities">
-                    <p></p>
-                </div>
-                <div class="card-price-section">
-                    <p class="card-price-day">${acom[x].priceNight}</p>
-                    <p class="card-price-stay"></p>
+                    <div class="card-price-section">
+                        <p class="card-price-day">${acom[x].priceNight}</p>
+                        <p class="card-price-stay"></p>
+                    </div>
                 </div>
             </div>
-        </div>
+        </button>
         `
     );
     // modal();

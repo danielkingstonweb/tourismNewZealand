@@ -21,7 +21,7 @@ button{
     background: none;
 }
 
-.header{
+.hero{
     height: 100vh;
     width: 100%;
     display: grid;
@@ -119,29 +119,34 @@ button{
 }
 
 .content-one{
-    height: 100vh;
+    height: 90vh;
     width: 100%;
     display: flex;
     flex-direction: row;
+    // padding: 10vh 0vh 10vh 0vh;
 
     &-results{
-        height: 100vh;
+        height: 80vh;
         width: 55%;
         display: flex;
         flex-direction: row;
         flex-wrap: wrap;
         justify-content: center;
         overflow-y: scroll;
+
     }
 
     &-map{
-        height: 100vh;
+        height: 80vh;
         width: 45%;
+
     }
 }
 
 .card{
     margin: 2em;
+    // max-height: 50%;
+    text-align: left;
 
     &-top{
         display: flex;
@@ -152,3 +157,28 @@ button{
 // .fa-search{
 //     padding: 0.5em;
 // }
+
+.nav{
+    // grid-row: 1/2;
+    // grid-column: 1/11;
+    height: 10vh;
+    width: 100%;
+    background: red;
+    z-index: 1000;
+    position: fixed;
+}
+
+.footer{
+    // grid-row: 11/12;
+    // grid-column: 1/11;
+    height: 10vh;
+    width: 100%;
+    background: red;
+    z-index: 999;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
