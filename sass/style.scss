@@ -67,7 +67,7 @@ button{
 .search{
     grid-column: 3/9;
     grid-row: 8/10;
-    width: 55%;
+    width: 50em;
     display: flex;
     justify-content: space-evenly;
     margin: auto;
@@ -119,11 +119,12 @@ button{
 }
 
 .content-one{
-    height: 90vh;
+    height: 100vh;
     width: 100%;
     display: flex;
     flex-direction: row;
     // padding: 10vh 0vh 10vh 0vh;
+    display: none;
 
     &-results{
         height: 80vh;
@@ -133,13 +134,13 @@ button{
         flex-wrap: wrap;
         justify-content: center;
         overflow-y: scroll;
-
+        margin-top: 10vh;
     }
 
     &-map{
         height: 80vh;
         width: 45%;
-
+        margin-top: 10vh;
     }
 }
 
@@ -166,6 +167,23 @@ button{
     background: red;
     z-index: 1000;
     position: fixed;
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-evenly;
+    gap: 2em;
+    display: none;
+
+    &-logo{
+        margin: auto;
+        height: 8vh;
+    }
+
+    &-filters{
+        margin: auto;
+        padding: 2em;
+        background: $white;
+    }
 }
 
 .footer{
@@ -181,4 +199,5 @@ button{
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
+    display: none;
 }

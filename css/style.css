@@ -7848,7 +7848,7 @@ button {
 .search {
   grid-column: 3/9;
   grid-row: 8/10;
-  width: 55%;
+  width: 50em;
   display: flex;
   justify-content: space-evenly;
   margin: auto;
@@ -7877,10 +7877,11 @@ button {
     margin: 0; }
 
 .content-one {
-  height: 90vh;
+  height: 100vh;
   width: 100%;
   display: flex;
-  flex-direction: row; }
+  flex-direction: row;
+  display: none; }
   .content-one-results {
     height: 80vh;
     width: 55%;
@@ -7888,10 +7889,12 @@ button {
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
-    overflow-y: scroll; }
+    overflow-y: scroll;
+    margin-top: 10vh; }
   .content-one-map {
     height: 80vh;
-    width: 45%; }
+    width: 45%;
+    margin-top: 10vh; }
 
 .card {
   margin: 2em;
@@ -7906,7 +7909,20 @@ button {
   width: 100%;
   background: red;
   z-index: 1000;
-  position: fixed; }
+  position: fixed;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: space-evenly;
+  gap: 2em;
+  display: none; }
+  .nav-logo {
+    margin: auto;
+    height: 8vh; }
+  .nav-filters {
+    margin: auto;
+    padding: 2em;
+    background: #ffffff; }
 
 .footer {
   height: 10vh;
@@ -7918,6 +7934,7 @@ button {
   left: 0;
   display: flex;
   flex-direction: row;
-  justify-content: space-evenly; }
+  justify-content: space-evenly;
+  display: none; }
 
 /*# sourceMappingURL=style.css.map */

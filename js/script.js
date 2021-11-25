@@ -748,6 +748,9 @@ let acom = [
 // End of Accommodation array
 // =====================================
 
+
+
+
 // maps function
 
 function initMap(){
@@ -765,9 +768,75 @@ function initMap(){
                 types: ['(cities)']
             }
         )
-
 }
 // end of maps function
+
+// =====================================
+// Start of Hide Shows
+// =====================================
+
+$("#mainSearch").click(function(){
+    $("#heroTop").hide();
+    $("#nav").show();
+    $("#footer").show();
+    $("#contentOne").show();
+    $("#nav").css("display","flex");
+    $("#footer").css("display","flex");
+    $("#contentOne").css("display","flex");
+});
+
+// =====================================
+// End of Hide Shows
+// =====================================
+
+function modal(){
+    $("#navFilters").click(function(){
+        console.log("clickedDat");
+        
+        $("#modalHeader").empty().append(
+            `
+            <div id="modalHeader" class="modal-header">
+            <h5 id="exampleModalTitle" class="modal-title">Filters</h5><i class="fas fa-filter"></i>
+            <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                <span aria-hidden="true">&times;</span>
+            </button>
+            </div>
+            `
+        );
+
+        $("#modalBody").empty().append(
+            `
+            <div class="modal-body">          
+                <div class="modal-written-content">
+                    <div class="modal-body-main">
+                    </div>
+                </div>
+            `
+        );
+
+        $("#modalFooter").empty().append(
+            `
+            <div class="modal-footer" id="modalFooter">
+                <a class="btn btn-primary">Buy Tickets</a>
+                <button href="#" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+            </div>
+            `
+        );
+    })
+};
+
+modal();
+
+// =====================================
+// 
+// =====================================
+
+
+
+// =====================================
+// 
+// =====================================
+
 
 
 // function results(){
@@ -897,3 +966,14 @@ function generateCard(x){
 
 
 mainSearch.addEventListener("click", mainFilters);
+
+
+
+// =====================================
+// 
+// =====================================
+
+
+// =====================================
+// 
+// =====================================
