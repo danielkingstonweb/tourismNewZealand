@@ -790,10 +790,10 @@ $("#mainSearch").click(function(){
 // =====================================
 
 function modal(){
-    $("#navFilters").click(function(){
+    $(".nav-filters").click(function(){
         console.log("clickedDat");
         
-        $("#modalHeader").empty().append(
+        $("#modalHeader").append(
             `
             <div id="modalHeader" class="modal-header">
             <h5 id="exampleModalTitle" class="modal-title">Filters</h5><i class="fas fa-filter"></i>
@@ -804,25 +804,71 @@ function modal(){
             `
         );
 
-        $("#modalBody").empty().append(
+        $("#modalBody").append(
             `
             <div class="modal-body">          
-                <div class="modal-written-content">
-                    <div class="modal-body-main">
-                    </div>
+                <div class="modal-body__price">               
                 </div>
+                <h4 class="modal-body-header">Amenities</h4>
+                <div class="modal-body__amenities">
+                    <label for="amenity">Free Wifi
+                        <input type="checkbox" name="amenity" value="Wifi">
+                    </label>
+                    <label for="amenity">Pool
+                        <input type="checkbox" name="amenity" value="Pool">
+                    </label>
+                    <label for="amenity">Laundry
+                        <input type="checkbox" name="amenity" value="Laundry">
+                    </label>
+                    <label for="amenity">Parking
+                        <input type="checkbox" name="amenity" value="Parking">
+                    </label>
+                    <label for="amenity">Spa
+                        <input type="checkbox" name="amenity" value="Spa">
+                    </label>        
+                    <label for="amenity">Breakfast
+                        <input type="checkbox" name="amenity" value="Breakfast">
+                    </label>
+                    <label for="amenity">EV Charger
+                        <input type="checkbox" name="amenity" value="EVCharger">
+                    </label>
+                    <label for="amenity">Garage
+                        <input type="checkbox" name="amenity" value="Garage">
+                    </label>
+                    <label for="amenity">Gym
+                        <input type="checkbox" name="amenity" value="Gym">
+                    </label>
+                    <label for="amenity">Workspace
+                        <input type="checkbox" name="amenity" value="Workspace">
+                    </label>
+                </div>
+                <h4 class="modal-body-header">Amenities</h4>
+                <div class="modal-body__type">
+                    <label for="property">House
+                        <input type="checkbox" name="property" value="House">
+                    </label>
+                    <label for="property">Hotel
+                        <input type="checkbox" name="property" value="Hotel">
+                    </label>
+                    <label for="property">Motel
+                        <input type="checkbox" name="property" value="Motel">
+                    </label>
+                    <label for="property">Hostel
+                        <input type="checkbox" name="property" value="Hostel">
+                    </label>
+                </div>
+            </div>
             `
         );
 
-        $("#modalFooter").empty().append(
+        $("#modalFooter").append(
             `
             <div class="modal-footer" id="modalFooter">
-                <a class="btn btn-primary">Buy Tickets</a>
                 <button href="#" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
             </div>
             `
         );
-    })
+    });
 };
 
 modal();

@@ -7877,7 +7877,7 @@ button {
     margin: 0; }
 
 .content-one {
-  height: 100vh;
+  height: 90vh;
   width: 100%;
   display: flex;
   flex-direction: row;
@@ -7923,6 +7923,44 @@ button {
     margin: auto;
     padding: 2em;
     background: #ffffff; }
+
+.modal-body__amenities {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  gap: 2em 2em;
+  border-width: 0px 0px 1px 0px;
+  border-style: solid;
+  padding-bottom: 1.5em;
+  padding-left: 1.5em; }
+.modal-body__amenities label {
+  display: flex;
+  align-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 7em;
+  max-width: 7em; }
+.modal-body__amenities input {
+  margin-left: 1em; }
+.modal-body__type {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  font-size: 2rem;
+  gap: 2em 2em;
+  padding-top: 1.5em;
+  padding-bottom: 1.5em;
+  padding-left: 1.5em; }
+.modal-body__type label {
+  display: flex;
+  align-content: flex-end;
+  align-items: center;
+  justify-content: space-between;
+  min-width: 7em;
+  max-width: 7em; }
+.modal-body__type input {
+  margin-left: 1em; }
 
 .footer {
   height: 10vh;
