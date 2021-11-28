@@ -7962,6 +7962,24 @@ button {
 .modal-body__type input {
   margin-left: 1em; }
 
+.content-two {
+  height: 400vh;
+  display: none; }
+  .content-two__left {
+    margin-top: 10vh;
+    width: 50%;
+    height: 100%; }
+  .content-two__right {
+    margin-top: 10vh;
+    width: 50%;
+    height: 100%; }
+
+.carousel-control-prev {
+  z-index: 889; }
+
+.carousel-control-next {
+  z-index: 889; }
+
 .footer {
   height: 10vh;
   width: 100%;

@@ -23,7 +23,7 @@ let markers = [];
 let acom = [
     {
         id: 101,
-        // name: 'The Ranch',
+        name: 'The Ranch',
         location: 'Queenstown, New Zealand',
         rating: 4.5,
         beds: 5,
@@ -38,7 +38,12 @@ let acom = [
         minNight: 2,
         maxNight: 15,
         priceNight: 245,
-        images: [],
+        image1: './img/queenstownHouse1.jpg',
+        image2: './img/queenstownHouse2.jpg',
+        image3: './img/queenstownHouse3.jpg',
+        image4: './img/queenstownHouse4.jpg',
+        image5: './img/queenstownHouse5.jpg',
+        image6: './img/queenstownHouse6.jpg',
         amenities: ['','','','','','',''],
         hostName: 'John Smith',
         hostBio: 'I\'ve been a host for over 5 years and love to deliver the best quality service I possible can! I take lots of pride in my work and will always be just a phone call away!',
@@ -68,7 +73,7 @@ let acom = [
     },
     {
        id: 102,
-    //    name: 'The Hilton',
+       name: 'The Hilton',
        location: 'Queenstown, New Zealand',
        rating: 4.4,
        beds: 1,
@@ -83,7 +88,12 @@ let acom = [
        minNight: 1,
        maxNight: 10,
        priceNight: 160,
-       images: [],
+       image1: '',
+       image2: '',
+       image3: '',
+       image4: '',
+       image5: '',
+       image6: '',
        amenities: ['','','','','','',''],
        hostName: 'Chris Ehmann',
        hostBio: 'I\'m the manager of Hilton Hotel\'s world wide, I can guarantee only the absolute best when guests choose to stay with us, I find myself personally responsible for the reputation of every single Hilton',
@@ -113,7 +123,7 @@ let acom = [
     },
     {
        id: 103,
-    //    name: 'Four Seasons',
+       name: 'Four Seasons',
        location: 'Queenstown, New Zealand',
        rating: 4.0,
        beds: 4,
@@ -128,7 +138,12 @@ let acom = [
        minNight: 3,
        maxNight: 10,
        priceNight: 90,
-       images: [],
+       image1: '',
+       image2: '',
+       image3: '',
+       image4: '',
+       image5: '',
+       image6: '',
        amenities: ['','','','','','',''],
        hostName: 'John Smith',
        hostBio: 'I\'ve been a host for over 5 years and love to deliver the best quality service I possible can! I take lots of pride in my work and will always be just a phone call away!',
@@ -158,7 +173,7 @@ let acom = [
     },
     {
         id: 104,
-        // name: 'YHA',
+        name: 'YHA',
         location: 'Queenstown, New Zealand',
         rating: 3.9,
         beds: 1,
@@ -173,7 +188,12 @@ let acom = [
         minNight: 1,
         maxNight: 10,
         priceNight: 30,
-        images: [],
+        image1: '',
+        image2: '',
+        image3: '',
+        image4: '',
+        image5: '',
+        image6: '',
         amenities: ['','','','','','',''],
         hostName: 'Sue Fairclough',
         hostBio: 'Our warm and attentive staff are at your service to assure your stay at the Four Seasons Motel is nothing short of delightful. Our facilities are clean and well maintained, and guest amenities like heated blankets during winter and select bus services are offered to ensure convenience and comfort in any season.',
@@ -203,7 +223,7 @@ let acom = [
     },
     {
         id: 105,
-        // name: 'My Home',
+        name: 'My Home',
         location: 'Auckland, New Zealand',
         rating: 4.9,
         beds: 4,
@@ -218,7 +238,12 @@ let acom = [
         minNight: 2,
         maxNight: 15,
         priceNight: 255,
-        images: [],
+        image1: '',
+        image2: '',
+        image3: '',
+        image4: '',
+        image5: '',
+        image6: '',
         amenities: ['','','','','','',''],
         hostName: 'Stefan',
         hostBio: 'Hi! My name is Stefan and I live in Auckland city, New Zealand. My favourite thing about living here is that Auckland is a vibrant and buzzing city, but that it also has beautiful beaches and forests on its doorstep when I want a break from the city life.',
@@ -248,7 +273,7 @@ let acom = [
     },
     {
         id: 106,
-        // name: 'Sky City',
+        name: 'Sky City',
         location: 'Auckland, New Zealand',
         rating: 4.6,
         beds: 1,
@@ -263,7 +288,12 @@ let acom = [
         minNight: 1,
         maxNight: 10,
         priceNight: 115,
-        images: [],
+        image1: '',
+        image2: '',
+        image3: '',
+        image4: '',
+        image5: '',
+        image6: '',
         amenities: ['','','','','','',''],
         hostName: 'Brad Burnett',
         hostBio: 'Group General Manager - SKYCITY Hotels - SkyCity Entertainment Group',
@@ -293,7 +323,7 @@ let acom = [
     },
     {
         id: 107,
-        // name: 'Fernz',
+        name: 'Fernz',
         location: 'Auckland, New Zealand',
         rating: 4.2,
         beds: 3,
@@ -308,7 +338,12 @@ let acom = [
         minNight: 3,
         maxNight: 10,
         priceNight: 100,
-        images: [],
+        image1: '',
+        image2: '',
+        image3: '',
+        image4: '',
+        image5: '',
+        image6: '',
         amenities: ['','','','','','',''],
         hostName: 'Christine Leaf',
         hostBio: 'Looking after people is what we do best so we’ve made sure you’ll have all the fun of being somewhere new, with all the comforts of being in your own home.',
@@ -338,7 +373,7 @@ let acom = [
     },
     {
         id: 108,
-        // name: 'Haka Lodge',
+        name: 'Haka Lodge',
         location: 'Auckland, New Zealand',
         rating: 4.8,
         beds: 1,
@@ -353,7 +388,12 @@ let acom = [
         minNight: 1,
         maxNight: 10,
         priceNight: 45,
-        images: [],
+        image1: '',
+        image2: '',
+        image3: '',
+        image4: '',
+        image5: '',
+        image6: '',
         amenities: ['','','','','','',''],
         hostImg: '',
         hostName: 'Susie Spain',
@@ -384,7 +424,7 @@ let acom = [
     },
     {
         id: 109,
-        // name: 'Te Whare iti',
+        name: 'Te Whare iti',
         location: 'Wellington, New Zealand',
         rating: 4.5,
         beds: 3,
@@ -399,7 +439,12 @@ let acom = [
         minNight: 2,
         maxNight: 15,
         priceNight: 240,
-        images: [],
+        image1: '',
+        image2: '',
+        image3: '',
+        image4: '',
+        image5: '',
+        image6: '',
         amenities: ['','','','','','',''],
         hostName: 'Megan',
         hostBio: 'We\'re located just next door, we\'ll always be happy to help if needed!!',
@@ -429,7 +474,7 @@ let acom = [
     },
     {
         id: 110,
-        // name: '',
+        name: 'InterContinental',
         location: 'Wellington, New Zealand',
         rating: 4.8,
         beds: 5,
@@ -444,7 +489,12 @@ let acom = [
         minNight: 1,
         maxNight: 10,
         priceNight: 180,
-        images: [],
+        image1: '',
+        image2: '',
+        image3: '',
+        image4: '',
+        image5: '',
+        image6: '',
         amenities: ['','','','','','',''],
         hostName: 'Scott Hamilton',
         hostBio: 'I\'ve been the InterContinental manager for over 9 years and love to deliver the best quality service I possible can! I take lots of pride in my work and ensure that we only hire the best staff',
@@ -474,7 +524,7 @@ let acom = [
     },
     {
         id: 111,
-        // name: 'Bella Vista Motel',
+        name: 'Bella Vista Motel',
         location: 'Wellington, New Zealand',
         rating: 4.5,
         beds: 5,
@@ -489,7 +539,12 @@ let acom = [
         minNight: 3,
         maxNight: 10,
         priceNight: 95,
-        images: [],
+        image1: '',
+        image2: '',
+        image3: '',
+        image4: '',
+        image5: '',
+        image6: '',
         amenities: ['','','','','','',''],
         hostName: 'Barney and Bhagi',
         hostBio: 'You can be assured of a warm welcome at Bella Vista Motel Wellington where we will assist you in every way possible!',
@@ -519,7 +574,7 @@ let acom = [
     },
     {
         id: 112,
-        // name: 'Nomads',
+        name: 'Nomads',
         location: 'Wellington, New Zealand',
         rating: 5.0,
         beds: 1,
@@ -534,7 +589,12 @@ let acom = [
         minNight: 1,
         maxNight: 10,
         priceNight: 37,
-        images: [],
+        image1: '',
+        image2: '',
+        image3: '',
+        image4: '',
+        image5: '',
+        image6: '',
         amenities: ['','','','','','',''],
         hostName: 'Ryan Coward',
         hostBio: 'I\'m a dedicated Hostel manager who\'s committed to creating the best stay for locals and visitors.',
@@ -564,7 +624,7 @@ let acom = [
     },
     {
         id: 113,
-        // name: '',
+        name: 'Christchurch Townhouse',
         location: 'Christchurch, New Zealand',
         rating: 4.8,
         beds: 3,
@@ -579,7 +639,12 @@ let acom = [
         minNight: 2,
         maxNight: 15,
         priceNight: 230,
-        images: [],
+        image1: '',
+        image2: '',
+        image3: '',
+        image4: '',
+        image5: '',
+        image6: '',
         amenities: ['','','','','','',''],
         hostName: 'Anne',
         hostBio: 'I love to travel, and having just returned from the UK after living there for 7 years, I am now living in Christchurch which is my home town. The city is a beautiful place to live and be part off.',
@@ -609,7 +674,7 @@ let acom = [
     },
     {
         id: 114,
-        // name: 'Wyndham',
+        name: 'Wyndham',
         location: 'Christchurch, New Zealand',
         rating: 4.5,
         beds: 1,
@@ -624,7 +689,12 @@ let acom = [
         minNight: 1,
         maxNight: 10,
         priceNight: 157,
-        images: [],
+        image1: '',
+        image2: '',
+        image3: '',
+        image4: '',
+        image5: '',
+        image6: '',
         amenities: ['','','','','','',''],
         hostName: 'Peter Wyndham',
         hostBio: 'I\'ve been a host for over 5 years and love to deliver the best quality service I possible can! I take lots of pride in my work and will always be just a phone call away!',
@@ -654,7 +724,7 @@ let acom = [
     },
     {
         id: 115,
-        // name: 'Christchurch Motel',
+        name: 'Christchurch Motel',
         location: 'Christchurch, New Zealand',
         rating: 3.7,
         beds: 3,
@@ -669,7 +739,12 @@ let acom = [
         minNight: 3,
         maxNight: 10,
         priceNight: 98,
-        images: [],
+        image1: '',
+        image2: '',
+        image3: '',
+        image4: '',
+        image5: '',
+        image6: '',
         amenities: ['','','','','','',''],
         hostName: 'Brian and Bridget',
         hostBio: 'We are committed in ensuring you have a clean, comfortable and enjoyable stay at Christchurch Motel.',
@@ -699,7 +774,7 @@ let acom = [
     },
     {
         id: 116,
-        // name: 'Jailhouse Accomodation',
+        name: 'Jailhouse Accommodation',
         location: 'Christchurch, New Zealand',
         rating: 4.5,
         beds: 5,
@@ -714,7 +789,12 @@ let acom = [
         minNight: 1,
         maxNight: 10,
         priceNight: 230,
-        images: [],
+        image1: '',
+        image2: '',
+        image3: '',
+        image4: '',
+        image5: '',
+        image6: '',
         amenities: ['','','','','','',''],
         hostName: 'Pete Davidson',
         hostBio: 'The Jailhouse has rooms available to suit everyone and we welcome children, youth and adults of all ages to experience our special budget accommodation. Our hostel is clean, warm and friendly with super-comfortable inner-sprung beds.',
@@ -785,6 +865,8 @@ $("#mainSearch").click(function(){
     $("#contentOne").css("display","flex");
 });
 
+
+
 // =====================================
 // End of Hide Shows
 // =====================================
@@ -793,7 +875,7 @@ function modal(){
     $(".nav-filters").click(function(){
         console.log("clickedDat");
         
-        $("#modalHeader").append(
+        $("#modalHeader").empty().append(
             `
             <div id="modalHeader" class="modal-header">
             <h5 id="exampleModalTitle" class="modal-title">Filters</h5><i class="fas fa-filter"></i>
@@ -804,12 +886,14 @@ function modal(){
             `
         );
 
-        $("#modalBody").append(
+        $("#modalBody").empty().append(
             `
             <div class="modal-body">          
                 <div class="modal-body__price">               
                 </div>
-                <h4 class="modal-body-header">Amenities</h4>
+                <div class="modal-body-title">
+                    <h4 class="modal-body-header">Amenities</h4>
+                </div>
                 <div class="modal-body__amenities">
                     <label for="amenity">Free Wifi
                         <input type="checkbox" name="amenity" value="Wifi">
@@ -842,7 +926,9 @@ function modal(){
                         <input type="checkbox" name="amenity" value="Workspace">
                     </label>
                 </div>
-                <h4 class="modal-body-header">Amenities</h4>
+                <div class="modal-body-title">
+                    <h4 class="modal-body-header">Amenities</h4>
+                <div/>
                 <div class="modal-body__type">
                     <label for="property">House
                         <input type="checkbox" name="property" value="House">
@@ -861,7 +947,7 @@ function modal(){
             `
         );
 
-        $("#modalFooter").append(
+        $("#modalFooter").empty().append(
             `
             <div class="modal-footer" id="modalFooter">
                 <button href="#" type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
@@ -927,8 +1013,8 @@ function displayOptions(nights, guests){
     
     reloadMarkers();
 
-    console.log(nights);
-    console.log(guests);
+    // console.log(nights);
+    // console.log(guests);
 
     $("#searchResults").empty();
 
@@ -937,14 +1023,14 @@ function displayOptions(nights, guests){
            generateCard(i);
            
            let location = {lat: acom[i].latitude, lng: acom[i].longitude};
-           console.log(location);
+        //    console.log(location);
 
            let marker = new google.maps.Marker({
                position: location,
                map: map
            });
 
-           console.log(marker);
+        //    console.log(marker);
 
            markers.push(marker);
         }
@@ -956,9 +1042,137 @@ function displayOptions(nights, guests){
 
 // results();
 
+// =====================================
+// Card Selection Function Starts
+// =====================================
 
+function selection(){
 
+    $(".moreInformation").click(function(){
+        // console.log("clickedDat")
+        $("#contentOne").hide();
+        $("#contentTwo").show();
+        $("#contentTwo").css("display", "flex");
+        $("#contentTwo").css("flex-direction", "row");
+    });
 
+    $(".moreInformation").click(function(){
+        // console.log("upto");
+        let i = 0;
+        for(i = 0; i < acom.length; i++){
+            if(parseInt(this.id) === acom[i].id){
+                // console.log(acom[i].name);
+
+                $("#contentTwoLeft").empty().append(
+                    `
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="${acom[i].image1}" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="${acom[i].image2}" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="${acom[i].image3}" alt="Third slide">
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="${acom[i].image4}" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="${acom[i].image5}" alt="Third slide">
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                    <div class="content-two__place">
+                        <h5 class="content-two-headings">The Place</h5>
+                        <p class="content-two-text">${acom[i].bio}</p>
+                    </div>
+                    <div class="content-two__amenities">
+                        <h5 class="content-two-headings">Amenities</h5>
+                        <div class="content"
+                    </div>
+                    <div class="content-two__sleeps">
+                        <h5 class="content-two-headings">Sleeping Arrangements</h5>
+                        <div class="content-two-rooms"></div>
+                    </div>
+                    <div class="content-two-review">
+                        <h5 class="content-two-headings">Reviews</h5>
+                        <div class="content-two__person">
+                            <img src="" alt="" class="content-two-img">
+                            <div class="content-two-person__box">
+                                <h6 class="content-two-names"></h6>
+                                <p class="content-two-text"></p>
+                            </div>
+                        </div>
+                        <div class="content-two__person">
+                            <img src="" alt="" class="content-two-img">
+                            <div class="content-two-person__box">
+                                <h6 class="content-two-names"></h6>
+                                <p class="content-two-text"></p>
+                            </div>
+                        </div>
+                        <div class="content-two__person">
+                            <img src="" alt="" class="content-two-img">
+                            <div class="content-two-person__box">
+                                <h6 class="content-two-names"></h6>
+                                <p class="content-two-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="content-two__host">
+                        <div class="content-two__person">
+                            <img src="" alt="" class="content-two-img">
+                            <div class="content-two-person__box">
+                                <h6 class="content-two-names"></h6>
+                                <p class="content-two-text"></p>
+                            </div>
+                        </div>
+                    </div>
+                    `
+                );
+
+                        
+                $("#contentTwoRight").empty().append(
+                    `
+                    <div class="content-two__written">
+                        <div class="content-two__header">
+                            <h3 class="content-two__heading"></h3>
+                            <img src="" alt="" class="content-two-star">
+                            <div class="content-two-rating">${acom[i].rating}</div>
+                            <h4 class="content-two__subheading">${acom[i].subHeader}</h4>
+                        </div>
+                    </div>
+                    <div class="content-two__cart">
+                        <div class="content-two__search">
+                            <div class="content-two-checkin"></div>
+                            <div class="content-two-checkout"></div>
+                            <div class="content-two-visitors"></div>
+                            <div class="content-two-night"></div>
+                        </div>
+                    <div class="content-two__cart-bottom">
+                        <div class="content-two__calc">
+                        </div>
+                    </div>
+                    `
+                );
+            }
+        }
+    })
+};
+
+selection();
+// =====================================
+// Card Selection Function Ends
+// =====================================
 
 
 function reloadMarkers(){
@@ -977,9 +1191,35 @@ function generateCard(x){
     // let x = i;
     $('#searchResults').append(
         `
-        <button>
-            <div class="card" style="width: 35rem;">
-                <img class="card-img-top" src="..." alt="Card image cap">
+
+            <div id="${acom[x].id}" class="card moreInformation" style="width: 35rem;">
+            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="${acom[x].image1}" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="${acom[x].image2}" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="${acom[x].image3}" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100" src="${acom[x].image4}" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="${acom[x].image5}" alt="Third slide">
+                    </div>
+                </div>
+                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
                     <div class="card-body">
                         <div class="card-top">
                             <h6 class="card-subheading">${acom[x].subHeader}</h6>
@@ -990,16 +1230,17 @@ function generateCard(x){
                         <p></p>
                     </div>
                     <div class="card-price-section">
-                        <p class="card-price-day">${acom[x].priceNight}</p>
+                        <p class="card-price-day">$${acom[x].priceNight}</p>
                         <p class="card-price-stay"></p>
                     </div>
                 </div>
             </div>
-        </button>
+
+
         `
     );
-    // modal();
-}
+    selection();
+};
 
 // =====================================
 // end of card generator

@@ -242,6 +242,33 @@ button{
     }
 }
 
+
+.content-two{
+    height: 400vh;
+    display: none;
+
+    &__left{
+        margin-top: 10vh;
+        width: 50%;
+        height: 100%;
+    }
+
+    &__right{
+        margin-top: 10vh;
+        width: 50%;
+        height: 100%;
+    }
+}
+
+.carousel-control-prev{
+    z-index: 889;
+}
+
+.carousel-control-next{
+    z-index: 889;
+}
+
+
 .footer{
     // grid-row: 11/12;
     // grid-column: 1/11;
