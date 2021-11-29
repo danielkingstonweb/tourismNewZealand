@@ -1,7 +1,7 @@
 console.log('big up da udem');
 
 const mainSearch = document.querySelector("#mainSearch");
-
+// const staySelected = document.querySelector("#selectStay");
 // Maps API
 
 let script = '<script src="https://maps.googleapis.com/maps/api/js?key=' + key +'&callback=initMap&libraries=places&v=weekly" async defer >';
@@ -148,7 +148,7 @@ let acom = [
        hostName: 'John Smith',
        hostBio: 'I\'ve been a host for over 5 years and love to deliver the best quality service I possible can! I take lots of pride in my work and will always be just a phone call away!',
        breakfastHeading: 'Breakfast - 22',
-       breakfastPicture1: '',
+       breakfastPicture1: './img/queenstownHouse1.jpg',
        breakfastBio1: 'Eggs & Avacado on toast',
        breakfastDiet1: 'V',
        lunchHeading: 'Lunch - $25',
@@ -837,17 +837,18 @@ function initMap(){
     let wellington = {lat: -41.2924, lng: 174.7787};
 
     map = new google.maps.Map(document.getElementById("map"), {
-        zoom: 8, 
+        zoom: 5.5, 
         center: wellington,
     });
-
-            // Auto Complete Form
-        let start = new google.maps.places.Autocomplete(
-            document.getElementById('location'),
-            {
-                types: ['(cities)']
-            }
-        )
+    
+    // Auto Complete Form
+    let start = new google.maps.places.Autocomplete(
+        document.getElementById('location'),
+        {
+            types: ['(cities)']
+        }
+    )
+    
 }
 // end of maps function
 
@@ -1004,12 +1005,12 @@ function mainFilters(event){
     let numberOfPeople = $("#visitors").val();
     console.log(numberOfPeople);
 
-    displayOptions(numberOfDays, numberOfPeople);
+    displayOptions(numberOfDays, numberOfPeople, location);
 
 }
 
 
-function displayOptions(nights, guests){
+function displayOptions(nights, guests, city){
     
     reloadMarkers();
 
@@ -1019,7 +1020,7 @@ function displayOptions(nights, guests){
     $("#searchResults").empty();
 
     for(let i = 0; i<acom.length; i++){
-        if((nights >= acom[i].minNight && nights <= acom[i].maxNight) && (guests >= acom[i].minGuest && guests <= acom[i].maxGuest)){
+        if((nights >= acom[i].minNight && nights <= acom[i].maxNight) && (guests >= acom[i].minGuest && guests <= acom[i].maxGuest) && (city === acom[i].location)){
            generateCard(i);
            
            let location = {lat: acom[i].latitude, lng: acom[i].longitude};
@@ -1098,7 +1099,7 @@ function selection(){
                     </div>
                     <div class="content-two__amenities">
                         <h5 class="content-two-headings">Amenities</h5>
-                        <div class="content"
+                        <div class="content-two-amenitylist></div>
                     </div>
                     <div class="content-two__sleeps">
                         <h5 class="content-two-headings">Sleeping Arrangements</h5>
@@ -1159,19 +1160,127 @@ function selection(){
                             <div class="content-two-night"></div>
                         </div>
                     <div class="content-two__cart-bottom">
-                        <div class="content-two__calc">
+                        <div class="content-two-bottomleft">
+                            <div class="content-two__calc">
+                            </div>
+                            <div class="content-two__calc">
+                            </div>
+                            <div class="content-two__calc">
+                            </div>
+                        </div>
+                        <div class="content-two-bottomright">
+                        <button id="${acom[i].id}" class="content-two-btn">Select This Stay</button>
+                            <p class="content-two-disclaimer">This isn't a final selection</p>
                         </div>
                     </div>
                     `
                 );
+            mealProgress();
+            }
+        }
+    })
+   
+};
+selection();
+// =====================================
+// Card Selection Function Ends
+// =====================================
+
+
+// =====================================
+// Meal Selection Page Function Begins
+// =====================================
+
+function mealProgress(){
+
+    $(".content-two-btn").click(function(){
+        // console.log("clickedDat")
+        $("#contentTwo").hide();
+        $("#contentThree").show();
+        $("#contentThree").css("display", "flex");
+        $("#contentThree").css("flex-direction", "row");
+    });
+
+    $(".content-two-btn").click(function(){
+        console.log("heyBro");
+        let i = 0;
+        for(i = 0; i < acom.length; i++){
+            if(parseInt(this.id) === acom[i].id){
+                console.log(acom[i].name);
+
+                $("#contentThreeLeft").empty().append(
+                    `
+                    <h3 class="content-three-heading"></h3>
+                    <h3 class="content-three-subheading"></h4>
+                        <div class="content-three__breakfast">
+                            <h6 class="content-three-foodheading">Breakfast - $22</h6>
+                            <img src="" alt="" class="content-three-img1">
+                            <p class="content-three-description1"></p>
+                            <p class="content-three-dietary1"></p>
+                            <img src="" alt="" class="content-three-img1">
+                            <p class="content-three-description2"></p>
+                            <p class="content-three-dietary2"></p>
+                        </div>
+                        <div class="content-three__lunch">
+                            <h6 class="content-three-foodheading">Lunch - $22</h6>
+                            <img src="" alt="" class="content-three-img1">
+                            <p class="content-three-description1"></p>
+                            <p class="content-three-dietary1"></p>
+                            <img src="" alt="" class="content-three-img1">
+                            <p class="content-three-description2"></p>
+                            <p class="content-three-dietary2"></p>
+                        </div>
+                        <div class="content-three__dinner">
+                            <h6 class="content-three-foodheading">Dinner - $22</h6>
+                            <img src="" alt="" class="content-three-img1">
+                            <p class="content-three-description1"></p>
+                            <p class="content-three-dietary1"></p>
+                            <img src="" alt="" class="content-three-img1">
+                            <p class="content-three-description2"></p>
+                            <p class="content-three-dietary2"></p>
+                        </div>
+                    `
+                )
+
+                $("#contentThreeRight").empty().append(
+                    `
+                    <div class="content-three__written">
+                        <div class="content-thee__header">
+                            <h3 class="content-three__heading"></h3>
+                            <img src="" alt="" class="content-three-star">
+                            <div class="content-three-rating">${acom[i].rating}</div>
+                            <h4 class="content-three__subheading">${acom[i].subHeader}</h4>
+                        </div>
+                    </div>
+                    <div class="content-three__cart">
+                        <div class="content-three__search">
+                            <div class="content-three-checkin"></div>
+                            <div class="content-three-checkout"></div>
+                            <div class="content-three-visitors"></div>
+                            <div class="content-three-night"></div>
+                        </div>
+                    <div class="content-three__cart-bottom">
+                        <div class="content-three-bottomleft">
+                            <div class="content-three__calc">
+                            </div>
+                            <div class="content-three__calc">
+                            </div>
+                            <div class="content-three__calc">
+                            </div>
+                        </div>
+                        <div class="content-three-bottomright">
+                        <button id="${acom[i].id}" class="content-three-btn">Continue</button>
+                        </div>
+                    </div>
+                    `
+                )
             }
         }
     })
 };
-
-selection();
+mealProgress();
 // =====================================
-// Card Selection Function Ends
+// Meal Selection Page Function Ends
 // =====================================
 
 
@@ -1253,6 +1362,7 @@ function generateCard(x){
 
 
 mainSearch.addEventListener("click", mainFilters);
+// staySelected.addEventListener("click", mealProgress);
 
 
 

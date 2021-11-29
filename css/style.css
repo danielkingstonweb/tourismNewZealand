@@ -7898,6 +7898,8 @@ button {
 
 .card {
   margin: 2em;
+  max-height: 50%;
+  min-height: 50%;
   text-align: left; }
   .card-top {
     display: flex;
@@ -7973,6 +7975,15 @@ button {
     margin-top: 10vh;
     width: 50%;
     height: 100%; }
+
+.content-three {
+  padding-top: 10vh;
+  height: 90vh;
+  display: none; }
+  .content-three__left {
+    width: 50%; }
+  .content-three__right {
+    width: 50%; }
 
 .carousel-control-prev {
   z-index: 889; }
