@@ -7888,9 +7888,9 @@ button {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
-    justify-content: center;
     overflow-y: scroll;
-    margin-top: 10vh; }
+    margin-top: 10vh;
+    margin-left: 2em; }
   .content-one-map {
     height: 80vh;
     width: 45%;
@@ -7900,8 +7900,30 @@ button {
   margin: 2em;
   max-height: 50%;
   min-height: 50%;
-  text-align: left; }
+  text-align: left;
+  background: #000000;
+  font-family: national;
+  color: #ffffff; }
   .card-top {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between; }
+  .card-subheading {
+    font-size: 1.3rem; }
+  .card-rating {
+    padding: 0em 0.5em;
+    border-width: 1px;
+    border-style: solid;
+    border-color: #00abdd;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5em; }
+  .card-title {
+    font-size: 1.7rem; }
+  .card-price-section {
+    font-size: 1.9rem;
     display: flex;
     flex-direction: row;
     justify-content: space-between; }

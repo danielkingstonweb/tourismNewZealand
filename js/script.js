@@ -17,7 +17,8 @@ let map;
 let markers = [];
 let firstSelection = [];
 console.log(firstSelection);
-const secondFilter = document.querySelector("#modalFilter");
+let totalNights;
+const secondFilter = document.getElementById("#modalFilter");
 
 // =====================================
 // Start of Accommodation array
@@ -41,15 +42,25 @@ let acom = [
         minNight: 2,
         maxNight: 15,
         priceNight: 245,
-        image1: './img/queenstownHouse1.jpg',
-        image2: './img/queenstownHouse2.jpg',
-        image3: './img/queenstownHouse3.jpg',
-        image4: './img/queenstownHouse4.jpg',
-        image5: './img/queenstownHouse5.jpg',
-        image6: './img/queenstownHouse6.jpg',
+        image1: '',
+        image2: '',
+        image3: '',
+        image4: '',
+        image5: '',
+        image6: '',
+        // image6: './img/queenstownHouse6.jpg',
         amenities: ['','','','','','',''],
         hostName: 'John Smith',
         hostBio: 'I\'ve been a host for over 5 years and love to deliver the best quality service I possible can! I take lots of pride in my work and will always be just a phone call away!',
+        reviewImg1: '',
+        reviewName1: '',
+        reviewText1: '',
+        reviewImg2: '',
+        reviewName2: '',
+        reviewText2: '',
+        reviewImg3: '',
+        reviewName3: '',
+        reviewText3: '',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -100,6 +111,15 @@ let acom = [
        amenities: ['','','','','','',''],
        hostName: 'Chris Ehmann',
        hostBio: 'I\'m the manager of Hilton Hotel\'s world wide, I can guarantee only the absolute best when guests choose to stay with us, I find myself personally responsible for the reputation of every single Hilton',
+       reviewImg1: '',
+       reviewName1: '',
+       reviewText1: '',
+       reviewImg2: '',
+       reviewName2: '',
+       reviewText2: '',
+       reviewImg3: '',
+       reviewName3: '',
+       reviewText3: '',
        breakfastHeading: 'Breakfast - 22',
        breakfastPicture1: '',
        breakfastBio1: 'Eggs & Avacado on toast',
@@ -141,15 +161,25 @@ let acom = [
        minNight: 3,
        maxNight: 10,
        priceNight: 90,
-       image1: './img/fourSeasons1.jpg',
-       image2: './img/fourSeasons2.jpg',
-       image3: './img/fourSeasons3.jpg',
-       image4: './img/fourSeasons4.jpg',
-       image5: './img/fourSeasons5.jpg',
-       image6: './img/fourSeasons6.jpg',
+       image1: '',
+       image2: '',
+       image3: '',
+       image4: '',
+       image5: '',
+       image6: '',
+    //    image6: './img/fourSeasons6.jpg',
        amenities: ['','','','','','',''],
        hostName: 'John Smith',
        hostBio: 'I\'ve been a host for over 5 years and love to deliver the best quality service I possible can! I take lots of pride in my work and will always be just a phone call away!',
+       reviewImg1: '',
+       reviewName1: '',
+       reviewText1: '',
+       reviewImg2: '',
+       reviewName2: '',
+       reviewText2: '',
+       reviewImg3: '',
+       reviewName3: '',
+       reviewText3: '',
        breakfastHeading: 'Breakfast - 22',
        breakfastPicture1: './img/',
        breakfastBio1: 'Eggs & Avacado on toast',
@@ -200,6 +230,15 @@ let acom = [
         amenities: ['','','','','','',''],
         hostName: 'Sue Fairclough',
         hostBio: 'Our warm and attentive staff are at your service to assure your stay at the Four Seasons Motel is nothing short of delightful. Our facilities are clean and well maintained, and guest amenities like heated blankets during winter and select bus services are offered to ensure convenience and comfort in any season.',
+        reviewImg1: '',
+        reviewName1: '',
+        reviewText1: '',
+        reviewImg2: '',
+        reviewName2: '',
+        reviewText2: '',
+        reviewImg3: '',
+        reviewName3: '',
+        reviewText3: '',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -250,6 +289,15 @@ let acom = [
         amenities: ['','','','','','',''],
         hostName: 'Stefan',
         hostBio: 'Hi! My name is Stefan and I live in Auckland city, New Zealand. My favourite thing about living here is that Auckland is a vibrant and buzzing city, but that it also has beautiful beaches and forests on its doorstep when I want a break from the city life.',
+        reviewImg1: '',
+        reviewName1: '',
+        reviewText1: '',
+        reviewImg2: '',
+        reviewName2: '',
+        reviewText2: '',
+        reviewImg3: '',
+        reviewName3: '',
+        reviewText3: '',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -350,6 +398,15 @@ let acom = [
         amenities: ['','','','','','',''],
         hostName: 'Christine Leaf',
         hostBio: 'Looking after people is what we do best so we’ve made sure you’ll have all the fun of being somewhere new, with all the comforts of being in your own home.',
+        reviewImg1: '',
+        reviewName1: '',
+        reviewText1: '',
+        reviewImg2: '',
+        reviewName2: '',
+        reviewText2: '',
+        reviewImg3: '',
+        reviewName3: '',
+        reviewText3: '',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -401,6 +458,15 @@ let acom = [
         hostImg: '',
         hostName: 'Susie Spain',
         hostBio: 'I\'ve been managing Haka Lodge for over 5 years, I take pride in creating the most welcoming environment possible, either me or another trusted staff member will always only be a call away!',
+        reviewImg1: '',
+        reviewName1: '',
+        reviewText1: '',
+        reviewImg2: '',
+        reviewName2: '',
+        reviewText2: '',
+        reviewImg3: '',
+        reviewName3: '',
+        reviewText3: '',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -451,6 +517,15 @@ let acom = [
         amenities: ['','','','','','',''],
         hostName: 'Megan',
         hostBio: 'We\'re located just next door, we\'ll always be happy to help if needed!!',
+        reviewImg1: '',
+        reviewName1: '',
+        reviewText1: '',
+        reviewImg2: '',
+        reviewName2: '',
+        reviewText2: '',
+        reviewImg3: '',
+        reviewName3: '',
+        reviewText3: '',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -501,6 +576,15 @@ let acom = [
         amenities: ['','','','','','',''],
         hostName: 'Scott Hamilton',
         hostBio: 'I\'ve been the InterContinental manager for over 9 years and love to deliver the best quality service I possible can! I take lots of pride in my work and ensure that we only hire the best staff',
+        reviewImg1: '',
+        reviewName1: '',
+        reviewText1: '',
+        reviewImg2: '',
+        reviewName2: '',
+        reviewText2: '',
+        reviewImg3: '',
+        reviewName3: '',
+        reviewText3: '',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -542,15 +626,25 @@ let acom = [
         minNight: 3,
         maxNight: 10,
         priceNight: 95,
-        image1: './img/bellaVistaWellington1.jpg',
-        image2: './img/bellaVistaWellington2.jpg',
-        image3: './img/bellaVistaWellington3.jpg',
-        image4: './img/bellaVistaWellington4.jpg',
-        image5: './img/bellaVistaWellington5.jpg',
-        image6: './img/bellaVistaWellington6.jpg',
+        image1: '',
+        image2: '',
+        image3: '',
+        image4: '',
+        image5: '',
+        image6: '',
+        // image6: './img/bellaVistaWellington6.jpg',
         amenities: ['','','','','','',''],
         hostName: 'Barney and Bhagi',
         hostBio: 'You can be assured of a warm welcome at Bella Vista Motel Wellington where we will assist you in every way possible!',
+        reviewImg1: '',
+        reviewName1: '',
+        reviewText1: '',
+        reviewImg2: '',
+        reviewName2: '',
+        reviewText2: '',
+        reviewImg3: '',
+        reviewName3: '',
+        reviewText3: '',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -601,6 +695,15 @@ let acom = [
         amenities: ['','','','','','',''],
         hostName: 'Ryan Coward',
         hostBio: 'I\'m a dedicated Hostel manager who\'s committed to creating the best stay for locals and visitors.',
+        reviewImg1: '',
+        reviewName1: '',
+        reviewText1: '',
+        reviewImg2: '',
+        reviewName2: '',
+        reviewText2: '',
+        reviewImg3: '',
+        reviewName3: '',
+        reviewText3: '',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -701,6 +804,15 @@ let acom = [
         amenities: ['','','','','','',''],
         hostName: 'Peter Wyndham',
         hostBio: 'I\'ve been a host for over 5 years and love to deliver the best quality service I possible can! I take lots of pride in my work and will always be just a phone call away!',
+        reviewImg1: '',
+        reviewName1: '',
+        reviewText1: '',
+        reviewImg2: '',
+        reviewName2: '',
+        reviewText2: '',
+        reviewImg3: '',
+        reviewName3: '',
+        reviewText3: '',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -751,6 +863,15 @@ let acom = [
         amenities: ['','','','','','',''],
         hostName: 'Brian and Bridget',
         hostBio: 'We are committed in ensuring you have a clean, comfortable and enjoyable stay at Christchurch Motel.',
+        reviewImg1: '',
+        reviewName1: '',
+        reviewText1: '',
+        reviewImg2: '',
+        reviewName2: '',
+        reviewText2: '',
+        reviewImg3: '',
+        reviewName3: '',
+        reviewText3: '',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -801,6 +922,15 @@ let acom = [
         amenities: ['','','','','','',''],
         hostName: 'Pete Davidson',
         hostBio: 'The Jailhouse has rooms available to suit everyone and we welcome children, youth and adults of all ages to experience our special budget accommodation. Our hostel is clean, warm and friendly with super-comfortable inner-sprung beds.',
+        reviewImg1: '',
+        reviewName1: '',
+        reviewText1: '',
+        reviewImg2: '',
+        reviewName2: '',
+        reviewText2: '',
+        reviewImg3: '',
+        reviewName3: '',
+        reviewText3: '',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -948,7 +1078,7 @@ function modal(){
                             <input type="checkbox" name="property" value="Hostel">
                         </label>
                     </div>
-                    <button id="modalFilter" type="submit" class="btn btn-secondary modal-form-btn">Submit Changes</button>
+                    <button id="modalFilter" type="submit" onClick="checkboxFilter()" class="btn btn-secondary modal-form-btn">Submit Changes</button>
                 </form>
             </div>
             `
@@ -962,15 +1092,28 @@ function modal(){
             `
         );
 
-        function checkboxFilter(event){
+
+    });
+    
+
+};
+
+modal();
+
+        // =====================================
+        // Checkbox Filter Function Starts
+        // =====================================
+
+        function checkboxFilter(){
             $("#searchResults").empty();
             event.preventDefault();
-            let selectedType;
+            let selectedType = [];
             let selectionArray = firstSelection;
             console.log(selectionArray);
         
             $('input[name = "property"]:checked').each(function(){
                 selectedType.push(this.value);
+                console.log(this.value);
             });
         
             console.log(selectedType);
@@ -981,32 +1124,26 @@ function modal(){
                 generateCard(i);
             }
         };
-        checkboxFilter();
-        // secondFilter.addEventListener("click", checkboxFilter);
 
-    });
+        // =====================================
+        // Checkbox Filter Function Ends
+        // =====================================
 
-};
-
-modal();
+        // checkboxFilter();
 
 
 
 
-// =====================================
-// Checkbox Filter Function Starts
-// =====================================
 
 
 
 
-// =====================================
-// Checkbox Filter Function Ends
-// =====================================
 
 // =====================================
 // Start of filter function
 // =====================================
+
+
 
 function mainFilters(event){
 
@@ -1031,6 +1168,10 @@ function mainFilters(event){
     console.log(numberOfPeople);
 
     displayOptions(numberOfDays, numberOfPeople, location);
+
+    totalNights = numberOfDays;
+    console.log(totalNights);
+    console.log(typeof totalNights);
 
 }
 
@@ -1058,12 +1199,17 @@ function displayOptions(nights, guests, city){
                map: map
            });
 
-        //    console.log(marker);
+           console.log(parseInt(acom[i].priceNight) * parseInt(totalNights));
+           console.log(5*5);
 
-           markers.push(marker);
+            markers.push(marker);
         }
     }
+    // secondFilter.addEventListener("click", checkboxFilter);
+
 }
+displayOptions();
+
 // =====================================
 // End of filter function
 // =====================================
@@ -1359,15 +1505,16 @@ function generateCard(x){
                     <div class="card-body">
                         <div class="card-top">
                             <h6 class="card-subheading">${acom[x].subHeader}</h6>
-                            <div class="card-rating">${acom[x].rating}</div>
+                            <div class="card-rating"><i class="fas fa-star"></i>${acom[x].rating}</div>
                         </div>
                         <h5 class="card-title">${acom[x].header}</h5>
                     <div class="card-amenities">
                         <p></p>
                     </div>
                     <div class="card-price-section">
-                        <p class="card-price-day">$${acom[x].priceNight}</p>
-                        <p class="card-price-stay"></p>
+                        <p class="card-price-day">$${acom[x].priceNight} NZD/night</p>
+                        <p>|</p>
+                        <p class="card-price-stay">$${acom[x].priceNight * totalNights} NZD/total</p>
                     </div>
                 </div>
             </div>
