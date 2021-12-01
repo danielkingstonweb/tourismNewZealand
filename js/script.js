@@ -48,7 +48,8 @@ let acom = [
         image4: './img/queenstownHouse4.jpg',
         image5: './img/queenstownHouse5.jpg',
         image6: './img/queenstownHouse6.jpg',
-        amenities: ['','','','','','',''],
+        carouselId: 'carouselExampleControls1',
+        amenities: ['Wifi','Parking','Workspace','Garage','Meals', 'Laundry'],
         hostName: 'John Smith',
         hostBio: 'I\'ve been a host for over 5 years and love to deliver the best quality service I possible can! I take lots of pride in my work and will always be just a phone call away!',
         reviewImg1: './img/staunchCat.jfif',
@@ -95,7 +96,7 @@ let acom = [
        type: 'Hotel',
        bio: 'Find The Hilton on the shores of the Frankton Arm of Lake Wakatipu, three kilometers from Queenstown Airport. Queenstown is 10 kilometers away and there\'s a water taxi for rides across the lake. We have a heated indoor pool, full-service spa, fitness center with Precor equipment, outdoor terrace with lake views, and multiple dining options.',
        header: 'Luxury in the heart of Queenstown',
-       subHeader: 'Premium hotel offering dining, a spa & an indoor pool.',
+       subHeader: 'Premium hotel offering dining, a spa & pool.',
        minGuest: 1,
        maxGuest: 2,
        minNight: 1,
@@ -107,7 +108,8 @@ let acom = [
        image4: './img/hilton4.jpg',
        image5: './img/hilton5.jpg',
        image6: './img/hilton6.jpg',
-       amenities: ['','','','','','',''],
+       carouselId: 'carouselExampleControls2',
+       amenities: ['Wifi','Parking','Gym','Pool','Spa','Meals','EV Charger','Laundry'],
        hostName: 'Chris Ehmann',
        hostBio: 'I\'m the manager of Hilton Hotel\'s world wide, I can guarantee only the absolute best when guests choose to stay with us, I find myself personally responsible for the reputation of every single Hilton',
        reviewImg1: '',
@@ -166,18 +168,19 @@ let acom = [
        image4: './img/fourSeasons4.jpg',
        image5: './img/fourSeasons5.jpg',
        image6: './img/fourSeasons6.jpg',
-       amenities: ['','','','','','',''],
+       carouselId: 'carouselExampleControls3',
+       amenities: ['Parking','Wifi','Pool','Meals'],
        hostName: 'John Smith',
        hostBio: 'I\'ve been a host for over 5 years and love to deliver the best quality service I possible can! I take lots of pride in my work and will always be just a phone call away!',
-       reviewImg1: '',
-       reviewName1: '',
-       reviewText1: '',
-       reviewImg2: '',
-       reviewName2: '',
-       reviewText2: '',
-       reviewImg3: '',
-       reviewName3: '',
-       reviewText3: '',
+       reviewImg1: './img/staunchCat.jfif',
+       reviewName1: 'Normal Guy',
+       reviewText1: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+       reviewImg2: './img/staunchCat.jfif',
+       reviewName2: 'Normal Gal',
+       reviewText2: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+       reviewImg3: './img/staunchCat.jfif',
+       reviewName3: 'Normal They',
+       reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
        breakfastHeading: 'Breakfast - 22',
        breakfastPicture1: './img/',
        breakfastBio1: 'Eggs & Avacado on toast',
@@ -225,18 +228,19 @@ let acom = [
         image4: './img/fourSeasons4.jpg',
         image5: './img/fourSeasons5.jpg',
         image6: './img/fourSeasons6.jpg',
-        amenities: ['','','','','','',''],
+        carouselId: 'carouselExampleControls4',
+        amenities: ['Wifi','Meals','Parking'],
         hostName: 'Sue Fairclough',
         hostBio: 'Our warm and attentive staff are at your service to assure your stay at the Four Seasons Motel is nothing short of delightful. Our facilities are clean and well maintained, and guest amenities like heated blankets during winter and select bus services are offered to ensure convenience and comfort in any season.',
-        reviewImg1: '',
-        reviewName1: '',
-        reviewText1: '',
-        reviewImg2: '',
-        reviewName2: '',
-        reviewText2: '',
-        reviewImg3: '',
-        reviewName3: '',
-        reviewText3: '',
+        reviewImg1: './img/staunchCat.jfif',
+        reviewName1: 'Normal Guy',
+        reviewText1: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg2: './img/staunchCat.jfif',
+        reviewName2: 'Normal Gal',
+        reviewText2: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg3: './img/staunchCat.jfif',
+        reviewName3: 'Normal They',
+        reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -284,18 +288,19 @@ let acom = [
         image4: './img/aucklandHouse4.jpg',
         image5: './img/aucklandHouse5.jpg',
         image6: './img/aucklandHouse6.jpg',
-        amenities: ['','','','','','',''],
+        carouselId: 'carouselExampleControls5',
+        amenities: ['Wifi','Parking','Workspace','Garage','Meals', 'Laundry'],
         hostName: 'Stefan',
         hostBio: 'Hi! My name is Stefan and I live in Auckland city, New Zealand. My favourite thing about living here is that Auckland is a vibrant and buzzing city, but that it also has beautiful beaches and forests on its doorstep when I want a break from the city life.',
-        reviewImg1: '',
-        reviewName1: '',
-        reviewText1: '',
-        reviewImg2: '',
-        reviewName2: '',
-        reviewText2: '',
-        reviewImg3: '',
-        reviewName3: '',
-        reviewText3: '',
+        reviewImg1: './img/staunchCat.jfif',
+        reviewName1: 'Normal Guy',
+        reviewText1: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg2: './img/staunchCat.jfif',
+        reviewName2: 'Normal Gal',
+        reviewText2: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg3: './img/staunchCat.jfif',
+        reviewName3: 'Normal They',
+        reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',  
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -343,9 +348,19 @@ let acom = [
         image4: './img/skyCity4.jpg',
         image5: './img/skyCity5.jpg',
         image6: './img/skyCity6.jpg',
-        amenities: ['','','','','','',''],
+        carouselId: 'carouselExampleControls6',
+        amenities: ['Wifi','Parking','Gym','Pool','Spa','Meals','EV Charger','Laundry'],
         hostName: 'Brad Burnett',
         hostBio: 'Group General Manager - SKYCITY Hotels - SkyCity Entertainment Group',
+        reviewImg1: './img/staunchCat.jfif',
+        reviewName1: 'Normal Guy',
+        reviewText1: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg2: './img/staunchCat.jfif',
+        reviewName2: 'Normal Gal',
+        reviewText2: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg3: './img/staunchCat.jfif',
+        reviewName3: 'Normal They',
+        reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',       
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -393,18 +408,19 @@ let acom = [
         image4: './img/fernz4.jpg',
         image5: './img/fernz5.jpg',
         image6: './img/fernz6.jpg',
-        amenities: ['','','','','','',''],
+        carouselId: 'carouselExampleControls7',
+        amenities: ['Parking','Wifi','Pool','Meals'],
         hostName: 'Christine Leaf',
         hostBio: 'Looking after people is what we do best so we’ve made sure you’ll have all the fun of being somewhere new, with all the comforts of being in your own home.',
-        reviewImg1: '',
-        reviewName1: '',
-        reviewText1: '',
-        reviewImg2: '',
-        reviewName2: '',
-        reviewText2: '',
-        reviewImg3: '',
-        reviewName3: '',
-        reviewText3: '',
+        reviewImg1: './img/staunchCat.jfif',
+        reviewName1: 'Normal Guy',
+        reviewText1: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg2: './img/staunchCat.jfif',
+        reviewName2: 'Normal Gal',
+        reviewText2: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg3: './img/staunchCat.jfif',
+        reviewName3: 'Normal They',
+        reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -452,19 +468,20 @@ let acom = [
         image4: './img/hakaLodgeAKL4.jpg',
         image5: './img/hakaLodgeAKL5.jpg',
         image6: './img/hakaLodgeAKL6.jpg',
-        amenities: ['','','','','','',''],
+        carouselId: 'carouselExampleControls8',
+        amenities: ['Wifi','Meals'],
         hostImg: '',
         hostName: 'Susie Spain',
         hostBio: 'I\'ve been managing Haka Lodge for over 5 years, I take pride in creating the most welcoming environment possible, either me or another trusted staff member will always only be a call away!',
-        reviewImg1: '',
-        reviewName1: '',
-        reviewText1: '',
-        reviewImg2: '',
-        reviewName2: '',
-        reviewText2: '',
-        reviewImg3: '',
-        reviewName3: '',
-        reviewText3: '',
+        reviewImg1: './img/staunchCat.jfif',
+        reviewName1: 'Normal Guy',
+        reviewText1: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg2: './img/staunchCat.jfif',
+        reviewName2: 'Normal Gal',
+        reviewText2: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg3: './img/staunchCat.jfif',
+        reviewName3: 'Normal They',
+        reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -500,7 +517,7 @@ let acom = [
         type: 'House',
         bio: 'The Little house is a brand new self contained guest house in Ngaio. Two minute walk to Ngaio train station into Wellington city and Sky stadium which is a 12 min train ride. Two cafe\'s and a Supermarket within a 10min walk. Surrounded by hills, we have many beautiful walks on our doorstep - the northern walkway, Trellisick park and Otari Wilton bush.',
         header: 'Te Whare iti - The little house',
-        subHeader: 'Located just outside of the city in neighbouring Ngaio',
+        subHeader: 'Located just outside of the city in Ngaio',
         minGuest: 1,
         maxGuest: 4,
         minNight: 2,
@@ -512,18 +529,19 @@ let acom = [
         image4: './img/wellyHouse4.jpg',
         image5: './img/wellyHouse5.jpg',
         image6: './img/wellyHouse6.jpg',
-        amenities: ['','','','','','',''],
+        carouselId: 'carouselExampleControls9',
+        amenities: ['Wifi', 'Parking', 'Workspace', 'Garage', 'Meals', 'Laundry'],
         hostName: 'Megan',
         hostBio: 'We\'re located just next door, we\'ll always be happy to help if needed!!',
-        reviewImg1: '',
-        reviewName1: '',
-        reviewText1: '',
-        reviewImg2: '',
-        reviewName2: '',
-        reviewText2: '',
-        reviewImg3: '',
-        reviewName3: '',
-        reviewText3: '',
+        reviewImg1: './img/staunchCat.jfif',
+        reviewName1: 'Normal Guy',
+        reviewText1: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg2: './img/staunchCat.jfif',
+        reviewName2: 'Normal Gal',
+        reviewText2: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg3: './img/staunchCat.jfif',
+        reviewName3: 'Normal They',
+        reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -571,18 +589,19 @@ let acom = [
         image4: './img/interContinental4.jpg',
         image5: './img/interContinental5.jpg',
         image6: './img/interContinental6.jpg',
-        amenities: ['','','','','','',''],
+        carouselId: 'carouselExampleControls10',
+        amenities: ['Wifi','Parking','Gym','Pool','Spa','Meals','EV Charger','Laundry'],
         hostName: 'Scott Hamilton',
         hostBio: 'I\'ve been the InterContinental manager for over 9 years and love to deliver the best quality service I possible can! I take lots of pride in my work and ensure that we only hire the best staff',
-        reviewImg1: '',
-        reviewName1: '',
-        reviewText1: '',
-        reviewImg2: '',
-        reviewName2: '',
-        reviewText2: '',
-        reviewImg3: '',
-        reviewName3: '',
-        reviewText3: '',
+        reviewImg1: './img/staunchCat.jfif',
+        reviewName1: 'Normal Guy',
+        reviewText1: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg2: './img/staunchCat.jfif',
+        reviewName2: 'Normal Gal',
+        reviewText2: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg3: './img/staunchCat.jfif',
+        reviewName3: 'Normal They',
+        reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -618,7 +637,7 @@ let acom = [
         type: 'Motel',
         bio: 'We are easy to find on Evans Bay, just minutes from Wellington Airport. From our motel, Wellington waterfront is easily accessible by car, full of restaurants, cafes, shops, galleries and, most famously Te Papa, the Museum of New Zealand. The city also hosts various performing arts, festivals, international and national sporting events and conferences.',
         header: 'Right by the airport!',
-        subHeader: 'We welcome you to the Bella Vista Motel Wellington',
+        subHeader: 'Welcome to the Bella Vista Motel Wellington',
         minGuest: 2,
         maxGuest: 4,
         minNight: 3,
@@ -631,18 +650,19 @@ let acom = [
         image5: './img/bellaVistaWellington5.jpg',
         image6: './img/bellaVistaWellington6.jpg',
         // image6: './img/bellaVistaWellington6.jpg',
-        amenities: ['','','','','','',''],
+        carouselId: 'carouselExampleControls11',
+        amenities: ['Parking','Wifi','Pool','Meals'],
         hostName: 'Barney and Bhagi',
         hostBio: 'You can be assured of a warm welcome at Bella Vista Motel Wellington where we will assist you in every way possible!',
-        reviewImg1: '',
-        reviewName1: '',
-        reviewText1: '',
-        reviewImg2: '',
-        reviewName2: '',
-        reviewText2: '',
-        reviewImg3: '',
-        reviewName3: '',
-        reviewText3: '',
+        reviewImg1: './img/staunchCat.jfif',
+        reviewName1: 'Normal Guy',
+        reviewText1: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg2: './img/staunchCat.jfif',
+        reviewName2: 'Normal Gal',
+        reviewText2: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg3: './img/staunchCat.jfif',
+        reviewName3: 'Normal They',
+        reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -690,18 +710,19 @@ let acom = [
         image4: './img/nomadsWellington4.jpg',
         image5: './img/nomadsWellington5.jpg',
         image6: './img/nomadsWellington6.jpg',
-        amenities: ['','','','','','',''],
+        carouselId: 'carouselExampleControls12',
+        amenities: ['Wifi','Meals'],
         hostName: 'Ryan Coward',
         hostBio: 'I\'m a dedicated Hostel manager who\'s committed to creating the best stay for locals and visitors.',
-        reviewImg1: '',
-        reviewName1: '',
-        reviewText1: '',
-        reviewImg2: '',
-        reviewName2: '',
-        reviewText2: '',
-        reviewImg3: '',
-        reviewName3: '',
-        reviewText3: '',
+        reviewImg1: './img/staunchCat.jfif',
+        reviewName1: 'Normal Guy',
+        reviewText1: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg2: './img/staunchCat.jfif',
+        reviewName2: 'Normal Gal',
+        reviewText2: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg3: './img/staunchCat.jfif',
+        reviewName3: 'Normal They',
+        reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -743,15 +764,25 @@ let acom = [
         minNight: 2,
         maxNight: 15,
         priceNight: 230,
-        image1: './img/christchurchMotel1.jpg',
-        image2: './img/christchurchMotel2.jpg',
-        image3: './img/christchurchMotel3.jpg',
-        image4: './img/christchurchMotel4.jpg',
-        image5: './img/christchurchMotel5.jpg',
-        image6: './img/christchurchMotel6.jpg',
-        amenities: ['','','','','','',''],
+        image1: './img/christchurchMotel1.jpeg',
+        image2: './img/christchurchMotel2.jpeg',
+        image3: './img/christchurchMotel3.jpeg',
+        image4: './img/christchurchMotel4.jpeg',
+        image5: './img/christchurchMotel5.jpeg',
+        image6: './img/christchurchMotel6.jpeg',
+        carouselId: 'carouselExampleControls13',
+        amenities: ['Wifi','Parking','Workspace','Garage','Meals', 'Laundry'],
         hostName: 'Anne',
         hostBio: 'I love to travel, and having just returned from the UK after living there for 7 years, I am now living in Christchurch which is my home town. The city is a beautiful place to live and be part off.',
+        reviewImg1: './img/staunchCat.jfif',
+        reviewName1: 'Normal Guy',
+        reviewText1: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg2: './img/staunchCat.jfif',
+        reviewName2: 'Normal Gal',
+        reviewText2: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg3: './img/staunchCat.jfif',
+        reviewName3: 'Normal They',
+        reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -787,7 +818,7 @@ let acom = [
         type: 'Hotel',
         bio: 'Surrounded by bars and restaurants, 10 kilometers from Christchurch International Airport (CHC), Wyndham Garden Christchurch Kilmore Street offers convenient amenities like a gym, café, and free WiFi. Pick up local goods at Riverside Market, learn about the area’s history in the Canterbury Museum, or try your luck at Christchurch Casino. You’ll be walking distance from attractions like Quake City, the Bridge of Remembrance, and Cathedral Square. Our central business district hotel is also minutes from Te Pae The Christchurch Convention Centre.',
         header: 'Get Comfortable in Christchurch',
-        subHeader: 'CBD hotel by Riverside Market and Christchurch Casino',
+        subHeader: 'CBD hotel by Riverside Market',
         minGuest: 1,
         maxGuest: 2,
         minNight: 1,
@@ -799,18 +830,19 @@ let acom = [
         image4: './img/wyndhamChristchurch4.jpg',
         image5: './img/wyndhamChristchurch5.jpg',
         image6: './img/wyndhamChristchurch6.jpg',
-        amenities: ['','','','','','',''],
+        carouselId: 'carouselExampleControls14',
+        amenities: ['Wifi','Parking','Gym','Pool','Spa','Meals','EV Charger','Laundry'],
         hostName: 'Peter Wyndham',
         hostBio: 'I\'ve been a host for over 5 years and love to deliver the best quality service I possible can! I take lots of pride in my work and will always be just a phone call away!',
-        reviewImg1: '',
-        reviewName1: '',
-        reviewText1: '',
-        reviewImg2: '',
-        reviewName2: '',
-        reviewText2: '',
-        reviewImg3: '',
-        reviewName3: '',
-        reviewText3: '',
+        reviewImg1: './img/staunchCat.jfif',
+        reviewName1: 'Normal Guy',
+        reviewText1: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg2: './img/staunchCat.jfif',
+        reviewName2: 'Normal Gal',
+        reviewText2: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg3: './img/staunchCat.jfif',
+        reviewName3: 'Normal They',
+        reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -852,24 +884,25 @@ let acom = [
         minNight: 3,
         maxNight: 10,
         priceNight: 98,
-        image1: './img/christchurchMotel1.jpg',
-        image2: './img/christchurchMotel2.jpg',
-        image3: './img/christchurchMotel3.jpg',
-        image4: './img/christchurchMotel4.jpg',
-        image5: './img/christchurchMotel5.jpg',
-        image6: './img/christchurchMotel6.jpg',
-        amenities: ['','','','','','',''],
+        image1: './img/christchurchMotel1.jpeg',
+        image2: './img/christchurchMotel2.jpeg',
+        image3: './img/christchurchMotel3.jpeg',
+        image4: './img/christchurchMotel4.jpeg',
+        image5: './img/christchurchMotel5.jpeg',
+        image6: './img/christchurchMotel6.jpeg',
+        carouselId: 'carouselExampleControls15',
+        amenities: ['Parking','Wifi','Pool','Meals'],
         hostName: 'Brian and Bridget',
         hostBio: 'We are committed in ensuring you have a clean, comfortable and enjoyable stay at Christchurch Motel.',
-        reviewImg1: '',
-        reviewName1: '',
-        reviewText1: '',
-        reviewImg2: '',
-        reviewName2: '',
-        reviewText2: '',
-        reviewImg3: '',
-        reviewName3: '',
-        reviewText3: '',
+        reviewImg1: './img/staunchCat.jfif',
+        reviewName1: 'Normal Guy',
+        reviewText1: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg2: './img/staunchCat.jfif',
+        reviewName2: 'Normal Gal',
+        reviewText2: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg3: './img/staunchCat.jfif',
+        reviewName3: 'Normal They',
+        reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -917,18 +950,19 @@ let acom = [
         image4: './img/jailhouseChristchurch4.jpg',
         image5: './img/jailhouseChristchurch5.jpg',
         image6: './img/jailhouseChristchurch6.jpg',
-        amenities: ['','','','','','',''],
+        carouselId: 'carouselExampleControls16',
+        amenities: ['Wifi','Meals','Parking'],
         hostName: 'Pete Davidson',
         hostBio: 'The Jailhouse has rooms available to suit everyone and we welcome children, youth and adults of all ages to experience our special budget accommodation. Our hostel is clean, warm and friendly with super-comfortable inner-sprung beds.',
-        reviewImg1: '',
-        reviewName1: '',
-        reviewText1: '',
-        reviewImg2: '',
-        reviewName2: '',
-        reviewText2: '',
-        reviewImg3: '',
-        reviewName3: '',
-        reviewText3: '',
+        reviewImg1: './img/staunchCat.jfif',
+        reviewName1: 'Normal Guy',
+        reviewText1: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg2: './img/staunchCat.jfif',
+        reviewName2: 'Normal Gal',
+        reviewText2: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+        reviewImg3: './img/staunchCat.jfif',
+        reviewName3: 'Normal They',
+        reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
         breakfastPicture1: '',
         breakfastBio1: 'Eggs & Avacado on toast',
@@ -949,7 +983,7 @@ let acom = [
         lunchDiet2: 'V*, VG*',
         dinnerPicture2: '',
         dinnerBio2: 'Steak Dinner',
-        dinnerDiet2: '',
+        dinnerDiet2: './img/steakDinner.jpg',
         latitude: -43.542727,
         longitude: 172.613301,
     },
@@ -1043,11 +1077,11 @@ function modal(){
                         <label for="amenity">Spa
                             <input type="checkbox" name="amenity" value="Spa">
                         </label>        
-                        <label for="amenity">Breakfast
-                            <input type="checkbox" name="amenity" value="Breakfast">
+                        <label for="amenity">Meals
+                            <input type="checkbox" name="amenity" value="Meals">
                         </label>
                         <label for="amenity">EV Charger
-                            <input type="checkbox" name="amenity" value="EVCharger">
+                            <input type="checkbox" name="amenity" value="EV Charger">
                         </label>
                         <label for="amenity">Garage
                             <input type="checkbox" name="amenity" value="Garage">
@@ -1098,38 +1132,7 @@ function modal(){
 
 modal();
 
-        // =====================================
-        // Checkbox Filter Function Starts
-        // =====================================
 
-    function checkboxFilter(){
-        $("#searchResults").empty();
-        event.preventDefault();
-        let selectedType = [];
-
-        console.log(firstSelection);
-    
-        $('input[name = "property"]:checked').each(function(){
-            selectedType.push(this.value);
-            console.log(this.value);
-        });
-    
-        console.log(selectedType);
-    
-            for(i = 0; i < firstSelection.length; i++){
-                // for(j = 0; j < selectedType.length; j++){
-                    if(firstSelection[i].type = "House"){
-                    // console.log(selectedType);
-                    generateCard(i);
-                    // WHEN THIS FUNCTION IS RUN THE CARDS POST WRONG BUT THE NUMBERS ARE POSTING RIGHT
-                }
-            // };
-        };
-    };
-    // checkboxFilter();
-        // =====================================
-        // Checkbox Filter Function Ends
-        // =====================================
 
 
 
@@ -1191,7 +1194,7 @@ function displayOptions(nights, guests, city){
         if((nights >= acom[i].minNight && nights <= acom[i].maxNight) && (guests >= acom[i].minGuest && guests <= acom[i].maxGuest) && (city === acom[i].location)){
            generateCard(i);
            
-           firstSelection.push(i);
+           firstSelection.push(acom[i]);
 
            let location = {lat: acom[i].latitude, lng: acom[i].longitude};
         //    console.log(location);
@@ -1213,6 +1216,47 @@ function displayOptions(nights, guests, city){
 
 }
 displayOptions();
+
+
+
+        // =====================================
+        // Checkbox Filter Function Starts
+        // =====================================
+
+        function checkboxFilter(){
+            $("#searchResults").empty();
+            event.preventDefault();
+            let selectedType = [];
+    
+            console.log(firstSelection);
+        
+            $('input[name = "property"]:checked').each(function(){
+                selectedType.push(this.value);
+                console.log(this.value);
+
+    
+            });
+
+            
+            for(i = 0; i < selectedType.length; i++){
+                console.log(selectedType[i]);
+                for(j = 0; j < firstSelection.length; j++){
+                    if(selectedType[i] === firstSelection[j].type)
+                    console.log(firstSelection[j].name);
+                    console.log(generateCardFilter(j));
+                };
+            };
+        
+            console.log(selectedType);
+        
+
+
+
+        };
+        // checkboxFilter();
+            // =====================================
+            // Checkbox Filter Function Ends
+            // =====================================
 
 // =====================================
 // End of filter function
@@ -1478,8 +1522,8 @@ function generateCard(x){
     $('#searchResults').append(
         `
 
-            <div id="${acom[x].id}" class="card moreInformation" style="width: 35rem;">
-            <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+            <div class="card" style="width: 35rem;">
+            <div id="${acom[x].carouselId}" class="carousel slide" data-ride="carousel">
                 <div class="carousel-inner">
                     <div class="carousel-item active">
                         <img class="d-block w-100" src="${acom[x].image1}" alt="First slide">
@@ -1497,23 +1541,78 @@ function generateCard(x){
                         <img class="d-block w-100" src="${acom[x].image5}" alt="Third slide">
                     </div>
                 </div>
-                    <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
+                    <a class="carousel-control-prev" href="#${acom[x].carouselId}" role="button" data-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="sr-only">Previous</span>
                     </a>
-                    <a class="carousel-control-next" href="#carouselExampleControls" role="button" data-slide="next">
+                    <a class="carousel-control-next" href="#${acom[x].carouselId}" role="button" data-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="sr-only">Next</span>
                     </a>
                 </div>
-                    <div class="card-body">
+                    <div id="${acom[x].id}" class="card-body moreInformation">
                         <div class="card-top">
                             <h6 class="card-subheading">${acom[x].subHeader}</h6>
                             <div class="card-rating"><i class="fas fa-star"></i>${acom[x].rating}</div>
                         </div>
                         <h5 class="card-title">${acom[x].header}</h5>
                     <div class="card-amenities">
-                        <p></p>
+                        <p>${acom[x].amenities.slice(0,3)}</p>
+                    </div>
+                    <div class="card-price-section">
+                        <p class="card-price-day">$${acom[x].priceNight} NZD/night</p>
+                        <p>|</p>
+                        <p class="card-price-stay">$${acom[x].priceNight * totalNights} NZD/total</p>
+                    </div>
+                </div>
+            </div>
+
+        `
+    );
+    selection();
+};
+
+function generateCardFilter(x){
+    // let x = i;
+    $('#searchResults').append(
+        `
+
+            <div class="card" style="width: 35rem;">
+            <div id="${acom[x].carouselId}" class="carousel slide" data-ride="carousel">
+                <div class="carousel-inner">
+                    <div class="carousel-item active">
+                        <img class="d-block w-100" src="${acom[x].image1}" alt="First slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="${acom[x].image2}" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="${acom[x].image3}" alt="Third slide">
+                    </div>
+                    <div class="carousel-item">
+                    <img class="d-block w-100" src="${acom[x].image4}" alt="Second slide">
+                    </div>
+                    <div class="carousel-item">
+                        <img class="d-block w-100" src="${acom[x].image5}" alt="Third slide">
+                    </div>
+                </div>
+                    <a class="carousel-control-prev" href="#${acom[x].carouselId}" role="button" data-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Previous</span>
+                    </a>
+                    <a class="carousel-control-next" href="#${acom[x].carouselId}" role="button" data-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="sr-only">Next</span>
+                    </a>
+                </div>
+                    <div id="${acom[x].id}" class="card-body moreInformation">
+                        <div class="card-top">
+                            <h6 class="card-subheading">${acom[x].subHeader}</h6>
+                            <div class="card-rating"><i class="fas fa-star"></i>${acom[x].rating}</div>
+                        </div>
+                        <h5 class="card-title">${acom[x].header}</h5>
+                    <div class="card-amenities">
+                        <p>${acom[x].amenities.slice(0,3)}</p>
                     </div>
                     <div class="card-price-section">
                         <p class="card-price-day">$${acom[x].priceNight} NZD/night</p>

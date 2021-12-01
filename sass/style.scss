@@ -154,6 +154,17 @@ button{
     font-family: national;
     color: $white;
 
+    &-body{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-between;
+        gap: 0.3em;
+    }
+
+    &-body:hover{
+        cursor: pointer;
+    }
+
     &-top{
         display: flex;
         flex-direction: row;
@@ -305,13 +316,6 @@ button{
     }
 }
 
-.carousel-control-prev{
-    z-index: 889;
-}
-
-.carousel-control-next{
-    z-index: 889;
-}
 
 
 .footer{

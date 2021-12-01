@@ -7904,6 +7904,13 @@ button {
   background: #000000;
   font-family: national;
   color: #ffffff; }
+  .card-body {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 0.3em; }
+  .card-body:hover {
+    cursor: pointer; }
   .card-top {
     display: flex;
     flex-direction: row;
@@ -8006,12 +8013,6 @@ button {
     width: 50%; }
   .content-three__right {
     width: 50%; }
-
-.carousel-control-prev {
-  z-index: 889; }
-
-.carousel-control-next {
-  z-index: 889; }
 
 .footer {
   height: 10vh;
