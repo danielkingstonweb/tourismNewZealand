@@ -18,6 +18,8 @@ let markers = [];
 let firstSelection = [];
 console.log(firstSelection);
 let totalNights;
+let checkInTransfer;
+let checkOutTransfer;
 const secondFilter = document.getElementById("#modalFilter");
 
 // =====================================
@@ -42,6 +44,7 @@ let acom = [
         minNight: 2,
         maxNight: 15,
         priceNight: 245,
+        serviceFee: 125,
         image1: './img/queenstownHouse1.jpg',
         image2: './img/queenstownHouse2.jpg',
         image3: './img/queenstownHouse3.jpg',
@@ -50,6 +53,7 @@ let acom = [
         image6: './img/queenstownHouse6.jpg',
         carouselId: 'carouselExampleControls1',
         amenities: ['Wifi','Parking','Workspace','Garage','Meals', 'Laundry'],
+        hostImg: './img/hostImg.jfif',
         hostName: 'John Smith',
         hostBio: 'I\'ve been a host for over 5 years and love to deliver the best quality service I possible can! I take lots of pride in my work and will always be just a phone call away!',
         reviewImg1: './img/staunchCat.jfif',
@@ -102,6 +106,7 @@ let acom = [
        minNight: 1,
        maxNight: 10,
        priceNight: 160,
+       serviceFee: 95,
        image1: './img/hilton1.jpg',
        image2: './img/hilton2.jpg',
        image3: './img/hilton3.jpg',
@@ -110,6 +115,7 @@ let acom = [
        image6: './img/hilton6.jpg',
        carouselId: 'carouselExampleControls2',
        amenities: ['Wifi','Parking','Gym','Pool','Spa','Meals','EV Charger','Laundry'],
+       hostImg: './img/hostImg.jfif',
        hostName: 'Chris Ehmann',
        hostBio: 'I\'m the manager of Hilton Hotel\'s world wide, I can guarantee only the absolute best when guests choose to stay with us, I find myself personally responsible for the reputation of every single Hilton',
        reviewImg1: '',
@@ -162,6 +168,7 @@ let acom = [
        minNight: 3,
        maxNight: 10,
        priceNight: 90,
+       serviceFee: 45,
        image1: './img/fourSeasons1.jpg',
        image2: './img/fourSeasons2.jpg',
        image3: './img/fourSeasons3.jpg',
@@ -170,6 +177,7 @@ let acom = [
        image6: './img/fourSeasons6.jpg',
        carouselId: 'carouselExampleControls3',
        amenities: ['Parking','Wifi','Pool','Meals'],
+       hostImg: './img/hostImg.jfif',
        hostName: 'John Smith',
        hostBio: 'I\'ve been a host for over 5 years and love to deliver the best quality service I possible can! I take lots of pride in my work and will always be just a phone call away!',
        reviewImg1: './img/staunchCat.jfif',
@@ -222,6 +230,7 @@ let acom = [
         minNight: 1,
         maxNight: 10,
         priceNight: 30,
+        serviceFee: 10,
         image1: './img/fourSeasons1.jpg',
         image2: './img/fourSeasons2.jpg',
         image3: './img/fourSeasons3.jpg',
@@ -230,6 +239,7 @@ let acom = [
         image6: './img/fourSeasons6.jpg',
         carouselId: 'carouselExampleControls4',
         amenities: ['Wifi','Meals','Parking'],
+        hostImg: './img/hostImg.jfif',
         hostName: 'Sue Fairclough',
         hostBio: 'Our warm and attentive staff are at your service to assure your stay at the Four Seasons Motel is nothing short of delightful. Our facilities are clean and well maintained, and guest amenities like heated blankets during winter and select bus services are offered to ensure convenience and comfort in any season.',
         reviewImg1: './img/staunchCat.jfif',
@@ -282,6 +292,7 @@ let acom = [
         minNight: 2,
         maxNight: 15,
         priceNight: 255,
+        serviceFee: 125,
         image1: './img/aucklandHouse1.jpg',
         image2: './img/aucklandHouse2.jpg',
         image3: './img/aucklandHouse3.jpg',
@@ -290,6 +301,7 @@ let acom = [
         image6: './img/aucklandHouse6.jpg',
         carouselId: 'carouselExampleControls5',
         amenities: ['Wifi','Parking','Workspace','Garage','Meals', 'Laundry'],
+        hostImg: './img/hostImg.jfif',
         hostName: 'Stefan',
         hostBio: 'Hi! My name is Stefan and I live in Auckland city, New Zealand. My favourite thing about living here is that Auckland is a vibrant and buzzing city, but that it also has beautiful beaches and forests on its doorstep when I want a break from the city life.',
         reviewImg1: './img/staunchCat.jfif',
@@ -342,6 +354,7 @@ let acom = [
         minNight: 1,
         maxNight: 10,
         priceNight: 115,
+        serviceFee: 95,
         image1: './img/skyCity1.jpg',
         image2: './img/skyCity2.jpg',
         image3: './img/skyCity3.jpg',
@@ -350,6 +363,7 @@ let acom = [
         image6: './img/skyCity6.jpg',
         carouselId: 'carouselExampleControls6',
         amenities: ['Wifi','Parking','Gym','Pool','Spa','Meals','EV Charger','Laundry'],
+        hostImg: './img/hostImg.jfif',
         hostName: 'Brad Burnett',
         hostBio: 'Group General Manager - SKYCITY Hotels - SkyCity Entertainment Group',
         reviewImg1: './img/staunchCat.jfif',
@@ -402,6 +416,7 @@ let acom = [
         minNight: 3,
         maxNight: 10,
         priceNight: 100,
+        serviceFee: 45,
         image1: './img/fernz1.jpg',
         image2: './img/fernz2.jpg',
         image3: './img/fernz3.jpg',
@@ -410,6 +425,7 @@ let acom = [
         image6: './img/fernz6.jpg',
         carouselId: 'carouselExampleControls7',
         amenities: ['Parking','Wifi','Pool','Meals'],
+        hostImg: './img/hostImg.jfif',
         hostName: 'Christine Leaf',
         hostBio: 'Looking after people is what we do best so we’ve made sure you’ll have all the fun of being somewhere new, with all the comforts of being in your own home.',
         reviewImg1: './img/staunchCat.jfif',
@@ -462,6 +478,7 @@ let acom = [
         minNight: 1,
         maxNight: 10,
         priceNight: 45,
+        serviceFee: 10,
         image1: './img/hakaLodgeAKL1.jpg',
         image2: './img/hakaLodgeAKL2.jpg',
         image3: './img/hakaLodgeAKL3.jpg',
@@ -470,6 +487,7 @@ let acom = [
         image6: './img/hakaLodgeAKL6.jpg',
         carouselId: 'carouselExampleControls8',
         amenities: ['Wifi','Meals'],
+        hostImg: './img/hostImg.jfif',
         hostImg: '',
         hostName: 'Susie Spain',
         hostBio: 'I\'ve been managing Haka Lodge for over 5 years, I take pride in creating the most welcoming environment possible, either me or another trusted staff member will always only be a call away!',
@@ -523,6 +541,7 @@ let acom = [
         minNight: 2,
         maxNight: 15,
         priceNight: 240,
+        serviceFee: 125,
         image1: './img/wellyHouse1.jpg',
         image2: './img/wellyHouse2.jpg',
         image3: './img/wellyHouse3.jpg',
@@ -531,6 +550,7 @@ let acom = [
         image6: './img/wellyHouse6.jpg',
         carouselId: 'carouselExampleControls9',
         amenities: ['Wifi', 'Parking', 'Workspace', 'Garage', 'Meals', 'Laundry'],
+        hostImg: './img/hostImg.jfif',
         hostName: 'Megan',
         hostBio: 'We\'re located just next door, we\'ll always be happy to help if needed!!',
         reviewImg1: './img/staunchCat.jfif',
@@ -583,6 +603,7 @@ let acom = [
         minNight: 1,
         maxNight: 10,
         priceNight: 180,
+        serviceFee: 95,
         image1: './img/interContinental1.jpg',
         image2: './img/interContinental2.jpg',
         image3: './img/interContinental3.jpg',
@@ -591,6 +612,7 @@ let acom = [
         image6: './img/interContinental6.jpg',
         carouselId: 'carouselExampleControls10',
         amenities: ['Wifi','Parking','Gym','Pool','Spa','Meals','EV Charger','Laundry'],
+        hostImg: './img/hostImg.jfif',
         hostName: 'Scott Hamilton',
         hostBio: 'I\'ve been the InterContinental manager for over 9 years and love to deliver the best quality service I possible can! I take lots of pride in my work and ensure that we only hire the best staff',
         reviewImg1: './img/staunchCat.jfif',
@@ -643,6 +665,7 @@ let acom = [
         minNight: 3,
         maxNight: 10,
         priceNight: 95,
+        serviceFee: 45,
         image1: './img/bellaVistaWellington1.jpg',
         image2: './img/bellaVistaWellington2.jpg',
         image3: './img/bellaVistaWellington3.jpg',
@@ -652,6 +675,7 @@ let acom = [
         // image6: './img/bellaVistaWellington6.jpg',
         carouselId: 'carouselExampleControls11',
         amenities: ['Parking','Wifi','Pool','Meals'],
+        hostImg: './img/hostImg.jfif',
         hostName: 'Barney and Bhagi',
         hostBio: 'You can be assured of a warm welcome at Bella Vista Motel Wellington where we will assist you in every way possible!',
         reviewImg1: './img/staunchCat.jfif',
@@ -704,6 +728,7 @@ let acom = [
         minNight: 1,
         maxNight: 10,
         priceNight: 37,
+        serviceFee: 10,
         image1: './img/nomadsWellington1.jpg',
         image2: './img/nomadsWellington2.jpg',
         image3: './img/nomadsWellington3.jpg',
@@ -712,6 +737,7 @@ let acom = [
         image6: './img/nomadsWellington6.jpg',
         carouselId: 'carouselExampleControls12',
         amenities: ['Wifi','Meals'],
+        hostImg: './img/hostImg.jfif',
         hostName: 'Ryan Coward',
         hostBio: 'I\'m a dedicated Hostel manager who\'s committed to creating the best stay for locals and visitors.',
         reviewImg1: './img/staunchCat.jfif',
@@ -764,6 +790,7 @@ let acom = [
         minNight: 2,
         maxNight: 15,
         priceNight: 230,
+        serviceFee: 125,
         image1: './img/christchurchMotel1.jpeg',
         image2: './img/christchurchMotel2.jpeg',
         image3: './img/christchurchMotel3.jpeg',
@@ -772,6 +799,7 @@ let acom = [
         image6: './img/christchurchMotel6.jpeg',
         carouselId: 'carouselExampleControls13',
         amenities: ['Wifi','Parking','Workspace','Garage','Meals', 'Laundry'],
+        hostImg: './img/hostImg.jfif',
         hostName: 'Anne',
         hostBio: 'I love to travel, and having just returned from the UK after living there for 7 years, I am now living in Christchurch which is my home town. The city is a beautiful place to live and be part off.',
         reviewImg1: './img/staunchCat.jfif',
@@ -824,6 +852,7 @@ let acom = [
         minNight: 1,
         maxNight: 10,
         priceNight: 157,
+        serviceFee: 95,
         image1: './img/wyndhamChristchurch1.jpg',
         image2: './img/wyndhamChristchurch2.jpg',
         image3: './img/wyndhamChristchurch3.jpg',
@@ -832,6 +861,7 @@ let acom = [
         image6: './img/wyndhamChristchurch6.jpg',
         carouselId: 'carouselExampleControls14',
         amenities: ['Wifi','Parking','Gym','Pool','Spa','Meals','EV Charger','Laundry'],
+        hostImg: './img/hostImg.jfif',
         hostName: 'Peter Wyndham',
         hostBio: 'I\'ve been a host for over 5 years and love to deliver the best quality service I possible can! I take lots of pride in my work and will always be just a phone call away!',
         reviewImg1: './img/staunchCat.jfif',
@@ -884,6 +914,7 @@ let acom = [
         minNight: 3,
         maxNight: 10,
         priceNight: 98,
+        serviceFee: 45,
         image1: './img/christchurchMotel1.jpeg',
         image2: './img/christchurchMotel2.jpeg',
         image3: './img/christchurchMotel3.jpeg',
@@ -892,6 +923,7 @@ let acom = [
         image6: './img/christchurchMotel6.jpeg',
         carouselId: 'carouselExampleControls15',
         amenities: ['Parking','Wifi','Pool','Meals'],
+        hostImg: './img/hostImg.jfif',
         hostName: 'Brian and Bridget',
         hostBio: 'We are committed in ensuring you have a clean, comfortable and enjoyable stay at Christchurch Motel.',
         reviewImg1: './img/staunchCat.jfif',
@@ -944,6 +976,7 @@ let acom = [
         minNight: 1,
         maxNight: 10,
         priceNight: 230,
+        serviceFee: 10,
         image1: './img/jailhouseChristchurch1.jpg',
         image2: './img/jailhouseChristchurch2.jpg',
         image3: './img/jailhouseChristchurch3.jpg',
@@ -952,6 +985,7 @@ let acom = [
         image6: './img/jailhouseChristchurch6.jpg',
         carouselId: 'carouselExampleControls16',
         amenities: ['Wifi','Meals','Parking'],
+        hostImg: './img/hostImg.jfif',
         hostName: 'Pete Davidson',
         hostBio: 'The Jailhouse has rooms available to suit everyone and we welcome children, youth and adults of all ages to experience our special budget accommodation. Our hostel is clean, warm and friendly with super-comfortable inner-sprung beds.',
         reviewImg1: './img/staunchCat.jfif',
@@ -964,26 +998,26 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: '',
+        breakfastPicture1: './img/avoToast.jpg',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: '',
+        lunchPicture1: './img/burger.jpg',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: '',
+        dinnerPicture1: './img/spagBol.jpg',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: '',
+        breakfastPicture2: './img/pancakes.jpg',
         breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: '',
+        lunchPicture2: 'pizza.jpg',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: '',
+        dinnerPicture2: 'steakDinner.jpg',
         dinnerBio2: 'Steak Dinner',
-        dinnerDiet2: './img/steakDinner.jpg',
+        dinnerDiet2: '-',
         latitude: -43.542727,
         longitude: 172.613301,
     },
@@ -1134,16 +1168,6 @@ modal();
 
 
 
-
-
-
-
-
-
-
-
-
-
 // =====================================
 // Start of filter function
 // =====================================
@@ -1159,8 +1183,9 @@ function mainFilters(event){
 
     let checkInDate = new Date($("#checkIn").val());
     let checkOutDate = new Date($("#checkOut").val());
-    console.log(checkInDate);
-    console.log(checkOutDate);
+
+    checkInTransfer = checkInDate;
+    checkOutTransfer = checkOutDate;
 
     let dateDifference = checkOutDate.getTime() - checkInDate.getTime();
     let numberOfDays = dateDifference/msDay;
@@ -1177,7 +1202,6 @@ function mainFilters(event){
     totalNights = numberOfDays;
     console.log(totalNights);
     console.log(typeof totalNights);
-
 }
 
 
@@ -1276,6 +1300,7 @@ function selection(){
         $("#contentTwo").show();
         $("#contentTwo").css("display", "flex");
         $("#contentTwo").css("flex-direction", "row");
+        $(".footer_indicator__box:nth-child(2)").css("background", "$blue");
     });
 
     $(".moreInformation").click(function(){
@@ -1287,7 +1312,7 @@ function selection(){
 
                 $("#contentTwoLeft").empty().append(
                     `
-                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                    <div id="carouselExampleControls" class="carousel slide content-two__carousel" data-ride="carousel">
                         <div class="carousel-inner">
                             <div class="carousel-item active">
                                 <img class="d-block w-100" src="${acom[i].image1}" alt="First slide">
@@ -1320,42 +1345,43 @@ function selection(){
                     </div>
                     <div class="content-two__amenities">
                         <h5 class="content-two-headings">Amenities</h5>
-                        <div class="content-two-amenitylist></div>
+                        <div class="content-two-amenitylist"></div>
                     </div>
                     <div class="content-two__sleeps">
                         <h5 class="content-two-headings">Sleeping Arrangements</h5>
                         <div class="content-two-rooms"></div>
                     </div>
-                    <div class="content-two-review">
+                    <div class="content-two__review">
                         <h5 class="content-two-headings">Reviews</h5>
                         <div class="content-two__person">
-                            <img src="" alt="" class="content-two-img">
-                            <div class="content-two-person__box">
-                                <h6 class="content-two-names"></h6>
-                                <p class="content-two-text"></p>
+                            <img src="${acom[i].reviewImg1}" alt="" class="content-two-img">
+                            <div class="content-two__person-box">
+                                <h6 class="content-two-names">${acom[i].reviewName1}</h6>
+                                <p class="content-two-text">${acom[i].reviewText1}</p>
                             </div>
                         </div>
                         <div class="content-two__person">
-                            <img src="" alt="" class="content-two-img">
-                            <div class="content-two-person__box">
-                                <h6 class="content-two-names"></h6>
-                                <p class="content-two-text"></p>
+                            <img src="${acom[i].reviewImg2}" alt="" class="content-two-img">
+                            <div class="content-two__person-box">
+                                <h6 class="content-two-names">${acom[i].reviewName2}</h6>
+                                <p class="content-two-text">${acom[i].reviewText2}</p>
                             </div>
                         </div>
                         <div class="content-two__person">
-                            <img src="" alt="" class="content-two-img">
-                            <div class="content-two-person__box">
-                                <h6 class="content-two-names"></h6>
-                                <p class="content-two-text"></p>
+                            <img src="${acom[i].reviewImg3}" alt="" class="content-two-img">
+                            <div class="content-two__person-box">
+                                <h6 class="content-two-names">${acom[i].reviewName3}</h6>
+                                <p class="content-two-text">${acom[i].reviewText3}</p>
                             </div>
                         </div>
                     </div>
                     <div class="content-two__host">
+                    <h5 class="content-two-headings">Meet the Host</h5>
                         <div class="content-two__person">
-                            <img src="" alt="" class="content-two-img">
-                            <div class="content-two-person__box">
-                                <h6 class="content-two-names"></h6>
-                                <p class="content-two-text"></p>
+                            <img src="${acom[i].hostImg}" alt="" class="content-two-img">
+                            <div class="content-two__person-box">
+                                <h6 class="content-two-names">${acom[i].hostName}</h6>
+                                <p class="content-two-text">${acom[i].hostBio}</p>
                             </div>
                         </div>
                     </div>
@@ -1367,45 +1393,102 @@ function selection(){
                     `
                     <div class="content-two__written">
                         <div class="content-two__header">
-                            <h3 class="content-two__heading"></h3>
-                            <img src="" alt="" class="content-two-star">
-                            <div class="content-two-rating">${acom[i].rating}</div>
-                            <h4 class="content-two__subheading">${acom[i].subHeader}</h4>
+                            <div class="content-two__header-block">
+                                <h3 class="content-two-heading">${acom[i].header}</h3>
+                                <div class="content-two__rating"><p>${acom[i].rating}</p><i class="fas fa-star"></i></div>
+                            </div>
+                            <h4 class="content-two-subheading">${acom[i].subHeader}</h4>
                         </div>
+                        <div class="content-two__amenitiesShort">
+                        <p>${acom[i].amenities}</p>
                     </div>
-                    <div class="content-two__cart">
+                    </div>
+                    <div class="content-two__cart-sticky">
+                    <div class="content-two__cart" id="contentTwoCart">
                         <div class="content-two__search">
-                            <div class="content-two-checkin"></div>
-                            <div class="content-two-checkout"></div>
+                            <div class="content-two__checkin">
+                                <label for="checkIn">Check-In</label>
+                                <input id="contentTwoCheckIn" name="checkIn" type="date" class="content-two-checkin">
+                            </div>
+                            <div class="content-two__checkout">
+                                <label for="checkOut">Check-Out</label>
+                                <input id="contentTwoCheckOut" name="checkOut" type="date" class="content-two-checkout">
+                            </div>
                             <div class="content-two-visitors"></div>
                             <div class="content-two-night"></div>
                         </div>
-                    <div class="content-two__cart-bottom">
-                        <div class="content-two-bottomleft">
-                            <div class="content-two__calc">
+                        <div class="content-two__cart-bottom">
+                            <div class="content-two__bottomleft">
+                                <div class="content-two__calc">
+                                <p>${acom[i].priceNight} X ${totalNights}</p>
+                                <p>-</p>
+                                <p>$${acom[i].priceNight * totalNights}</p>
+                                </div>
+                                <div class="content-two__calc">
+                                <p>Service Fee</p>
+                                <p>-</p>
+                                <p>$${acom[i].serviceFee}</p>
+                                </div>
+                                <div class="content-two__calc">
+                                <p>Total</p>
+                                <p>-</p>
+                                <p>$${acom[i].priceNight * totalNights + acom[i].serviceFee}</p>
+                                </div>
                             </div>
-                            <div class="content-two__calc">
-                            </div>
-                            <div class="content-two__calc">
-                            </div>
-                        </div>
-                        <div class="content-two-bottomright">
-                        <button id="${acom[i].id}" class="content-two-btn">Select This Stay</button>
+                        <div class="content-two__bottomright">
+                            button id="${acom[i].id}" class="content-two-btn">Select This Stay</button>
                             <p class="content-two-disclaimer">This isn't a final selection</p>
                         </div>
                     </div>
+                </div>
+                   
                     `
                 );
+
+                // // =====================================
+                // // Stick Function Begins
+                // // =====================================
+
+                // window.onscroll = function() {stickyFunction()};
+
+                // let cartTwo = document.getElementById("contentTwoCart");
+                // let sticky = cartTwo.offsetTop;
+                
+                // function stickyFunction() {
+                //     if (window.pageYOffset >= sticky) {
+                //         cartTwo.classList.add("sticky")
+                //     } else {
+                //         cartTwo.classList.remove("sticky");
+                //     }
+                  
+                // }
+
+                // // =====================================
+                // // Stick Function Begins
+                // // =====================================
+
             mealProgress();
             }
         }
+
+        console.log(checkInTransfer);
+        console.log(checkOutTransfer);       
+        $('#contentTwoCheckIn').datepicker('setDate', new Date(checkInTransfer));
+        $('#contentTwoCheckOut').datepicker('setDate', new Date(checkOutTransfer));
     })
-   
+
+
+
 };
+
+
+
 selection();
+
 // =====================================
 // Card Selection Function Ends
 // =====================================
+
 
 
 // =====================================
@@ -1475,8 +1558,12 @@ function mealProgress(){
                     </div>
                     <div class="content-three__cart">
                         <div class="content-three__search">
-                            <div class="content-three-checkin"></div>
-                            <div class="content-three-checkout"></div>
+                            <div class="content-three-checkin">
+
+                            </div>
+                            <div class="content-three-checkout">
+
+                            </div>
                             <div class="content-three-visitors"></div>
                             <div class="content-three-night"></div>
                         </div>
@@ -1504,6 +1591,7 @@ mealProgress();
 // Meal Selection Page Function Ends
 // =====================================
 
+$( ".content-three-checkin" ).datepicker( "setDate", "10/12/2012" );
 
 function reloadMarkers(){
     // loop through our array and set the map to null value
@@ -1608,7 +1696,7 @@ function generateCardFilter(x){
                     <div id="${acom[x].id}" class="card-body moreInformation">
                         <div class="card-top">
                             <h6 class="card-subheading">${acom[x].subHeader}</h6>
-                            <div class="card-rating"><i class="fas fa-star"></i>${acom[x].rating}</div>
+                            <div class="card-rating">${acom[x].rating}<i class="fas fa-star"></i></div>
                         </div>
                         <h5 class="card-title">${acom[x].header}</h5>
                     <div class="card-amenities">

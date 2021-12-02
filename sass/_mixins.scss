@@ -1,0 +1,18 @@
+@mixin propertyContentMargin{
+    display: flex;
+    flex-direction: column;
+    border-bottom: 1px solid;
+    margin: 4em 8em 0em 8em;
+    padding-bottom: 4em;
+}
+
+@mixin ratingBoxStyling {
+    border-width: 1px;
+    border-style: solid;
+    border-color: $blue;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    gap: 0.5em;
+}
