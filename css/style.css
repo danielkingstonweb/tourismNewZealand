@@ -7952,8 +7952,15 @@ button {
     height: 8vh; }
   .nav-filters {
     margin: auto;
-    padding: 2em;
-    background: #ffffff; }
+    font-size: 2rem;
+    color: #ffffff;
+    padding: 1em 2em;
+    border-style: solid;
+    border-color: #00abdd; }
+  .nav-filters:hover {
+    border-style: solid;
+    background: #00abdd;
+    border-color: #00abdd; }
 
 .modal-body__amenities {
   display: flex;
@@ -8073,6 +8080,7 @@ button {
   .content-two-text {
     font-size: 1.6rem; }
   .content-two__written {
+    margin-bottom: 4em;
     margin-right: 8em; }
   .content-two__header-block {
     display: flex;
@@ -8089,6 +8097,8 @@ button {
     justify-content: space-between;
     align-items: center;
     gap: 0.5em; }
+  .content-two__amenitiesShort {
+    font-size: 1.6rem; }
   .content-two__cart {
     width: auto;
     height: 30em;
@@ -8096,7 +8106,8 @@ button {
     border-style: solid;
     margin-right: 8em;
     display: flex;
-    flex-direction: column; }
+    flex-direction: column;
+    font-family: national; }
   .content-two__cart-sticky {
     padding-top: 11vh;
     position: -webkit-sticky;
@@ -8106,32 +8117,71 @@ button {
   .content-two__search {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly;
+    justify-content: space-around;
+    align-items: center;
     margin: 2em; }
+  .content-two__search label {
+    font-size: 1.6rem; }
+  .content-two__search input {
+    font-size: 1rem;
+    border: none; }
   .content-two__checkin {
+    flex-basis: 100%;
+    padding: 1em;
     display: flex;
-    flex-direction: row; }
+    flex-direction: column;
+    border-width: 0px 1px 0px 0px;
+    border-style: solid; }
   .content-two__checkout {
+    flex-basis: 100%;
+    padding: 1em;
     display: flex;
-    flex-direction: row; }
+    flex-direction: column;
+    border-width: 0px 1px 0px 0px;
+    border-style: solid; }
+  .content-two__visitors {
+    flex-basis: 100%;
+    padding: 1em;
+    display: flex;
+    flex-direction: column;
+    border-width: 0px 1px 0px 0px;
+    border-style: solid; }
+  .content-two__price {
+    flex-basis: 100%;
+    text-align: center;
+    padding: 1em;
+    font-size: 2rem; }
   .content-two__cart-bottom {
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
-    margin: 2em; }
+    justify-content: space-evenly;
+    margin: 2em;
+    font-size: 1.6rem; }
+  .content-two__bottomleft {
+    width: 50%;
+    flex-basis: 100%; }
+  .content-two__bottomright {
+    width: 50%;
+    flex-basis: 100%;
+    text-align: center; }
   .content-two__calc {
     display: flex;
     flex-direction: row;
-    justify-content: space-evenly; }
+    justify-content: space-between; }
   .content-two__calc:nth-child(2) {
     margin-bottom: 1em;
     border-style: solid;
     border-width: 0px 0px 1px 0px; }
-
-.sticky {
-  position: fixed;
-  top: 0;
-  width: 100%; }
+  .content-two-btn {
+    padding: 1em;
+    border-style: solid;
+    width: 80%;
+    border-color: #00abdd; }
+  .content-two-btn:hover {
+    border-style: solid;
+    background: #00abdd;
+    color: #fff;
+    border-color: rgba(255, 255, 255, 0); }
 
 .content-three {
   padding-top: 10vh;
@@ -8141,6 +8191,38 @@ button {
     width: 50%; }
   .content-three__right {
     width: 50%; }
+  .content-three__heading-block {
+    margin: 2em 4em 2em 4em; }
+  .content-three__breakfast {
+    margin: 2em 4em 2em 4em;
+    height: 25%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr); }
+  .content-three__lunch {
+    margin: 2em 4em 2em 4em;
+    height: 25%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr); }
+  .content-three__dinner {
+    margin: 2em 4em 2em 4em;
+    height: 25%;
+    display: grid;
+    grid-template-columns: repeat(10, 1fr);
+    grid-template-rows: repeat(10, 1fr); }
+  .content-three-img {
+    grid-row: 2/10;
+    grid-column: 1/3;
+    height: 15em;
+    width: auto;
+    border-radius: 100px; }
+  .content-three-img1 {
+    grid-row: 2/10;
+    grid-column: 6/8;
+    height: 15em;
+    width: auto;
+    border-radius: 100px; }
 
 .footer {
   height: 10vh;

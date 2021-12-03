@@ -66,24 +66,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: '',
+        breakfastPicture1: './img/avoToast.jpg',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: '',
+        lunchPicture1: './img/burger.jpg',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: '',
+        dinnerPicture1: './img/spagBol.jpg',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: '',
+        breakfastPicture2: './img/pancakes.jpg',
         breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: '',
+        lunchPicture2: './img/pizza.jpg',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: '',
+        dinnerPicture2: './img/steakDinner.jpg',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude: -44.965397,
@@ -118,34 +118,34 @@ let acom = [
        hostImg: './img/hostImg.jfif',
        hostName: 'Chris Ehmann',
        hostBio: 'I\'m the manager of Hilton Hotel\'s world wide, I can guarantee only the absolute best when guests choose to stay with us, I find myself personally responsible for the reputation of every single Hilton',
-       reviewImg1: '',
-       reviewName1: '',
-       reviewText1: '',
-       reviewImg2: '',
-       reviewName2: '',
-       reviewText2: '',
-       reviewImg3: '',
-       reviewName3: '',
-       reviewText3: '',
+       reviewImg1: './img/staunchCat.jfif',
+       reviewName1: 'Normal Guy',
+       reviewText1: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+       reviewImg2: './img/staunchCat.jfif',
+       reviewName2: 'Normal Gal',
+       reviewText2: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
+       reviewImg3: './img/staunchCat.jfif',
+       reviewName3: 'Normal They',
+       reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
        breakfastHeading: 'Breakfast - 22',
-       breakfastPicture1: '',
+       breakfastPicture1: './img/avoToast.jpg',
        breakfastBio1: 'Eggs & Avacado on toast',
        breakfastDiet1: 'V',
        lunchHeading: 'Lunch - $25',
-       lunchPicture1: '',
+       lunchPicture1: './img/burger.jpg',
        lunchBio1: 'Burger w/ fries & aioli',
        lunchDiet1: 'V*, VG*',
        dinnerHeading: 'Dinner - $30',
-       dinnerPicture1: '',
+       dinnerPicture1: './img/spagBol.jpg',
        dinnerBio1: 'Spaghetti Bolognese',
        dinnerDiet1: 'V*, VG*',
-       breakfastPicture2: '',
+       breakfastPicture2: './img/pancakes.jpg',
        breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
        breakfastDiet2: 'V, VG*',
-       lunchPicture2: '',
+       lunchPicture2: './img/pizza.jpg',
        lunchBio2: 'Pizza, specify on day',
        lunchDiet2: 'V*, VG*',
-       dinnerPicture2: '',
+       dinnerPicture2: './img/steakDinner.jpg',
        dinnerBio2: 'Steak Dinner',
        dinnerDiet2: '',
        latitude: -45.028776,
@@ -190,24 +190,24 @@ let acom = [
        reviewName3: 'Normal They',
        reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
        breakfastHeading: 'Breakfast - 22',
-       breakfastPicture1: './img/',
+       breakfastPicture1: './img/avoToast.jpg',
        breakfastBio1: 'Eggs & Avacado on toast',
        breakfastDiet1: 'V',
        lunchHeading: 'Lunch - $25',
-       lunchPicture1: '',
+       lunchPicture1: './img/burger.jpg',
        lunchBio1: 'Burger w/ fries & aioli',
        lunchDiet1: 'V*, VG*',
        dinnerHeading: 'Dinner - $30',
-       dinnerPicture1: '',
+       dinnerPicture1: './img/spagBol.jpg',
        dinnerBio1: 'Spaghetti Bolognese',
        dinnerDiet1: 'V*, VG*',
-       breakfastPicture2: '',
+       breakfastPicture2: './img/pancakes.jpg',
        breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
        breakfastDiet2: 'V, VG*',
-       lunchPicture2: '',
+       lunchPicture2: './img/pizza.jpg',
        lunchBio2: 'Pizza, specify on day',
        lunchDiet2: 'V*, VG*',
-       dinnerPicture2: '',
+       dinnerPicture2: './img/steakDinner.jpg',
        dinnerBio2: 'Steak Dinner',
        dinnerDiet2: '',
        latitude: -45.033135,
@@ -252,24 +252,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: '',
+        breakfastPicture1: './img/avoToast.jpg',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: '',
+        lunchPicture1: './img/burger.jpg',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: '',
+        dinnerPicture1: './img/spagBol.jpg',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: '',
+        breakfastPicture2: './img/pancakes.jpg',
         breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: '',
+        lunchPicture2: './img/pizza.jpg',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: '',
+        dinnerPicture2: './img/steakDinner.jpg',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude: -45.032264,
@@ -314,24 +314,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',  
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: '',
+        breakfastPicture1: './img/avoToast.jpg',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: '',
+        lunchPicture1: './img/burger.jpg',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: '',
+        dinnerPicture1: './img/spagBol.jpg',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: '',
+        breakfastPicture2: './img/pancakes.jpg',
         breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: '',
+        lunchPicture2: './img/pizza.jpg',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: '',
+        dinnerPicture2: './img/steakDinner.jpg',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude: -36.861154,
@@ -376,24 +376,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',       
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: '',
+        breakfastPicture1: './img/avoToast.jpg',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: '',
+        lunchPicture1: './img/burger.jpg',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: '',
+        dinnerPicture1: './img/spagBol.jpg',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: '',
+        breakfastPicture2: './img/pancakes.jpg',
         breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: '',
+        lunchPicture2: './img/pizza.jpg',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: '',
+        dinnerPicture2: './img/steakDinner.jpg',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude: -36.848445,
@@ -438,24 +438,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: '',
+        breakfastPicture1: './img/avoToast.jpg',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: '',
+        lunchPicture1: './img/burger.jpg',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: '',
+        dinnerPicture1: './img/spagBol.jpg',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: '',
+        breakfastPicture2: './img/pancakes.jpg',
         breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: '',
+        lunchPicture2: './img/pizza.jpg',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: '',
+        dinnerPicture2: './img/steakDinner.jpg',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude: -36.813536,
@@ -501,24 +501,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: '',
+        breakfastPicture1: './img/avoToast.jpg',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: '',
+        lunchPicture1: './img/burger.jpg',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: '',
+        dinnerPicture1: './img/spagBol.jpg',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: '',
+        breakfastPicture2: './img/pancakes.jpg',
         breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: '',
+        lunchPicture2: './img/pizza.jpg',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: '',
+        dinnerPicture2: './img/steakDinner.jpg',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude: -36.858026,
@@ -563,24 +563,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: '',
+        breakfastPicture1: './img/avoToast.jpg',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: '',
+        lunchPicture1: './img/burger.jpg',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: '',
+        dinnerPicture1: './img/spagBol.jpg',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: '',
+        breakfastPicture2: './img/pancakes.jpg',
         breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: '',
+        lunchPicture2: './img/pizza.jpg',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: '',
+        dinnerPicture2: './img/steakDinner.jpg',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude: -41.253140,
@@ -625,24 +625,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: '',
+        breakfastPicture1: './img/avoToast.jpg',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: '',
+        lunchPicture1: './img/burger.jpg',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: '',
+        dinnerPicture1: './img/spagBol.jpg',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: '',
+        breakfastPicture2: './img/pancakes.jpg',
         breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: '',
+        lunchPicture2: './img/pizza.jpg',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: '',
+        dinnerPicture2: './img/steakDinner.jpg',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude:-41.284855,
@@ -688,24 +688,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: '',
+        breakfastPicture1: './img/avoToast.jpg',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: '',
+        lunchPicture1: './img/burger.jpg',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: '',
+        dinnerPicture1: './img/spagBol.jpg',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: '',
+        breakfastPicture2: './img/pancakes.jpg',
         breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: '',
+        lunchPicture2: './img/pizza.jpg',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: '',
+        dinnerPicture2: './img/steakDinner.jpg',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude: -41.302023,
@@ -750,24 +750,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: '',
+        breakfastPicture1: './img/avoToast.jpg',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: '',
+        lunchPicture1: './img/burger.jpg',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: '',
+        dinnerPicture1: './img/spagBol.jpg',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: '',
+        breakfastPicture2: './img/pancakes.jpg',
         breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: '',
+        lunchPicture2: './img/pizza.jpg',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: '',
+        dinnerPicture2: './img/steakDinner.jpg',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude:-41.289617,
@@ -812,24 +812,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: '',
+        breakfastPicture1: './img/avoToast.jpg',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: '',
+        lunchPicture1: './img/burger.jpg',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: '',
+        dinnerPicture1: './img/spagBol.jpg',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: '',
+        breakfastPicture2: './img/pancakes.jpg',
         breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: '',
+        lunchPicture2: './img/pizza.jpg',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: '',
+        dinnerPicture2: './img/steakDinner.jpg',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude: -43.544752,
@@ -874,24 +874,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: '',
+        breakfastPicture1: './img/avoToast.jpg',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: '',
+        lunchPicture1: './img/burger.jpg',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: '',
+        dinnerPicture1: './img/spagBol.jpg',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: '',
+        breakfastPicture2: './img/pancakes.jpg',
         breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: '',
+        lunchPicture2: './img/pizza.jpg',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: '',
+        dinnerPicture2: './img/steakDinner.jpg',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude:-43.526562,
@@ -936,26 +936,26 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: '',
-        breakfastBio1: 'Eggs & Avacado on toast',
-        breakfastDiet1: 'V',
-        lunchHeading: 'Lunch - $25',
-        lunchPicture1: '',
-        lunchBio1: 'Burger w/ fries & aioli',
-        lunchDiet1: 'V*, VG*',
-        dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: '',
-        dinnerBio1: 'Spaghetti Bolognese',
-        dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: '',
-        breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
-        breakfastDiet2: 'V, VG*',
-        lunchPicture2: '',
-        lunchBio2: 'Pizza, specify on day',
-        lunchDiet2: 'V*, VG*',
-        dinnerPicture2: '',
-        dinnerBio2: 'Steak Dinner',
-        dinnerDiet2: '',
+       breakfastPicture1: './img/avoToast.jpg',
+       breakfastBio1: 'Eggs & Avacado on toast',
+       breakfastDiet1: 'V',
+       lunchHeading: 'Lunch - $25',
+       lunchPicture1: './img/burger.jpg',
+       lunchBio1: 'Burger w/ fries & aioli',
+       lunchDiet1: 'V*, VG*',
+       dinnerHeading: 'Dinner - $30',
+       dinnerPicture1: './img/spagBol.jpg',
+       dinnerBio1: 'Spaghetti Bolognese',
+       dinnerDiet1: 'V*, VG*',
+       breakfastPicture2: './img/pancakes.jpg',
+       breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
+       breakfastDiet2: 'V, VG*',
+       lunchPicture2: './img/pizza.jpg',
+       lunchBio2: 'Pizza, specify on day',
+       lunchDiet2: 'V*, VG*',
+       dinnerPicture2: './img/steakDinner.jpg',
+       dinnerBio2: 'Steak Dinner',
+       dinnerDiet2: '',
         latitude:-43.530893,
         longitude: 172.585291,
     },
@@ -1012,12 +1012,12 @@ let acom = [
         breakfastPicture2: './img/pancakes.jpg',
         breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: 'pizza.jpg',
+        lunchPicture2: './img/pizza.jpg',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: 'steakDinner.jpg',
+        dinnerPicture2: './img/steakDinner.jpg',
         dinnerBio2: 'Steak Dinner',
-        dinnerDiet2: '-',
+        dinnerDiet2: '',
         latitude: -43.542727,
         longitude: 172.613301,
     },
@@ -1202,7 +1202,7 @@ function mainFilters(event){
     totalNights = numberOfDays;
     console.log(totalNights);
     console.log(typeof totalNights);
-}
+};
 
 
 function displayOptions(nights, guests, city){
@@ -1300,7 +1300,8 @@ function selection(){
         $("#contentTwo").show();
         $("#contentTwo").css("display", "flex");
         $("#contentTwo").css("flex-direction", "row");
-        $(".footer_indicator__box:nth-child(2)").css("background", "$blue");
+        $(".footer-indicator__box:nth-child(1)").css("background", "#000000");
+        $(".footer-indicator__box:nth-child(2)").css("background", "#00abdd");
     });
 
     $(".moreInformation").click(function(){
@@ -1391,6 +1392,7 @@ function selection(){
                         
                 $("#contentTwoRight").empty().append(
                     `
+                    <div class="content-two__cart-sticky">
                     <div class="content-two__written">
                         <div class="content-two__header">
                             <div class="content-two__header-block">
@@ -1400,10 +1402,10 @@ function selection(){
                             <h4 class="content-two-subheading">${acom[i].subHeader}</h4>
                         </div>
                         <div class="content-two__amenitiesShort">
-                        <p>${acom[i].amenities}</p>
+                        <p>${acom[i].amenities.join(' | ')}</p>
                     </div>
                     </div>
-                    <div class="content-two__cart-sticky">
+                    
                     <div class="content-two__cart" id="contentTwoCart">
                         <div class="content-two__search">
                             <div class="content-two__checkin">
@@ -1414,8 +1416,17 @@ function selection(){
                                 <label for="checkOut">Check-Out</label>
                                 <input id="contentTwoCheckOut" name="checkOut" type="date" class="content-two-checkout">
                             </div>
-                            <div class="content-two-visitors"></div>
-                            <div class="content-two-night"></div>
+                            <div class="content-two__visitors">
+                            <label for="visitors">Visitors</label>
+                                <select id="contentTwoVisitors" name="visitors" type="text" placeholder="Who's coming" class="content-two-visitors">
+                                    <option value="1">One</option>
+                                    <option value="2">Two</option>
+                                    <option value="3">Three</option>
+                                    <option value="4">Four</option>
+                                    <option value="5">Five +</option>
+                                </select>
+                            </div>
+                            <div class="content-two__price"><p>${acom[i].priceNight}/night</p></div>
                         </div>
                         <div class="content-two__cart-bottom">
                             <div class="content-two__bottomleft">
@@ -1436,7 +1447,7 @@ function selection(){
                                 </div>
                             </div>
                         <div class="content-two__bottomright">
-                            button id="${acom[i].id}" class="content-two-btn">Select This Stay</button>
+                            <button id="${acom[i].id}" class="content-two-btn">Select This Stay</button>
                             <p class="content-two-disclaimer">This isn't a final selection</p>
                         </div>
                     </div>
@@ -1473,8 +1484,10 @@ function selection(){
 
         console.log(checkInTransfer);
         console.log(checkOutTransfer);       
-        $('#contentTwoCheckIn').datepicker('setDate', new Date(checkInTransfer));
-        $('#contentTwoCheckOut').datepicker('setDate', new Date(checkOutTransfer));
+        document.getElementById('contentTwoCheckIn').value = checkInTransfer;
+        document.getElementById('contentTwoCheckOut').value = checkOutTransfer;
+        // $('contentTwoCheckIn').datepicker('setDate', new Date(checkInTransfer));
+        // $('contentTwoCheckOut').datepicker('setDate', new Date(checkOutTransfer));
     })
 
 
@@ -1514,34 +1527,36 @@ function mealProgress(){
 
                 $("#contentThreeLeft").empty().append(
                     `
-                    <h3 class="content-three-heading"></h3>
-                    <h3 class="content-three-subheading"></h4>
+                        <div class="content-three__heading-block">
+                            <h3 class="content-three-heading">Please select your meal options</h3>
+                            <h3 class="content-three-subheading">We have meals available for purchase</h4>
+                        </div>
                         <div class="content-three__breakfast">
                             <h6 class="content-three-foodheading">Breakfast - $22</h6>
-                            <img src="" alt="" class="content-three-img1">
-                            <p class="content-three-description1"></p>
-                            <p class="content-three-dietary1"></p>
-                            <img src="" alt="" class="content-three-img1">
-                            <p class="content-three-description2"></p>
-                            <p class="content-three-dietary2"></p>
+                                <img class="content-three-img" src="${acom[i].breakfastPicture1}">
+                            <p class="content-three-description">${acom[i].breakfastBio1}</p>
+                            <p class="content-three-dietary">${acom[i].breakfastDiet1}</p>
+                                <img class="content-three-img1" src="${acom[i].breakfastPicture2}">
+                            <p class="content-three-description">${acom[i].breakfastBio2}</p>
+                            <p class="content-three-dietary">${acom[i].breakfastDiet2}</p>
                         </div>
                         <div class="content-three__lunch">
-                            <h6 class="content-three-foodheading">Lunch - $22</h6>
-                            <img src="" alt="" class="content-three-img1">
-                            <p class="content-three-description1"></p>
-                            <p class="content-three-dietary1"></p>
-                            <img src="" alt="" class="content-three-img1">
-                            <p class="content-three-description2"></p>
-                            <p class="content-three-dietary2"></p>
+                            <h6 class="content-three-foodheading">Lunch - $25</h6>
+                                <img class="content-three-img" src="${acom[i].lunchPicture1}">
+                            <p class="content-three-description">${acom[i].lunchBio1}</p>
+                            <p class="content-three-dietary">${acom[i].lunchDiet1}</p>
+                                <img class="content-three-img1" src="${acom[i].lunchPicture2}">
+                            <p class="content-three-description">${acom[i].lunchBio2}</p>
+                            <p class="content-three-dietary">${acom[i].lunchDiet2}</p>
                         </div>
                         <div class="content-three__dinner">
-                            <h6 class="content-three-foodheading">Dinner - $22</h6>
-                            <img src="" alt="" class="content-three-img1">
-                            <p class="content-three-description1"></p>
-                            <p class="content-three-dietary1"></p>
-                            <img src="" alt="" class="content-three-img1">
-                            <p class="content-three-description2"></p>
-                            <p class="content-three-dietary2"></p>
+                            <h6 class="content-three-foodheading">Dinner - $30</h6>
+                                <img class="content-three-img" src="${acom[i].dinnerPicture1}">
+                            <p class="content-three-description">${acom[i].dinnerBio1}</p>
+                            <p class="content-three-dietary">${acom[i].dinnerDiet1}</p>
+                                <img class="content-three-img1" src="${acom[i].dinnerPicture2}">
+                            <p class="content-three-description">${acom[i].dinnerBio2}</p>
+                            <p class="content-three-dietary">${acom[i].dinnerDiet2}</p>
                         </div>
                     `
                 )
@@ -1552,8 +1567,6 @@ function mealProgress(){
                         <div class="content-thee__header">
                             <h3 class="content-three__heading"></h3>
                             <img src="" alt="" class="content-three-star">
-                            <div class="content-three-rating">${acom[i].rating}</div>
-                            <h4 class="content-three__subheading">${acom[i].subHeader}</h4>
                         </div>
                     </div>
                     <div class="content-three__cart">
@@ -1645,7 +1658,7 @@ function generateCard(x){
                         </div>
                         <h5 class="card-title">${acom[x].header}</h5>
                     <div class="card-amenities">
-                        <p>${acom[x].amenities.slice(0,3)}</p>
+                        <p>${acom[x].amenities.slice(0,3).join(' | ')}</p>
                     </div>
                     <div class="card-price-section">
                         <p class="card-price-day">$${acom[x].priceNight} NZD/night</p>
@@ -1700,7 +1713,7 @@ function generateCardFilter(x){
                         </div>
                         <h5 class="card-title">${acom[x].header}</h5>
                     <div class="card-amenities">
-                        <p>${acom[x].amenities.slice(0,3)}</p>
+                        <p>${acom[x].amenities.slice(0,3).join(' | ')}</p>
                     </div>
                     <div class="card-price-section">
                         <p class="card-price-day">$${acom[x].priceNight} NZD/night</p>

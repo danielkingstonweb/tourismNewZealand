@@ -220,9 +220,18 @@ button{
 
     &-filters{
         margin: auto;
-        padding: 2em;
-        background: $white;
+        font-size: 2rem;
+        color: #ffffff;
+        padding: 1em 2em;
+        border-style: solid;
+        border-color: $blue;
     }
+
+    &-filters:hover{
+        border-style: solid;
+        background: $blue;
+        border-color: $blue;
+}
 }
 
 
@@ -380,6 +389,7 @@ button{
     }
 
     &__written{
+        margin-bottom: 4em;
         margin-right: 8em;
     }
 
@@ -395,6 +405,10 @@ button{
         @include ratingBoxStyling;
     }
 
+    &__amenitiesShort{
+        font-size: 1.6rem;
+    }
+
     &__cart{
         width: auto;
         height: 30em;
@@ -403,6 +417,7 @@ button{
         margin-right: 8em;
         display: flex;
         flex-direction: column;
+        font-family: $mainFont;
     }
 
     &__cart-sticky{
@@ -415,31 +430,77 @@ button{
     &__search{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-around;
+        align-items: center;
         margin: 2em;
     }
 
+    &__search label{
+        font-size: 1.6rem;
+    }
+
+    &__search input{
+        font-size: 1rem;
+        border: none;
+    }
+
     &__checkin{
+        flex-basis: 100%;
+        padding: 1em;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        border-width: 0px 1px 0px 0px;
+        border-style: solid;
     }
 
     &__checkout{
+        flex-basis: 100%;
+        padding: 1em;
         display: flex;
-        flex-direction: row;
+        flex-direction: column;
+        border-width: 0px 1px 0px 0px;
+        border-style: solid;
+    }
+
+    &__visitors{
+        flex-basis: 100%;
+        padding: 1em;
+        display: flex;
+        flex-direction: column;
+        border-width: 0px 1px 0px 0px;
+        border-style: solid;
+    }
+
+    &__price{
+        flex-basis: 100%;
+        text-align: center;
+        padding: 1em;
+        font-size: 2rem;
     }
 
     &__cart-bottom{
         display: flex;
         flex-direction: row;
-        justify-content: space-between;
+        justify-content: space-evenly;
         margin: 2em;
+        font-size: 1.6rem;
+    }
+
+    &__bottomleft{
+        width: 50%;
+        flex-basis: 100%;
+    }
+
+    &__bottomright{
+        width: 50%;
+        flex-basis: 100%;
+        text-align: center;
     }
 
     &__calc{
         display: flex;
         flex-direction: row;
-        justify-content: space-evenly;
+        justify-content: space-between;
     }
 
     &__calc:nth-child(2){
@@ -447,13 +508,27 @@ button{
         border-style: solid;
         border-width: 0px 0px 1px 0px;
     }
+
+    &-btn{
+        padding: 1em;
+        border-style: solid;
+        width: 80%;
+        border-color: $blue;
+    }
+
+    &-btn:hover{
+        border-style: solid;
+        background: $blue;
+        color: #fff;
+        border-color: rgba(255, 255, 255, 0);
+    }
 }
 
-.sticky {
-    position: fixed;
-    top: 0;
-    width: 100%;
-}
+// .sticky {
+//     position: fixed;
+//     top: 0;
+//     width: 100%;
+// }
 
 .content-three{
     padding-top: 10vh;
@@ -466,6 +541,50 @@ button{
 
     &__right{
         width: 50%;
+    }
+
+    &__heading-block{
+        margin: 2em 4em 2em 4em;
+    }
+
+    &__breakfast{
+        margin: 2em 4em 2em 4em;
+        height: 25%;
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+    }
+
+    &__lunch{
+        margin: 2em 4em 2em 4em;
+        height: 25%;
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+    }
+
+    &__dinner{
+        margin: 2em 4em 2em 4em;
+        height: 25%;
+        display: grid;
+        grid-template-columns: repeat(10, 1fr);
+        grid-template-rows: repeat(10, 1fr);
+    }
+
+    &-img{
+        grid-row: 2/10;
+        grid-column: 1/3;
+        height: 15em;
+        width: auto;
+        border-radius: 100px;
+    }
+
+    &-img1{
+        grid-row: 2/10;
+        grid-column: 6/8;
+        height: 15em;
+        width: auto;
+        border-radius: 100px;
     }
 }
 
@@ -504,6 +623,7 @@ button{
         font-size: 2em;
         color: $white;
     }
+
 }
 
 
