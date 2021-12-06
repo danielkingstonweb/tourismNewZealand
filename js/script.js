@@ -20,6 +20,7 @@ console.log(firstSelection);
 let totalNights;
 let checkInTransfer;
 let checkOutTransfer;
+let guestos;
 const secondFilter = document.getElementById("#modalFilter");
 
 // =====================================
@@ -66,24 +67,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: './img/avoToast.jpg',
+        breakfastPicture1: './img/avoToast.png',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: './img/burger.jpg',
+        lunchPicture1: './img/burger.png',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: './img/spagBol.jpg',
+        dinnerPicture1: './img/spagBol.png',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: './img/pancakes.jpg',
-        breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
+        breakfastPicture2: './img/pancakes.png',
+        breakfastBio2: 'Buckwheat pancakes',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: './img/pizza.jpg',
+        lunchPicture2: './img/pizza.png',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: './img/steakDinner.jpg',
+        dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude: -44.965397,
@@ -128,24 +129,24 @@ let acom = [
        reviewName3: 'Normal They',
        reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
        breakfastHeading: 'Breakfast - 22',
-       breakfastPicture1: './img/avoToast.jpg',
+       breakfastPicture1: './img/avoToast.png',
        breakfastBio1: 'Eggs & Avacado on toast',
        breakfastDiet1: 'V',
        lunchHeading: 'Lunch - $25',
-       lunchPicture1: './img/burger.jpg',
+       lunchPicture1: './img/burger.png',
        lunchBio1: 'Burger w/ fries & aioli',
        lunchDiet1: 'V*, VG*',
        dinnerHeading: 'Dinner - $30',
-       dinnerPicture1: './img/spagBol.jpg',
+       dinnerPicture1: './img/spagBol.png',
        dinnerBio1: 'Spaghetti Bolognese',
        dinnerDiet1: 'V*, VG*',
-       breakfastPicture2: './img/pancakes.jpg',
-       breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
+       breakfastPicture2: './img/pancakes.png',
+       breakfastBio2: 'Buckwheat pancakes',
        breakfastDiet2: 'V, VG*',
-       lunchPicture2: './img/pizza.jpg',
+       lunchPicture2: './img/pizza.png',
        lunchBio2: 'Pizza, specify on day',
        lunchDiet2: 'V*, VG*',
-       dinnerPicture2: './img/steakDinner.jpg',
+       dinnerPicture2: './img/steakDinner.png',
        dinnerBio2: 'Steak Dinner',
        dinnerDiet2: '',
        latitude: -45.028776,
@@ -190,24 +191,24 @@ let acom = [
        reviewName3: 'Normal They',
        reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
        breakfastHeading: 'Breakfast - 22',
-       breakfastPicture1: './img/avoToast.jpg',
+       breakfastPicture1: './img/avoToast.png',
        breakfastBio1: 'Eggs & Avacado on toast',
        breakfastDiet1: 'V',
        lunchHeading: 'Lunch - $25',
-       lunchPicture1: './img/burger.jpg',
+       lunchPicture1: './img/burger.png',
        lunchBio1: 'Burger w/ fries & aioli',
        lunchDiet1: 'V*, VG*',
        dinnerHeading: 'Dinner - $30',
-       dinnerPicture1: './img/spagBol.jpg',
+       dinnerPicture1: './img/spagBol.png',
        dinnerBio1: 'Spaghetti Bolognese',
        dinnerDiet1: 'V*, VG*',
-       breakfastPicture2: './img/pancakes.jpg',
-       breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
+       breakfastPicture2: './img/pancakes.png',
+       breakfastBio2: 'Buckwheat pancakes',
        breakfastDiet2: 'V, VG*',
-       lunchPicture2: './img/pizza.jpg',
+       lunchPicture2: './img/pizza.png',
        lunchBio2: 'Pizza, specify on day',
        lunchDiet2: 'V*, VG*',
-       dinnerPicture2: './img/steakDinner.jpg',
+       dinnerPicture2: './img/steakDinner.png',
        dinnerBio2: 'Steak Dinner',
        dinnerDiet2: '',
        latitude: -45.033135,
@@ -252,24 +253,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: './img/avoToast.jpg',
+        breakfastPicture1: './img/avoToast.png',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: './img/burger.jpg',
+        lunchPicture1: './img/burger.png',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: './img/spagBol.jpg',
+        dinnerPicture1: './img/spagBol.png',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: './img/pancakes.jpg',
-        breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
+        breakfastPicture2: './img/pancakes.png',
+        breakfastBio2: 'Buckwheat pancakes',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: './img/pizza.jpg',
+        lunchPicture2: './img/pizza.png',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: './img/steakDinner.jpg',
+        dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude: -45.032264,
@@ -295,7 +296,7 @@ let acom = [
         serviceFee: 125,
         image1: './img/aucklandHouse1.jpg',
         image2: './img/aucklandHouse2.jpg',
-        image3: './img/aucklandHouse3.jpg',
+        image3: './img/aucklandHouse4.jpg',
         image4: './img/aucklandHouse4.jpg',
         image5: './img/aucklandHouse5.jpg',
         image6: './img/aucklandHouse6.jpg',
@@ -314,24 +315,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',  
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: './img/avoToast.jpg',
+        breakfastPicture1: './img/avoToast.png',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: './img/burger.jpg',
+        lunchPicture1: './img/burger.png',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: './img/spagBol.jpg',
+        dinnerPicture1: './img/spagBol.png',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: './img/pancakes.jpg',
-        breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
+        breakfastPicture2: './img/pancakes.png',
+        breakfastBio2: 'Buckwheat pancakes',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: './img/pizza.jpg',
+        lunchPicture2: './img/pizza.png',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: './img/steakDinner.jpg',
+        dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude: -36.861154,
@@ -347,7 +348,7 @@ let acom = [
         baths: 1,
         type: 'Hotel',
         bio: 'Explore the sights and sounds of vibrant Auckland, including the iconic Sky Tower. Pamper yourself at rejuvenating spa facilities. Experience magnificent dining with over 20 restaurants, cafes and bars close by, not to mention theatres and the exciting SkyCity Casino. Before you return, relax and refresh with our world-class facilities and services, where your comfort is our priority.',
-        header: 'Absolute luxury in the heart of Auckland City',
+        header: 'Luxury in the heart of The City',
         subHeader: 'SkyCity Hotel. Everything\'s right here.',
         minGuest: 1,
         maxGuest: 2,
@@ -376,24 +377,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',       
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: './img/avoToast.jpg',
+        breakfastPicture1: './img/avoToast.png',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: './img/burger.jpg',
+        lunchPicture1: './img/burger.png',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: './img/spagBol.jpg',
+        dinnerPicture1: './img/spagBol.png',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: './img/pancakes.jpg',
-        breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
+        breakfastPicture2: './img/pancakes.png',
+        breakfastBio2: 'Buckwheat pancakes',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: './img/pizza.jpg',
+        lunchPicture2: './img/pizza.png',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: './img/steakDinner.jpg',
+        dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude: -36.848445,
@@ -438,24 +439,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: './img/avoToast.jpg',
+        breakfastPicture1: './img/avoToast.png',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: './img/burger.jpg',
+        lunchPicture1: './img/burger.png',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: './img/spagBol.jpg',
+        dinnerPicture1: './img/spagBol.png',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: './img/pancakes.jpg',
-        breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
+        breakfastPicture2: './img/pancakes.png',
+        breakfastBio2: 'Buckwheat pancakes',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: './img/pizza.jpg',
+        lunchPicture2: './img/pizza.png',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: './img/steakDinner.jpg',
+        dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude: -36.813536,
@@ -501,24 +502,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: './img/avoToast.jpg',
+        breakfastPicture1: './img/avoToast.png',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: './img/burger.jpg',
+        lunchPicture1: './img/burger.png',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: './img/spagBol.jpg',
+        dinnerPicture1: './img/spagBol.png',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: './img/pancakes.jpg',
-        breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
+        breakfastPicture2: './img/pancakes.png',
+        breakfastBio2: 'Buckwheat pancakes',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: './img/pizza.jpg',
+        lunchPicture2: './img/pizza.png',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: './img/steakDinner.jpg',
+        dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude: -36.858026,
@@ -563,24 +564,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: './img/avoToast.jpg',
+        breakfastPicture1: './img/avoToast.png',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: './img/burger.jpg',
+        lunchPicture1: './img/burger.png',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: './img/spagBol.jpg',
+        dinnerPicture1: './img/spagBol.png',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: './img/pancakes.jpg',
-        breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
+        breakfastPicture2: './img/pancakes.png',
+        breakfastBio2: 'Buckwheat pancakes',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: './img/pizza.jpg',
+        lunchPicture2: './img/pizza.png',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: './img/steakDinner.jpg',
+        dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude: -41.253140,
@@ -625,24 +626,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: './img/avoToast.jpg',
+        breakfastPicture1: './img/avoToast.png',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: './img/burger.jpg',
+        lunchPicture1: './img/burger.png',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: './img/spagBol.jpg',
+        dinnerPicture1: './img/spagBol.png',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: './img/pancakes.jpg',
-        breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
+        breakfastPicture2: './img/pancakes.png',
+        breakfastBio2: 'Buckwheat pancakes',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: './img/pizza.jpg',
+        lunchPicture2: './img/pizza.png',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: './img/steakDinner.jpg',
+        dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude:-41.284855,
@@ -688,24 +689,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: './img/avoToast.jpg',
+        breakfastPicture1: './img/avoToast.png',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: './img/burger.jpg',
+        lunchPicture1: './img/burger.png',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: './img/spagBol.jpg',
+        dinnerPicture1: './img/spagBol.png',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: './img/pancakes.jpg',
-        breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
+        breakfastPicture2: './img/pancakes.png',
+        breakfastBio2: 'Buckwheat pancakes',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: './img/pizza.jpg',
+        lunchPicture2: './img/pizza.png',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: './img/steakDinner.jpg',
+        dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude: -41.302023,
@@ -750,24 +751,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: './img/avoToast.jpg',
+        breakfastPicture1: './img/avoToast.png',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: './img/burger.jpg',
+        lunchPicture1: './img/burger.png',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: './img/spagBol.jpg',
+        dinnerPicture1: './img/spagBol.png',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: './img/pancakes.jpg',
-        breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
+        breakfastPicture2: './img/pancakes.png',
+        breakfastBio2: 'Buckwheat pancakes',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: './img/pizza.jpg',
+        lunchPicture2: './img/pizza.png',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: './img/steakDinner.jpg',
+        dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude:-41.289617,
@@ -812,24 +813,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: './img/avoToast.jpg',
+        breakfastPicture1: './img/avoToast.png',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: './img/burger.jpg',
+        lunchPicture1: './img/burger.png',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: './img/spagBol.jpg',
+        dinnerPicture1: './img/spagBol.png',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: './img/pancakes.jpg',
-        breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
+        breakfastPicture2: './img/pancakes.png',
+        breakfastBio2: 'Buckwheat pancakes',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: './img/pizza.jpg',
+        lunchPicture2: './img/pizza.png',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: './img/steakDinner.jpg',
+        dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude: -43.544752,
@@ -874,24 +875,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: './img/avoToast.jpg',
+        breakfastPicture1: './img/avoToast.png',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: './img/burger.jpg',
+        lunchPicture1: './img/burger.png',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: './img/spagBol.jpg',
+        dinnerPicture1: './img/spagBol.png',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: './img/pancakes.jpg',
-        breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
+        breakfastPicture2: './img/pancakes.png',
+        breakfastBio2: 'Buckwheat pancakes',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: './img/pizza.jpg',
+        lunchPicture2: './img/pizza.png',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: './img/steakDinner.jpg',
+        dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude:-43.526562,
@@ -936,26 +937,26 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-       breakfastPicture1: './img/avoToast.jpg',
-       breakfastBio1: 'Eggs & Avacado on toast',
-       breakfastDiet1: 'V',
-       lunchHeading: 'Lunch - $25',
-       lunchPicture1: './img/burger.jpg',
-       lunchBio1: 'Burger w/ fries & aioli',
-       lunchDiet1: 'V*, VG*',
-       dinnerHeading: 'Dinner - $30',
-       dinnerPicture1: './img/spagBol.jpg',
-       dinnerBio1: 'Spaghetti Bolognese',
-       dinnerDiet1: 'V*, VG*',
-       breakfastPicture2: './img/pancakes.jpg',
-       breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
-       breakfastDiet2: 'V, VG*',
-       lunchPicture2: './img/pizza.jpg',
-       lunchBio2: 'Pizza, specify on day',
-       lunchDiet2: 'V*, VG*',
-       dinnerPicture2: './img/steakDinner.jpg',
-       dinnerBio2: 'Steak Dinner',
-       dinnerDiet2: '',
+        breakfastPicture1: './img/avoToast.png',
+        breakfastBio1: 'Eggs & Avacado on toast',
+        breakfastDiet1: 'V',
+        lunchHeading: 'Lunch - $25',
+        lunchPicture1: './img/burger.png',
+        lunchBio1: 'Burger w/ fries & aioli',
+        lunchDiet1: 'V*, VG*',
+        dinnerHeading: 'Dinner - $30',
+        dinnerPicture1: './img/spagBol.png',
+        dinnerBio1: 'Spaghetti Bolognese',
+        dinnerDiet1: 'V*, VG*',
+        breakfastPicture2: './img/pancakes.png',
+        breakfastBio2: 'Buckwheat pancakes',
+        breakfastDiet2: 'V, VG*',
+        lunchPicture2: './img/pizza.png',
+        lunchBio2: 'Pizza, specify on day',
+        lunchDiet2: 'V*, VG*',
+        dinnerPicture2: './img/steakDinner.png',
+        dinnerBio2: 'Steak Dinner',
+        dinnerDiet2: '',
         latitude:-43.530893,
         longitude: 172.585291,
     },
@@ -998,24 +999,24 @@ let acom = [
         reviewName3: 'Normal They',
         reviewText3: 'Sed quis diam nunc. Morbi ac justo pulvinar, convallis purus eget, elementum arcu. Phasellus vitae sollicitudin nisi, vitae semper diam. Duis ullamcorper arcu eu quam sagittis mattis. Nulla at enim rutrum, rhoncus sem non, rhoncus dui. Aliquam vehicula scelerisque mauris vel tempus. Nulla porta ultrices fermentum. Nunc vel lectus ex. Integer at efficitur turpis. Suspendisse potenti.',
         breakfastHeading: 'Breakfast - 22',
-        breakfastPicture1: './img/avoToast.jpg',
+        breakfastPicture1: './img/avoToast.png',
         breakfastBio1: 'Eggs & Avacado on toast',
         breakfastDiet1: 'V',
         lunchHeading: 'Lunch - $25',
-        lunchPicture1: './img/burger.jpg',
+        lunchPicture1: './img/burger.png',
         lunchBio1: 'Burger w/ fries & aioli',
         lunchDiet1: 'V*, VG*',
         dinnerHeading: 'Dinner - $30',
-        dinnerPicture1: './img/spagBol.jpg',
+        dinnerPicture1: './img/spagBol.png',
         dinnerBio1: 'Spaghetti Bolognese',
         dinnerDiet1: 'V*, VG*',
-        breakfastPicture2: './img/pancakes.jpg',
-        breakfastBio2: 'Buckwheat pancakes w/ fruit & syrup',
+        breakfastPicture2: './img/pancakes.png',
+        breakfastBio2: 'Buckwheat pancakes',
         breakfastDiet2: 'V, VG*',
-        lunchPicture2: './img/pizza.jpg',
+        lunchPicture2: './img/pizza.png',
         lunchBio2: 'Pizza, specify on day',
         lunchDiet2: 'V*, VG*',
-        dinnerPicture2: './img/steakDinner.jpg',
+        dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
         latitude: -43.542727,
@@ -1047,6 +1048,57 @@ function initMap(){
             types: ['(cities)']
         }
     )
+
+    // Date Picker Begins
+
+    $("#checkIn").datepicker({
+        
+        duration: "slow",
+        showAnim: "drop", 
+        showOptions: {direction: "up"}, 
+
+        // date format will format the date
+        dateFormat: 'yy-mm-dd',
+        // changeMonth lets us change the month
+        changeMonth: true,
+        minDate: new Date(),
+        maxDate: '+1y',
+        onSelect: function(date){
+
+            let selectDate = new Date(date);
+            // ms in a day
+            let msecInADay = 86400000;
+            let stDate = new Date(selectDate.getTime() + msecInADay);
+
+            $('#checkOut').datepicker('option', 'minDate', stDate);
+            let enDate = new Date(selectDate.getTime() + 15 * msecInADay);
+
+            $('#checkOut').datepicker('option','maxDate', enDate);
+
+        }
+    });
+
+    $("#checkOut").datepicker({
+        dateFormat: 'yy-mm-dd',
+        changeMonth: true, 
+        duration: "slow",
+        showAnim: "drop", 
+        showOptions: {direction: "up"}, 
+    });
+
+    $("#calculateDays").click(function(){
+        dateDiff();
+    });
+
+    function dateDiff(){
+        let start = $(startDate).datepicker('getDate');
+        let end = $(endDate).datepicker('getDate');
+   
+        // calculation to get readable days
+        let days = (end - start)/1000/60/60/24;
+        $("#days").val(days);
+
+    }
     
 }
 // end of maps function
@@ -1184,8 +1236,23 @@ function mainFilters(event){
     let checkInDate = new Date($("#checkIn").val());
     let checkOutDate = new Date($("#checkOut").val());
 
-    checkInTransfer = checkInDate;
-    checkOutTransfer = checkOutDate;
+    // checkInTransfer = checkInDate;
+    // checkOutTransfer = checkOutDate;
+
+    // getting individual data of day, month, year
+    let checkInDay = checkInDate.getDate(),
+    checkInMonth = checkInDate.getMonth(),
+    checkInYear = checkInDate.getFullYear(),
+    checkOutDay = checkOutDate.getDate(),
+    checkOutMonth = checkOutDate.getMonth(),
+    checkOutYear = checkOutDate.getFullYear();
+
+    // this format is necessary for the datepicker('setDate') methodw
+    checkInTransfer = [checkInYear, checkInMonth +1, checkInDay].join('/');
+    // window.transferCheckInDetailsGlobal = transferCheckInDetails;
+
+    checkOutTransfer = [checkOutYear, checkOutMonth +1, checkOutDay].join('/');
+    // window.transferCheckOutDetailsGlobal = transferCheckOutDetails;
 
     let dateDifference = checkOutDate.getTime() - checkInDate.getTime();
     let numberOfDays = dateDifference/msDay;
@@ -1196,6 +1263,8 @@ function mainFilters(event){
 
     let numberOfPeople = $("#visitors").val();
     console.log(numberOfPeople);
+
+    guestos = numberOfPeople;
 
     displayOptions(numberOfDays, numberOfPeople, location);
 
@@ -1247,36 +1316,91 @@ displayOptions();
         // Checkbox Filter Function Starts
         // =====================================
 
-        function checkboxFilter(){
-            $("#searchResults").empty();
-            event.preventDefault();
-            let selectedType = [];
-    
-            console.log(firstSelection);
+function checkboxFilter(){
+    $("#searchResults").empty();
+    event.preventDefault();
+    let selectedType = [];
+
+    console.log(firstSelection);
+
+    $('input[name = "property"]:checked').each(function(){
+        selectedType.push(this.value);
+        console.log(this.value);
+
+
+    });
+
+    for(i = 0; i < firstSelection.length; i++){
+        console.log(firstSelection[i]);
+        for(j = 0; j < selectedType.length; j++){
+            if(firstSelection[i].type === selectedType[j])
+            console.log(selectedType[j]);
+            $('#searchResults').append(
+                `
         
-            $('input[name = "property"]:checked').each(function(){
-                selectedType.push(this.value);
-                console.log(this.value);
-
-    
-            });
-
-            
-            for(i = 0; i < selectedType.length; i++){
-                console.log(selectedType[i]);
-                for(j = 0; j < firstSelection.length; j++){
-                    if(selectedType[i] === firstSelection[j].type)
-                    console.log(firstSelection[j].name);
-                    console.log(generateCardFilter(j));
-                };
-            };
+                    <div class="card" style="width: 35rem;">
+                    <div id="${acom[i].carouselId}" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img class="d-block w-100" src="${acom[i].image1}" alt="First slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="${acom[i].image2}" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="${acom[i].image3}" alt="Third slide">
+                            </div>
+                            <div class="carousel-item">
+                            <img class="d-block w-100" src="${acom[i].image4}" alt="Second slide">
+                            </div>
+                            <div class="carousel-item">
+                                <img class="d-block w-100" src="${acom[i].image5}" alt="Third slide">
+                            </div>
+                        </div>d
+                            <a class="carousel-control-prev" href="#${acom[i].carouselId}" role="button" data-slide="prev">
+                                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Previous</span>
+                            </a>
+                            <a class="carousel-control-next" href="#${acom[i].carouselId}" role="button" data-slide="next">
+                                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                <span class="sr-only">Next</span>
+                            </a>
+                        </div>
+                            <div id="${acom[i].id}" class="card-body moreInformation">
+                                <div class="card-top">
+                                    <h6 class="card-subheading">${acom[i].subHeader}</h6>
+                                    <div class="card-rating">${acom[i].rating}<i class="fas fa-star"></i></div>
+                                </div>
+                                <h5 class="card-title">${acom[i].header}</h5>
+                            <div class="card-amenities">
+                                <p>${acom[i].amenities.slice(0,3).join(' | ')}</p>
+                            </div>
+                            <div class="card-price-section">
+                                <p class="card-price-day">$${acom[i].priceNight} NZD/night</p>
+                                <p>|</p>
+                                <p class="card-price-stay">$${acom[i].priceNight * totalNights} NZD/total</p>
+                            </div>
+                        </div>
+                    </div>
         
-            console.log(selectedType);
-        
-
-
-
+                `
+            );
         };
+    };
+
+    
+    // for(i = 0; i < selectedType.length; i++){
+    //     console.log(selectedType[i]);
+    //     for(j = 0; j < firstSelection.length; j++){
+    //         if(selectedType[i] === firstSelection[j].type)
+    //         console.log(firstSelection[j].name);
+    //         generateCardFilter(j);
+    //     };
+    // };
+
+    console.log(selectedType);
+
+};
         // checkboxFilter();
             // =====================================
             // Checkbox Filter Function Ends
@@ -1303,6 +1427,8 @@ function selection(){
         $(".footer-indicator__box:nth-child(1)").css("background", "#000000");
         $(".footer-indicator__box:nth-child(2)").css("background", "#00abdd");
     });
+
+    
 
     $(".moreInformation").click(function(){
         // console.log("upto");
@@ -1393,38 +1519,28 @@ function selection(){
                 $("#contentTwoRight").empty().append(
                     `
                     <div class="content-two__cart-sticky">
-                    <div class="content-two__written">
-                        <div class="content-two__header">
-                            <div class="content-two__header-block">
-                                <h3 class="content-two-heading">${acom[i].header}</h3>
-                                <div class="content-two__rating"><p>${acom[i].rating}</p><i class="fas fa-star"></i></div>
+                        <div class="content-two__written">
+                            <div class="content-two__header">
+                                <div class="content-two__header-block">
+                                    <h3 class="content-two-heading">${acom[i].header}</h3>
+                                    <div class="content-two__rating"><p>${acom[i].rating}</p><i class="fas fa-star"></i></div>
+                                </div>
+                                <h4 class="content-two-subheading">${acom[i].subHeader}</h4>
                             </div>
-                            <h4 class="content-two-subheading">${acom[i].subHeader}</h4>
+                            <div class="content-two__amenitiesShort">
+                            <p>${acom[i].amenities.join(' | ')}</p>
                         </div>
-                        <div class="content-two__amenitiesShort">
-                        <p>${acom[i].amenities.join(' | ')}</p>
-                    </div>
                     </div>
                     
                     <div class="content-two__cart" id="contentTwoCart">
                         <div class="content-two__search">
                             <div class="content-two__checkin">
                                 <label for="checkIn">Check-In</label>
-                                <input id="contentTwoCheckIn" name="checkIn" type="date" class="content-two-checkin">
+                                <input id="contentTwoCheckIn" name="checkIn" type="text" class="content-two-checkin">
                             </div>
                             <div class="content-two__checkout">
                                 <label for="checkOut">Check-Out</label>
-                                <input id="contentTwoCheckOut" name="checkOut" type="date" class="content-two-checkout">
-                            </div>
-                            <div class="content-two__visitors">
-                            <label for="visitors">Visitors</label>
-                                <select id="contentTwoVisitors" name="visitors" type="text" placeholder="Who's coming" class="content-two-visitors">
-                                    <option value="1">One</option>
-                                    <option value="2">Two</option>
-                                    <option value="3">Three</option>
-                                    <option value="4">Four</option>
-                                    <option value="5">Five +</option>
-                                </select>
+                                <input id="contentTwoCheckOut" name="checkOut" type="text" class="content-two-checkout">
                             </div>
                             <div class="content-two__price"><p>${acom[i].priceNight}/night</p></div>
                         </div>
@@ -1455,6 +1571,9 @@ function selection(){
                    
                     `
                 );
+
+                document.getElementById('contentTwoCheckIn').value=checkInTransfer;
+                document.getElementById('contentTwoCheckOut').value=checkOutTransfer;
 
                 // // =====================================
                 // // Stick Function Begins
@@ -1494,21 +1613,20 @@ function selection(){
 
 };
 
-
-
 selection();
 
 // =====================================
-// Card Selection Function Ends
+// Meal Selection Page Function Ends
 // =====================================
 
 
 
-// =====================================
-// Meal Selection Page Function Begins
-// =====================================
+
+
+
 
 function mealProgress(){
+    // console.log('heyBro');
 
     $(".content-two-btn").click(function(){
         // console.log("clickedDat")
@@ -1516,7 +1634,12 @@ function mealProgress(){
         $("#contentThree").show();
         $("#contentThree").css("display", "flex");
         $("#contentThree").css("flex-direction", "row");
+        $(".footer-indicator__box:nth-child(2)").css("background", "#000000");
+        $(".footer-indicator__box:nth-child(3)").css("background", "#00abdd");
     });
+
+
+    let foodPrice = [];
 
     $(".content-two-btn").click(function(){
         console.log("heyBro");
@@ -1525,38 +1648,46 @@ function mealProgress(){
             if(parseInt(this.id) === acom[i].id){
                 console.log(acom[i].name);
 
+                // let foodCalc = mealValue;
+                // let mealValue = 0;
+                // let costLunch = mealLunch;
+                // let costDinner = mealDinner;
+                // let costBreakfast = mealBreakfast;
+
+
                 $("#contentThreeLeft").empty().append(
                     `
                         <div class="content-three__heading-block">
                             <h3 class="content-three-heading">Please select your meal options</h3>
-                            <h3 class="content-three-subheading">We have meals available for purchase</h4>
+                            <h4 class="content-three-subheading">We have meals available for purchase</h4>
                         </div>
                         <div class="content-three__breakfast">
                             <h6 class="content-three-foodheading">Breakfast - $22</h6>
-                                <img class="content-three-img" src="${acom[i].breakfastPicture1}">
+                                <input type="image" src="${acom[i].breakfastPicture1}" alt="Submit" class="content-three-img breakfast" value="22">
                             <p class="content-three-description">${acom[i].breakfastBio1}</p>
                             <p class="content-three-dietary">${acom[i].breakfastDiet1}</p>
-                                <img class="content-three-img1" src="${acom[i].breakfastPicture2}">
-                            <p class="content-three-description">${acom[i].breakfastBio2}</p>
-                            <p class="content-three-dietary">${acom[i].breakfastDiet2}</p>
+                                <input type="image" src="${acom[i].breakfastPicture2}" alt="Submit" class="content-three-img1 breakfast1" value="22">
+                            <p class="content-three-description1">${acom[i].breakfastBio2}</p>
+                            <p class="content-three-dietary1">${acom[i].breakfastDiet2}</p>
                         </div>
                         <div class="content-three__lunch">
                             <h6 class="content-three-foodheading">Lunch - $25</h6>
                                 <img class="content-three-img" src="${acom[i].lunchPicture1}">
+                                <input type="image" src="${acom[i].lunchPicture1}" alt="Submit" class="content-three-img lunch" value="25">
                             <p class="content-three-description">${acom[i].lunchBio1}</p>
                             <p class="content-three-dietary">${acom[i].lunchDiet1}</p>
-                                <img class="content-three-img1" src="${acom[i].lunchPicture2}">
-                            <p class="content-three-description">${acom[i].lunchBio2}</p>
-                            <p class="content-three-dietary">${acom[i].lunchDiet2}</p>
+                                <input type="image" src="${acom[i].lunchPicture2}" alt="Submit" class="content-three-img1 lunch1" value="25">
+                            <p class="content-three-description1">${acom[i].lunchBio2}</p>
+                            <p class="content-three-dietary1">${acom[i].lunchDiet2}</p>
                         </div>
                         <div class="content-three__dinner">
                             <h6 class="content-three-foodheading">Dinner - $30</h6>
-                                <img class="content-three-img" src="${acom[i].dinnerPicture1}">
+                                <input type="image" src="${acom[i].dinnerPicture1}" alt="Submit" class="content-three-img dinner" value="30">
                             <p class="content-three-description">${acom[i].dinnerBio1}</p>
                             <p class="content-three-dietary">${acom[i].dinnerDiet1}</p>
-                                <img class="content-three-img1" src="${acom[i].dinnerPicture2}">
-                            <p class="content-three-description">${acom[i].dinnerBio2}</p>
-                            <p class="content-three-dietary">${acom[i].dinnerDiet2}</p>
+                                <input type="image" src="${acom[i].dinnerPicture2}" alt="Submit" class="content-three-img1 dinner1" value="30">
+                            <p class="content-three-description1">${acom[i].dinnerBio2}</p>
+                            <p class="content-three-dietary1">${acom[i].dinnerDiet2}</p>
                         </div>
                     `
                 )
@@ -1569,42 +1700,399 @@ function mealProgress(){
                             <img src="" alt="" class="content-three-star">
                         </div>
                     </div>
-                    <div class="content-three__cart">
+                    <div class="content-three__cart" id="contentThreeCart">
                         <div class="content-three__search">
-                            <div class="content-three-checkin">
-
+                            <div class="content-three__checkin">
+                                <label for="checkIn">Check-In</label>
+                                <input id="contentThreeCheckIn" name="checkIn" type="text" class="content-three-checkin">
                             </div>
-                            <div class="content-three-checkout">
-
+                            <div class="content-three__checkout">
+                                <label for="checkOut">Check-Out</label>
+                                <input id="contentThreeCheckOut" name="checkOut" type="text" class="content-three-checkout">
                             </div>
-                            <div class="content-three-visitors"></div>
-                            <div class="content-three-night"></div>
+                            <div class="content-three__price"><p>${acom[i].priceNight}/night</p></div>
                         </div>
-                    <div class="content-three__cart-bottom">
-                        <div class="content-three-bottomleft">
-                            <div class="content-three__calc">
+                        <div class="content-three__cart-bottom">
+                            <div class="content-three__cart-block">
+                                <div id="contentThreeFoodCalc" class="content-three__bottomleft">
+                                    <div class="content-three__calc">
+                                    <p>${acom[i].priceNight} X ${totalNights}</p>
+                                    <p>-</p>
+                                    <p>$${acom[i].priceNight * totalNights}</p>
+                                </div>
+                                    <div class="content-three__calc">
+                                        <p>Service Fee</p>
+                                        <p>-</p>
+                                        <p>$${acom[i].serviceFee}</p>
+                                    </div>
+                                </div>
+                                <div class="content-three__final-calc">
+                                    <p>Total</p>
+                                    <p>-</p>
+                                    <p>$${acom[i].priceNight * totalNights + acom[i].serviceFee}</p>
+                                </div>
                             </div>
-                            <div class="content-three__calc">
-                            </div>
-                            <div class="content-three__calc">
+                            <div class="content-three__bottomright">
+                                <button id="${acom[i].id}" class="content-three-btn">Continue</button>
+                                <p class="content-three-disclaimer">This isn't a final selection</p>
                             </div>
                         </div>
-                        <div class="content-three-bottomright">
-                        <button id="${acom[i].id}" class="content-three-btn">Continue</button>
+                    `
+                )
+
+                // $( "#contentThreeCheckIn" ).datepicker( "setDate", checkInTransfer );
+                // $( "#contentThreeCheckOut" ).datepicker( "setDate", checkOutTransfer );
+
+                document.getElementById('contentThreeCheckIn').value=checkInTransfer;
+                document.getElementById('contentThreeCheckOut').value=checkOutTransfer;
+
+            }
+
+        }
+
+
+
+        let mealDinner = $(".dinner").val();
+        console.log(mealDinner);
+        foodPrice.push(mealDinner);
+
+        let mealLunch = $(".lunch").val();
+        foodPrice.push(mealLunch);
+
+        let mealBreakfast = $(".breakfast").val();
+        foodPrice.push(mealBreakfast);
+
+        let mealValue = $(".foodValue").val();
+        console.log(mealValue);
+
+
+        $('.dinner').click(function(){
+            console.log(mealValue);
+
+            $('#contentThreeFoodCalc').append(
+                `
+                <div class="content-three__calc">
+                    <p>Spaghetti Bolognese</p>
+                    <p>-</p>
+                    <p class="foodValue">$${mealDinner}</p>
+                </div>
+                `
+            )
+
+            $('#contentFourMeal').append(
+                `
+                <div class="content-four__box">
+                    <h6 class="content-four__box-header">Dinner</h6>
+                    <p class="content-four__box-content">${acom[i].dinnerBio1}</p>
+                </div>
+                `
+            )
+        })
+    
+        $('.lunch').click(function(){
+            $('#contentThreeFoodCalc').append(
+                `
+                <div class="content-three__calc">
+                    <p>Burger w/ fries & aioli</p>
+                    <p>-</p>
+                    <p class="foodValue">$${mealLunch}</p>
+                </div>
+                `
+            )
+
+            $('#contentFourMeal').append(
+                `
+                <div class="content-four__box">
+                    <h6 class="content-four__box-header">Lunch</h6>
+                    <p class="content-four__box-content">${acom[i].lunchBio1}</p>
+                </div>
+                `
+            )
+        })
+    
+        $('.breakfast').click(function(){
+            $('#contentThreeFoodCalc').append(
+                `
+                <div class="content-three__calc">
+                    <p>Eggs & Avacado on toast</p>
+                    <p>-</p>
+                    <p class="foodValue">$${mealBreakfast}</p>
+                </div>
+                `
+            )
+
+            $('#contentFourMeal').append(
+                `
+                <div class="content-four__box">
+                    <h6 class="content-four__box-header">Breakfast</h6>
+                    <p class="content-four__box-content">${acom[i].breakfastBio1}</p>
+                </div>
+                `
+            )
+            
+        });
+
+        $('.dinner1').click(function(){
+            console.log(mealDinner);
+            $('#contentThreeFoodCalc').append(
+                `
+                <div class="content-three__calc">
+                    <p>Steak Dinner</p>
+                    <p>-</p>
+                    <p class="foodValue">$${mealDinner}</p>
+                </div>
+                `
+            )
+
+            $('#contentFourMeal').append(
+                `
+                <div class="content-four__box">
+                    <h6 class="content-four__box-header">Dinner</h6>
+                    <p class="content-four__box-content">${acom[i].dinnerBio2}</p>
+                </div>
+                `
+            )
+        })
+    
+        $('.lunch1').click(function(){
+            $('#contentThreeFoodCalc').append(
+                `
+                <div class="content-three__calc">
+                    <p>Pizza</p>
+                    <p>-</p>
+                    <p class="foodValue">$${mealLunch}</p>
+                </div>
+                `
+            )
+
+            $('#contentFourMeal').append(
+                `
+                <div class="content-four__box">
+                    <h6 class="content-four__box-header">Lunch</h6>
+                    <p class="content-four__box-content">${acom[i].lunchBio2}</p>
+                </div>
+                `
+            )
+        })
+    
+        $('.breakfast1').click(function(){
+            $('#contentThreeFoodCalc').append(
+                `
+                <div class="content-three__calc">
+                    <p>Buckwheat pancakes</p>
+                    <p>-</p>
+                    <p class="foodValue">$${mealBreakfast}</p>
+                </div>
+                `
+            )
+
+            $('#contentFourMeal').append(
+                `
+                <div class="content-four__box">
+                    <h6 class="content-four__box-header">Breakfast</h6>
+                    <p class="content-four__box-content">${acom[i].breakfastBio2}</p>
+                </div>
+                `
+            )
+            
+        });
+        confirmationPage();
+    })
+    
+};
+mealProgress();
+
+
+
+
+function confirmationPage(){
+    console.log('dat shit workin cuz');
+
+    $(".content-three-btn").click(function(){
+        console.log("clickedDat")
+        $("#contentThree").hide();
+        $("#contentFour").show();
+        $("#contentFour").css("display", "flex");
+        $("#contentFour").css("flex-direction", "column");
+        $(".footer-indicator__box:nth-child(3)").css("background", "#000000");
+        $(".footer-indicator__box:nth-child(4)").css("background", "#00abdd");
+    
+    });
+
+
+
+    $(".content-three-btn").click(function(){
+        console.log("heyBro");
+        let i = 0;
+        for(i = 0; i < acom.length; i++){
+            if(parseInt(this.id) === acom[i].id){
+                console.log(acom[i].name);
+
+
+                $("#contentFourLeft").empty().append(
+                    `
+                    <div class="content-four__written">
+                        <div class="content-four__header">
+                            <div class="content-four__header-block">
+                                <h3 class="content-four-heading">${acom[i].header}</h3>
+                                <div class="content-four__amenitiesShort">
+                                    <p>${acom[i].amenities.join(' | ')}</p>
+                                </div>
+                                <div class="content-four__rating"><p>${acom[i].rating}</p><i class="fas fa-star"></i></div>
+                            </div>
+                            <h4 class="content-four-subheading">${acom[i].subHeader}</h4>
+                        </div>
+                  
+                        <div class="content-four__images">
+                            <div class="content-four__img-box">
+                                <img class="content-four-img" src="${acom[i].image1}">
+                            </div>
+                            <div class="content-four__img-box">
+                                <img class="content-four-img" src="${acom[i].image2}">
+                            </div>
+                        </div>
+                    </div>  
+                    `
+                )
+
+                $("#contentFourRight").empty().append(
+                    `
+                    <div class="content-four__block">
+                        <div class="content-four__info">
+                            <h4 class="content-four__right-header">Information</h4>
+                            <div class="content-four__box">
+                                <h6 class="content-four__box-header">Check-In</h6>
+                                <p class="content-four__box-content">${checkInTransfer}</p>
+                            </div>
+                            <div class="content-four__box">
+                                <h6 class="content-four__box-header">Check-Out</h6>
+                                <p class="content-four__box-content">${checkOutTransfer}</p>
+                            </div>
+                            <div class="content-four__box">
+                                <h6 class="content-four__box-header">Visitors</h6>
+                                <p class="content-four__box-content">${guestos}</p>
+                            </div>
+                            <div class="content-four__box">
+                                <h6 class="content-four__box-header">Total Cost</h6>
+                                <p class="content-four__box-content">$${acom[i].priceNight * totalNights + acom[i].serviceFee}</p>
+                            </div>
+                        </div>
+                        <div id="contentFourMeal" class="content-four__meal">
+                            <h4 class="content-four__right-header">Meal Options</h4>
                         </div>
                     </div>
+                    <button id="${acom[i].id}" class="content-four-btn">Confirm</button>
                     `
                 )
             }
         }
+        mealProgress();
+        paymentPage();
+
     })
 };
-mealProgress();
+confirmationPage();
+
 // =====================================
-// Meal Selection Page Function Ends
+// Payment Page Starts
 // =====================================
 
-$( ".content-three-checkin" ).datepicker( "setDate", "10/12/2012" );
+function paymentPage(){
+    console.log('YAH')
+    
+    $(".content-four-btn").click(function(){
+        console.log("clickedDat")
+        $("#contentFour").hide();
+        $("#contentFive").show();
+        $("#contentFive").css("display", "flex");
+        $("#contentFive").css("flex-direction", "column");
+        $(".footer-indicator__box:nth-child(4)").css("background", "#000000");
+        $(".footer-indicator__box:nth-child(5)").css("background", "#00abdd");
+        
+    });
+    
+
+    $(".content-four-btn").click(function(){
+        console.log("almostDer");
+        let i = 0;
+        for(i = 0; i < acom.length; i++){
+            if(parseInt(this.id) === acom[i].id){
+                console.log(acom[i].name);
+
+                $("#contentFiveBottom").empty().append(
+                    `
+                    <button id="${acom[i].id}" class="content-five-btn">Confirm</button>
+                    `
+                )
+                
+            }
+        }
+        finalConfirmation();
+    })
+};
+paymentPage();
+// =====================================
+// Payment Page Ends
+// =====================================
+
+
+// =====================================
+// Final Confirmation Starts
+// =====================================
+
+function finalConfirmation(){
+    console.log('SOCLOSE');
+
+    $(".content-five-btn").click(function(){
+        console.log("clickedDat")
+        $("#contentFive").hide();
+        $("#contentSix").show();
+        $("#contentFive").css("display", "flex");
+        $("#contentFive").css("flex-direction", "column");
+        $(".footer-indicator__box").css("background", "#00abdd");
+        
+    });
+
+    $("#contentSix").empty().append(
+        `
+        <div class="content-four__block">
+            <div class="content-four__info">
+                <h4 class="content-four__right-header">Information</h4>
+                <div class="content-four__box">
+                    <h6 class="content-four__box-header">Check-In</h6>
+                    <p class="content-four__box-content">${checkInTransfer}</p>
+                </div>
+                <div class="content-four__box">
+                    <h6 class="content-four__box-header">Check-Out</h6>
+                    <p class="content-four__box-content">${checkOutTransfer}</p>
+                </div>
+                <div class="content-four__box">
+                    <h6 class="content-four__box-header">Visitors</h6>
+                    <p class="content-four__box-content">${guestos}</p>
+                </div>
+                <div class="content-four__box">
+                    <h6 class="content-four__box-header">Total Cost</h6>
+                    <p class="content-four__box-content">$${acom[i].priceNight * totalNights + acom[i].serviceFee}</p>
+                </div>
+            </div>
+            <div id="contentFourMeal" class="content-four__meal">
+                <h4 class="content-four__right-header">Meal Options</h4>
+            </div>
+        </div>
+        <button id="${acom[i].id}" class="content-four-btn">Confirm</button>
+        `
+    )
+
+};
+finalConfirmation();
+
+// =====================================
+// Final Confirmation Ends
+// =====================================
+
+
+
+// $( ".content-three-checkin" ).datepicker( "setDate", "10/12/2012" );
 
 function reloadMarkers(){
     // loop through our array and set the map to null value

@@ -66,8 +66,8 @@
                     </div>
                     <div class="search-box">
                         <label for="checkIn">Check-In</label>
-                        <input id="checkIn" name="checkIn" type="date" placeholder="Choose a date" class="search-option">
                         <!-- <input id="checkIn" name="checkIn" type="date" placeholder="Choose a date" class="search-option"> -->
+                        <input id="checkIn" name="checkIn" type="text" placeholder="Choose a date" class="search-option">
 
                     </div>
                     <!-- <div class="search-btn__box">
@@ -75,8 +75,8 @@
                     </div> -->
                     <div class="search-box">
                         <label for="checkOut">Check-Out</label>
-                        <input id="checkOut" name="checkOut" type="date" placeholder="Choose a date" class="search-option">
-                        <!-- <input id="checkOut" name="checkOut" type="text" placeholder="Choose a date" class="search-option"> -->
+                        <!-- <input id="checkOut" name="checkOut" type="date" placeholder="Choose a date" class="search-option"> -->
+                        <input id="checkOut" name="checkOut" type="text" placeholder="Choose a date" class="search-option">
                     </div>
                     <div class="search-box">
                         <label for="visitors">Visitors</label>
@@ -152,6 +152,93 @@
 
     <!-- Content Three Ends -->
 
+    <!-- Content Four Begins -->
+
+    <div id="contentFour" class="content-four">
+        <div class="content-four__top">
+            <h2 class="content-four-head">Confirm your choices</h2>
+            <!-- <h3 class="content-four-subhead">This is your final chance to make a change</h3> -->
+        </div>
+        <div class="content-four__content-box">
+            <div id="contentFourLeft" class="content-four__left"></div>
+            <div class="content-four__line"></div>
+            <div id="contentFourRight" class="content-four__right">
+            </div>
+        </div>
+        <!-- <div class="content-four__bottom">
+            <button id="contentFourBtn" class="content-four-btn">Confirm</button>
+        </div> -->
+    </div>
+
+    <!-- Content Four Ends -->
+
+    <!-- Content Five Begins -->
+
+    <div id="contentFive" class="content-five">
+        <div class="content-five__top">
+            <h3 class="content-five-heading-main">Complete payment to confirm your booking</h3>
+        </div>
+        <form action="" class="content-five__confirmation">
+            <div class="content-five__left-block">
+                <h3 class="content-five-left-heading">Booking Details</h3>
+                <div id="contentFiveLeft" class="content-five__left">
+                    <div class="content-five__contact">
+                        <input type="text" name="firstName" id="firstName" placeholder="First Name">
+                        <input type="text" name="lastName" id="lastName" placeholder="Last Name">
+                        <input type="text" name="email" id="email" placeholder="Email">
+                        <input type="text" name="mobile" id="mobile" placeholder="Mobile">
+                    </div>
+                    <div class="content-five__message">
+                        <input type="text" name="message" id="message" placeholder="Leave your host a message">
+                    </div>
+                </div>
+            </div>
+            <div id="contentFiveRight" class="content-five__right">
+                <h3 class="content-five-right-heading">Payment Details</h3>
+                <div class="content-five__right-payment">
+                    <div class="content-five__form-option">
+                        <label for="cardType">Card Type</label>
+                        <select name="cardType" id="cardType">
+                            <option value="Visa">Visa</option>
+                            <option value="Mastercard">Mastercard</option>
+                        </select>
+                    </div>
+                    <div class="content-five__form-option">
+                        <label for="cardName">Name on Card</label>
+                        <input type="text" name="cardName" id="cardName" placeholder="John Doe">
+                    </div>
+                    <div class="content-five__form-option">
+                        <label for="cardNumber">Card Number</label>
+                        <input type="text" name="cardNumber" id="cardNumber" placeholder="XXXX XXXX XXXX XXXX">
+                    </div>
+                    <div class="content-five__form-options">
+                        <div class="content-five__form-option">
+                            <label for="expiry">Expiry</label>
+                            <input type="text" name="expiry" id="expiry" placeholder="MM / YY">
+                        </div>
+                        <div class="content-five__form-option">
+                            <label for="cvc">CVC</label>
+                            <input type="text" name="cvc" id="cvc" placeholder="XXX">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </form>
+        <div id="contentFiveBottom" class="content-five__bottom">              
+        </div>
+    </div>
+
+    <!-- Content Five Ends -->
+
+
+    <!-- Content Six Begins -->
+
+    <div id="contentSix" class="content-six">
+    </div>
+
+    <!-- Content Six Ends -->
+    
+
 
 
     <!-- Footer begins -->
@@ -188,8 +275,6 @@
     <script src="./js/script.js"></script>
 </body>
 </html>
-
-
 
 
 
