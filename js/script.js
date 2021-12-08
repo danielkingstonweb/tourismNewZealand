@@ -46,14 +46,16 @@ let acom = [
         maxNight: 15,
         priceNight: 245,
         serviceFee: 125,
-        image1: './img/queenstownHouse1.jpg',
-        image2: './img/queenstownHouse2.jpg',
-        image3: './img/queenstownHouse3.jpg',
-        image4: './img/queenstownHouse4.jpg',
-        image5: './img/queenstownHouse5.jpg',
-        image6: './img/queenstownHouse6.jpg',
+        image1: './img/aucklandHouse1.jpg',
+        image2: './img/aucklandHouse2.jpg',
+        image3: './img/aucklandHouse4.jpg',
+        image4: './img/aucklandHouse4.jpg',
+        image5: './img/aucklandHouse5.jpg',
+        image6: './img/aucklandHouse6.jpg',
+        mapIcon: './img/house.png',
         carouselId: 'carouselExampleControls1',
         amenities: ['Wifi','Parking','Workspace','Garage','Meals', 'Laundry'],
+        amenityAppend: '<div class="content-two__amenity-box"><i class="fas fa-wifi"></i> <p>Wifi</p></div><div class="content-two__amenity-box"><i class="fas fa-parking"></i> <p>Parking</p></div><div class="content-two__amenity-box"><i class="fas fa-laptop-house"></i> <p>Workspace</p></div><div class="content-two__amenity-box"><i class="fas fa-warehouse"></i> <p>Garage</p></div><div class="content-two__amenity-box"><i class="fas fa-utensils"></i> <p>Meals</p></div><div class="content-two__amenity-box"><i class="fas fa-tshirt"></i> <p>Laundry</p></div>',
         hostImg: './img/hostImg.jfif',
         hostName: 'John Smith',
         hostBio: 'I\'ve been a host for over 5 years and love to deliver the best quality service I possible can! I take lots of pride in my work and will always be just a phone call away!',
@@ -87,6 +89,7 @@ let acom = [
         dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
+        thankYou: 'Thank you for booking a stay with us, we look forward to having you and we will be reachable any time via the email or mobile number provided in the confirmation email!',
         latitude: -44.965397,
         longitude: 168.621975,
     },
@@ -114,8 +117,10 @@ let acom = [
        image4: './img/hilton4.jpg',
        image5: './img/hilton5.jpg',
        image6: './img/hilton6.jpg',
+       mapIcon: './img/hotel.png',
        carouselId: 'carouselExampleControls2',
        amenities: ['Wifi','Parking','Gym','Pool','Spa','Meals','EV Charger','Laundry'],
+       amenityAppend: '<div class="content-two__amenity-box"><i class="fazs fa-wifi"></i> <p>Wifi</p></div><div class="content-two__amenity-box"><i class="fas fa-parking"></i> <p>Parking</p></div><div class="content-two__amenity-box"><i class="fas fa-dumbbell"></i> <p>Gym</p></div><div class="content-two__amenity-box"><i class="fas fa-spa"></i> <p>Spa</p></div><div class="content-two__amenity-box"><i class="fas fa-swimming-pool"></i> <p>Pool</p></div><div class="content-two__amenity-box"><i class="fas fa-utensils"></i> <p>Meals</p></div><div class="content-two__amenity-box"><i class="fas fa-tshirt"></i> <p>Laundry</p></div><div class="content-two__amenity-box"><i class="fas fa-battery-full"></i> <p>EV Charger</p></div>',
        hostImg: './img/hostImg.jfif',
        hostName: 'Chris Ehmann',
        hostBio: 'I\'m the manager of Hilton Hotel\'s world wide, I can guarantee only the absolute best when guests choose to stay with us, I find myself personally responsible for the reputation of every single Hilton',
@@ -149,6 +154,7 @@ let acom = [
        dinnerPicture2: './img/steakDinner.png',
        dinnerBio2: 'Steak Dinner',
        dinnerDiet2: '',
+       thankYou: 'Thank you for booking a stay with us, we look forward to having you and we will be reachable any time via the email or mobile number provided in the confirmation email!',
        latitude: -45.028776,
        longitude: 168.728284,
     },
@@ -176,8 +182,10 @@ let acom = [
        image4: './img/fourSeasons4.jpg',
        image5: './img/fourSeasons5.jpg',
        image6: './img/fourSeasons6.jpg',
+       mapIcon: './img/motel.png',
        carouselId: 'carouselExampleControls3',
        amenities: ['Parking','Wifi','Pool','Meals'],
+       amenityAppend: '<div class="content-two__amenity-box"><i class="fazs fa-wifi"></i> <p>Wifi</p></div><div class="content-two__amenity-box"><i class="fas fa-parking"></i> <p>Parking</p></div><div class="content-two__amenity-box"><i class="fas fa-swimming-pool"></i> <p>Pool</p></div><div class="content-two__amenity-box"><i class="fas fa-utensils"></i> <p>Meals</p></div>',
        hostImg: './img/hostImg.jfif',
        hostName: 'John Smith',
        hostBio: 'I\'ve been a host for over 5 years and love to deliver the best quality service I possible can! I take lots of pride in my work and will always be just a phone call away!',
@@ -211,6 +219,7 @@ let acom = [
        dinnerPicture2: './img/steakDinner.png',
        dinnerBio2: 'Steak Dinner',
        dinnerDiet2: '',
+       thankYou: 'Thank you for booking a stay with us, we look forward to having you and we will be reachable any time via the email or mobile number provided in the confirmation email!',
        latitude: -45.033135,
        longitude: 168.665212,
     },
@@ -232,14 +241,16 @@ let acom = [
         maxNight: 10,
         priceNight: 30,
         serviceFee: 10,
-        image1: './img/fourSeasons1.jpg',
-        image2: './img/fourSeasons2.jpg',
-        image3: './img/fourSeasons3.jpg',
-        image4: './img/fourSeasons4.jpg',
-        image5: './img/fourSeasons5.jpg',
-        image6: './img/fourSeasons6.jpg',
+        image1: './img/hakaLodgeAKL1.jpg',
+        image2: './img/hakaLodgeAKL2.jpg',
+        image3: './img/hakaLodgeAKL3.jpg',
+        image4: './img/hakaLodgeAKL4.jpg',
+        image5: './img/hakaLodgeAKL5.jpg',
+        image6: './img/hakaLodgeAKL6.jpg',
+        mapIcon: './img/hostel.png',
         carouselId: 'carouselExampleControls4',
         amenities: ['Wifi','Meals','Parking'],
+        amenityAppend: '<div class="content-two__amenity-box"><i class="fas fa-wifi"></i> <p>Wifi</p></div><div class="content-two__amenity-box"><i class="fas fa-parking"></i> <p>Parking</p></div><div class="content-two__amenity-box"><i class="fas fa-utensils"></i> <p>Meals</p></div>',
         hostImg: './img/hostImg.jfif',
         hostName: 'Sue Fairclough',
         hostBio: 'Our warm and attentive staff are at your service to assure your stay at the Four Seasons Motel is nothing short of delightful. Our facilities are clean and well maintained, and guest amenities like heated blankets during winter and select bus services are offered to ensure convenience and comfort in any season.',
@@ -273,6 +284,7 @@ let acom = [
         dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
+        thankYou: 'Thank you for booking a stay with us, we look forward to having you and we will be reachable any time via the email or mobile number provided in the confirmation email!',
         latitude: -45.032264,
         longitude: 168.659218,
     },
@@ -300,8 +312,10 @@ let acom = [
         image4: './img/aucklandHouse4.jpg',
         image5: './img/aucklandHouse5.jpg',
         image6: './img/aucklandHouse6.jpg',
+        mapIcon: './img/house.png',
         carouselId: 'carouselExampleControls5',
         amenities: ['Wifi','Parking','Workspace','Garage','Meals', 'Laundry'],
+        amenityAppend: '<div class="content-two__amenity-box"><i class="fas fa-wifi"></i> <p>Wifi</p></div><div class="content-two__amenity-box"><i class="fas fa-parking"></i> <p>Parking</p></div><div class="content-two__amenity-box"><i class="fas fa-laptop-house"></i> <p>Workspace</p></div><div class="content-two__amenity-box"><i class="fas fa-warehouse"></i> <p>Garage</p></div><div class="content-two__amenity-box"><i class="fas fa-utensils"></i> <p>Meals</p></div><div class="content-two__amenity-box"><i class="fas fa-tshirt"></i> <p>Laundry</p></div>',
         hostImg: './img/hostImg.jfif',
         hostName: 'Stefan',
         hostBio: 'Hi! My name is Stefan and I live in Auckland city, New Zealand. My favourite thing about living here is that Auckland is a vibrant and buzzing city, but that it also has beautiful beaches and forests on its doorstep when I want a break from the city life.',
@@ -335,6 +349,7 @@ let acom = [
         dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
+        thankYou: 'Thank you for booking a stay with us, we look forward to having you and we will be reachable any time via the email or mobile number provided in the confirmation email!',
         latitude: -36.861154,
         longitude: 174.767731,
     },
@@ -362,8 +377,10 @@ let acom = [
         image4: './img/skyCity4.jpg',
         image5: './img/skyCity5.jpg',
         image6: './img/skyCity6.jpg',
+        mapIcon: './img/hotel.png',
         carouselId: 'carouselExampleControls6',
         amenities: ['Wifi','Parking','Gym','Pool','Spa','Meals','EV Charger','Laundry'],
+        amenityAppend: '<div class="content-two__amenity-box"><i class="fazs fa-wifi"></i> <p>Wifi</p></div><div class="content-two__amenity-box"><i class="fas fa-parking"></i> <p>Parking</p></div><div class="content-two__amenity-box"><i class="fas fa-dumbbell"></i> <p>Gym</p></div><div class="content-two__amenity-box"><i class="fas fa-spa"></i> <p>Spa</p></div><div class="content-two__amenity-box"><i class="fas fa-swimming-pool"></i> <p>Pool</p></div><div class="content-two__amenity-box"><i class="fas fa-utensils"></i> <p>Meals</p></div><div class="content-two__amenity-box"><i class="fas fa-tshirt"></i> <p>Laundry</p></div><div class="content-two__amenity-box"><i class="fas fa-battery-full"></i> <p>EV Charger</p></div>',
         hostImg: './img/hostImg.jfif',
         hostName: 'Brad Burnett',
         hostBio: 'Group General Manager - SKYCITY Hotels - SkyCity Entertainment Group',
@@ -397,6 +414,7 @@ let acom = [
         dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
+        thankYou: 'Thank you for booking a stay with us, we look forward to having you and we will be reachable any time via the email or mobile number provided in the confirmation email!',
         latitude: -36.848445,
         longitude: 174.761848,
     },
@@ -418,14 +436,16 @@ let acom = [
         maxNight: 10,
         priceNight: 100,
         serviceFee: 45,
-        image1: './img/fernz1.jpg',
-        image2: './img/fernz2.jpg',
-        image3: './img/fernz3.jpg',
-        image4: './img/fernz4.jpg',
-        image5: './img/fernz5.jpg',
-        image6: './img/fernz6.jpg',
+        image1: './img/bellaVistaWellington1.jpg',
+        image2: './img/bellaVistaWellington2.jpg',
+        image3: './img/bellaVistaWellington3.jpg',
+        image4: './img/bellaVistaWellington4.jpg',
+        image5: './img/bellaVistaWellington5.jpg',
+        image6: './img/bellaVistaWellington6.jpg',
+        mapIcon: './img/motel.png',
         carouselId: 'carouselExampleControls7',
         amenities: ['Parking','Wifi','Pool','Meals'],
+        amenityAppend: '<div class="content-two__amenity-box"><i class="fazs fa-wifi"></i> <p>Wifi</p></div><div class="content-two__amenity-box"><i class="fas fa-parking"></i> <p>Parking</p></div><div class="content-two__amenity-box"><i class="fas fa-swimming-pool"></i> <p>Pool</p></div><div class="content-two__amenity-box"><i class="fas fa-utensils"></i> <p>Meals</p></div>',
         hostImg: './img/hostImg.jfif',
         hostName: 'Christine Leaf',
         hostBio: 'Looking after people is what we do best so we’ve made sure you’ll have all the fun of being somewhere new, with all the comforts of being in your own home.',
@@ -459,6 +479,7 @@ let acom = [
         dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
+        thankYou: 'Thank you for booking a stay with us, we look forward to having you and we will be reachable any time via the email or mobile number provided in the confirmation email!',
         latitude: -36.813536,
         longitude: 174.725902,
     },
@@ -486,10 +507,11 @@ let acom = [
         image4: './img/hakaLodgeAKL4.jpg',
         image5: './img/hakaLodgeAKL5.jpg',
         image6: './img/hakaLodgeAKL6.jpg',
+        mapIcon: './img/hostel.png',
         carouselId: 'carouselExampleControls8',
         amenities: ['Wifi','Meals'],
+        amenityAppend: '<div class="content-two__amenity-box"><i class="fas fa-wifi"></i> <p>Wifi</p></div><div class="content-two__amenity-box"><i class="fas fa-utensils"></i> <p>Meals</p></div>',
         hostImg: './img/hostImg.jfif',
-        hostImg: '',
         hostName: 'Susie Spain',
         hostBio: 'I\'ve been managing Haka Lodge for over 5 years, I take pride in creating the most welcoming environment possible, either me or another trusted staff member will always only be a call away!',
         reviewImg1: './img/staunchCat.jfif',
@@ -522,6 +544,7 @@ let acom = [
         dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
+        thankYou: 'Thank you for booking a stay with us, we look forward to having you and we will be reachable any time via the email or mobile number provided in the confirmation email!',
         latitude: -36.858026,
         longitude: 174.756701,
     },
@@ -543,14 +566,16 @@ let acom = [
         maxNight: 15,
         priceNight: 240,
         serviceFee: 125,
-        image1: './img/wellyHouse1.jpg',
-        image2: './img/wellyHouse2.jpg',
-        image3: './img/wellyHouse3.jpg',
-        image4: './img/wellyHouse4.jpg',
-        image5: './img/wellyHouse5.jpg',
-        image6: './img/wellyHouse6.jpg',
+        image1: './img/aucklandHouse1.jpg',
+        image2: './img/aucklandHouse2.jpg',
+        image3: './img/aucklandHouse4.jpg',
+        image4: './img/aucklandHouse4.jpg',
+        image5: './img/aucklandHouse5.jpg',
+        image6: './img/aucklandHouse6.jpg',
+        mapIcon: './img/house.png',
         carouselId: 'carouselExampleControls9',
         amenities: ['Wifi', 'Parking', 'Workspace', 'Garage', 'Meals', 'Laundry'],
+        amenityAppend: '<div class="content-two__amenity-box"><i class="fas fa-wifi"></i> <p>Wifi</p></div><div class="content-two__amenity-box"><i class="fas fa-parking"></i> <p>Parking</p></div><div class="content-two__amenity-box"><i class="fas fa-laptop-house"></i> <p>Workspace</p></div><div class="content-two__amenity-box"><i class="fas fa-warehouse"></i> <p>Garage</p></div><div class="content-two__amenity-box"><i class="fas fa-utensils"></i> <p>Meals</p></div><div class="content-two__amenity-box"><i class="fas fa-tshirt"></i> <p>Laundry</p></div>',
         hostImg: './img/hostImg.jfif',
         hostName: 'Megan',
         hostBio: 'We\'re located just next door, we\'ll always be happy to help if needed!!',
@@ -584,6 +609,7 @@ let acom = [
         dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
+        thankYou: 'Thank you for booking a stay with us, we look forward to having you and we will be reachable any time via the email or mobile number provided in the confirmation email!',
         latitude: -41.253140,
         longitude: 174.773718,
     },
@@ -611,8 +637,10 @@ let acom = [
         image4: './img/interContinental4.jpg',
         image5: './img/interContinental5.jpg',
         image6: './img/interContinental6.jpg',
+        mapIcon: './img/hotel.png',
         carouselId: 'carouselExampleControls10',
         amenities: ['Wifi','Parking','Gym','Pool','Spa','Meals','EV Charger','Laundry'],
+        amenityAppend: '<div class="content-two__amenity-box"><i class="fazs fa-wifi"></i> <p>Wifi</p></div><div class="content-two__amenity-box"><i class="fas fa-parking"></i> <p>Parking</p></div><div class="content-two__amenity-box"><i class="fas fa-dumbbell"></i> <p>Gym</p></div><div class="content-two__amenity-box"><i class="fas fa-spa"></i> <p>Spa</p></div><div class="content-two__amenity-box"><i class="fas fa-swimming-pool"></i> <p>Pool</p></div><div class="content-two__amenity-box"><i class="fas fa-utensils"></i> <p>Meals</p></div><div class="content-two__amenity-box"><i class="fas fa-tshirt"></i> <p>Laundry</p></div><div class="content-two__amenity-box"><i class="fas fa-battery-full"></i> <p>EV Charger</p></div>',
         hostImg: './img/hostImg.jfif',
         hostName: 'Scott Hamilton',
         hostBio: 'I\'ve been the InterContinental manager for over 9 years and love to deliver the best quality service I possible can! I take lots of pride in my work and ensure that we only hire the best staff',
@@ -646,6 +674,7 @@ let acom = [
         dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
+        thankYou: 'Thank you for booking a stay with us, we look forward to having you and we will be reachable any time via the email or mobile number provided in the confirmation email!',
         latitude:-41.284855,
         longitude: 174.776839,
     },
@@ -673,9 +702,11 @@ let acom = [
         image4: './img/bellaVistaWellington4.jpg',
         image5: './img/bellaVistaWellington5.jpg',
         image6: './img/bellaVistaWellington6.jpg',
+        mapIcon: './img/motel.png',
         // image6: './img/bellaVistaWellington6.jpg',
         carouselId: 'carouselExampleControls11',
         amenities: ['Parking','Wifi','Pool','Meals'],
+        amenityAppend: '<div class="content-two__amenity-box"><i class="fazs fa-wifi"></i> <p>Wifi</p></div><div class="content-two__amenity-box"><i class="fas fa-parking"></i> <p>Parking</p></div><div class="content-two__amenity-box"><i class="fas fa-swimming-pool"></i> <p>Pool</p></div><div class="content-two__amenity-box"><i class="fas fa-utensils"></i> <p>Meals</p></div>',
         hostImg: './img/hostImg.jfif',
         hostName: 'Barney and Bhagi',
         hostBio: 'You can be assured of a warm welcome at Bella Vista Motel Wellington where we will assist you in every way possible!',
@@ -709,6 +740,7 @@ let acom = [
         dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
+        thankYou: 'Thank you for booking a stay with us, we look forward to having you and we will be reachable any time via the email or mobile number provided in the confirmation email!',
         latitude: -41.302023,
         longitude: 174.804424,
     },
@@ -730,14 +762,16 @@ let acom = [
         maxNight: 10,
         priceNight: 37,
         serviceFee: 10,
-        image1: './img/nomadsWellington1.jpg',
-        image2: './img/nomadsWellington2.jpg',
-        image3: './img/nomadsWellington3.jpg',
-        image4: './img/nomadsWellington4.jpg',
-        image5: './img/nomadsWellington5.jpg',
-        image6: './img/nomadsWellington6.jpg',
+        image1: './img/hakaLodgeAKL1.jpg',
+        image2: './img/hakaLodgeAKL2.jpg',
+        image3: './img/hakaLodgeAKL3.jpg',
+        image4: './img/hakaLodgeAKL4.jpg',
+        image5: './img/hakaLodgeAKL5.jpg',
+        image6: './img/hakaLodgeAKL6.jpg',
+        mapIcon: './img/hostel.png',
         carouselId: 'carouselExampleControls12',
         amenities: ['Wifi','Meals'],
+        amenityAppend: '<div class="content-two__amenity-box"><i class="fas fa-wifi"></i> <p>Wifi</p></div><div class="content-two__amenity-box"><i class="fas fa-utensils"></i> <p>Meals</p></div>',
         hostImg: './img/hostImg.jfif',
         hostName: 'Ryan Coward',
         hostBio: 'I\'m a dedicated Hostel manager who\'s committed to creating the best stay for locals and visitors.',
@@ -771,6 +805,7 @@ let acom = [
         dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
+        thankYou: 'Thank you for booking a stay with us, we look forward to having you and we will be reachable any time via the email or mobile number provided in the confirmation email!',
         latitude:-41.289617,
         longitude: 174.777075,
     },
@@ -792,14 +827,16 @@ let acom = [
         maxNight: 15,
         priceNight: 230,
         serviceFee: 125,
-        image1: './img/christchurchMotel1.jpeg',
-        image2: './img/christchurchMotel2.jpeg',
-        image3: './img/christchurchMotel3.jpeg',
-        image4: './img/christchurchMotel4.jpeg',
-        image5: './img/christchurchMotel5.jpeg',
-        image6: './img/christchurchMotel6.jpeg',
+        image1: './img/aucklandHouse1.jpg',
+        image2: './img/aucklandHouse2.jpg',
+        image3: './img/aucklandHouse4.jpg',
+        image4: './img/aucklandHouse4.jpg',
+        image5: './img/aucklandHouse5.jpg',
+        image6: './img/aucklandHouse6.jpg',
+        mapIcon: './img/house.png',
         carouselId: 'carouselExampleControls13',
         amenities: ['Wifi','Parking','Workspace','Garage','Meals', 'Laundry'],
+        amenityAppend: '<div class="content-two__amenity-box"><i class="fas fa-wifi"></i> <p>Wifi</p></div><div class="content-two__amenity-box"><i class="fas fa-parking"></i> <p>Parking</p></div><div class="content-two__amenity-box"><i class="fas fa-laptop-house"></i> <p>Workspace</p></div><div class="content-two__amenity-box"><i class="fas fa-warehouse"></i> <p>Garage</p></div><div class="content-two__amenity-box"><i class="fas fa-utensils"></i> <p>Meals</p></div><div class="content-two__amenity-box"><i class="fas fa-tshirt"></i> <p>Laundry</p></div>',
         hostImg: './img/hostImg.jfif',
         hostName: 'Anne',
         hostBio: 'I love to travel, and having just returned from the UK after living there for 7 years, I am now living in Christchurch which is my home town. The city is a beautiful place to live and be part off.',
@@ -833,6 +870,7 @@ let acom = [
         dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
+        thankYou: 'Thank you for booking a stay with us, we look forward to having you and we will be reachable any time via the email or mobile number provided in the confirmation email!',
         latitude: -43.544752,
         longitude: 172.644521,
     },
@@ -858,10 +896,12 @@ let acom = [
         image2: './img/wyndhamChristchurch2.jpg',
         image3: './img/wyndhamChristchurch3.jpg',
         image4: './img/wyndhamChristchurch4.jpg',
-        image5: './img/wyndhamChristchurch5.jpg',
+        image5: './img/wyndhamChristchurch2.jpg',
         image6: './img/wyndhamChristchurch6.jpg',
+        mapIcon: './img/hotel.png',
         carouselId: 'carouselExampleControls14',
         amenities: ['Wifi','Parking','Gym','Pool','Spa','Meals','EV Charger','Laundry'],
+        amenityAppend: '<div class="content-two__amenity-box"><i class="fazs fa-wifi"></i> <p>Wifi</p></div><div class="content-two__amenity-box"><i class="fas fa-parking"></i> <p>Parking</p></div><div class="content-two__amenity-box"><i class="fas fa-dumbbell"></i> <p>Gym</p></div><div class="content-two__amenity-box"><i class="fas fa-spa"></i> <p>Spa</p></div><div class="content-two__amenity-box"><i class="fas fa-swimming-pool"></i> <p>Pool</p></div><div class="content-two__amenity-box"><i class="fas fa-utensils"></i> <p>Meals</p></div><div class="content-two__amenity-box"><i class="fas fa-tshirt"></i> <p>Laundry</p></div><div class="content-two__amenity-box"><i class="fas fa-battery-full"></i> <p>EV Charger</p></div>',
         hostImg: './img/hostImg.jfif',
         hostName: 'Peter Wyndham',
         hostBio: 'I\'ve been a host for over 5 years and love to deliver the best quality service I possible can! I take lots of pride in my work and will always be just a phone call away!',
@@ -895,6 +935,7 @@ let acom = [
         dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
+        thankYou: 'Thank you for booking a stay with us, we look forward to having you and we will be reachable any time via the email or mobile number provided in the confirmation email!',
         latitude:-43.526562,
         longitude: 172.632709,
     },
@@ -922,8 +963,10 @@ let acom = [
         image4: './img/christchurchMotel4.jpeg',
         image5: './img/christchurchMotel5.jpeg',
         image6: './img/christchurchMotel6.jpeg',
+        mapIcon: './img/motel.png',
         carouselId: 'carouselExampleControls15',
         amenities: ['Parking','Wifi','Pool','Meals'],
+        amenityAppend: '<div class="content-two__amenity-box"><i class="fazs fa-wifi"></i> <p>Wifi</p></div><div class="content-two__amenity-box"><i class="fas fa-parking"></i> <p>Parking</p></div><div class="content-two__amenity-box"><i class="fas fa-swimming-pool"></i> <p>Pool</p></div><div class="content-two__amenity-box"><i class="fas fa-utensils"></i> <p>Meals</p></div>',
         hostImg: './img/hostImg.jfif',
         hostName: 'Brian and Bridget',
         hostBio: 'We are committed in ensuring you have a clean, comfortable and enjoyable stay at Christchurch Motel.',
@@ -957,6 +1000,7 @@ let acom = [
         dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
+        thankYou: 'Thank you for booking a stay with us, we look forward to having you and we will be reachable any time via the email or mobile number provided in the confirmation email!',
         latitude:-43.530893,
         longitude: 172.585291,
     },
@@ -978,14 +1022,16 @@ let acom = [
         maxNight: 10,
         priceNight: 230,
         serviceFee: 10,
-        image1: './img/jailhouseChristchurch1.jpg',
-        image2: './img/jailhouseChristchurch2.jpg',
-        image3: './img/jailhouseChristchurch3.jpg',
-        image4: './img/jailhouseChristchurch4.jpg',
-        image5: './img/jailhouseChristchurch5.jpg',
-        image6: './img/jailhouseChristchurch6.jpg',
+        image1: './img/hakaLodgeAKL1.jpg',
+        image2: './img/hakaLodgeAKL2.jpg',
+        image3: './img/hakaLodgeAKL3.jpg',
+        image4: './img/hakaLodgeAKL4.jpg',
+        image5: './img/hakaLodgeAKL5.jpg',
+        image6: './img/hakaLodgeAKL6.jpg',
+        mapIcon: './img/hostel.png',
         carouselId: 'carouselExampleControls16',
         amenities: ['Wifi','Meals','Parking'],
+        amenityAppend: '<div class="content-two__amenity-box"><i class="fas fa-wifi"></i> <p>Wifi</p></div><div class="content-two__amenity-box"><i class="fas fa-parking"></i> <p>Parking</p></div><div class="content-two__amenity-box"><i class="fas fa-utensils"></i> <p>Meals</p></div>',
         hostImg: './img/hostImg.jfif',
         hostName: 'Pete Davidson',
         hostBio: 'The Jailhouse has rooms available to suit everyone and we welcome children, youth and adults of all ages to experience our special budget accommodation. Our hostel is clean, warm and friendly with super-comfortable inner-sprung beds.',
@@ -1019,6 +1065,7 @@ let acom = [
         dinnerPicture2: './img/steakDinner.png',
         dinnerBio2: 'Steak Dinner',
         dinnerDiet2: '',
+        thankYou: 'Thank you for booking a stay with us, we look forward to having you and we will be reachable any time via the email or mobile number provided in the confirmation email!',
         latitude: -43.542727,
         longitude: 172.613301,
     },
@@ -1047,7 +1094,7 @@ function initMap(){
         {
             types: ['(cities)']
         }
-    )
+    );
 
     // Date Picker Begins
 
@@ -1214,7 +1261,7 @@ function modal(){
     });
     
 
-};
+}
 
 modal();
 
@@ -1266,12 +1313,26 @@ function mainFilters(event){
 
     guestos = numberOfPeople;
 
-    displayOptions(numberOfDays, numberOfPeople, location);
-
     totalNights = numberOfDays;
     console.log(totalNights);
     console.log(typeof totalNights);
-};
+
+    if((checkInDate == 'Invalid Date') || (checkOutDate == 'Invalid Date') || (numberOfPeople === 'Add guests') || (location === 'Where are you going?')){
+        alert('Please fill in all fields to search');
+    }else if (location === ""){
+        alert("Please make sure you have entered a location");
+    } else if ((checkInDate == "Invalid Date") || (checkOutDate == "Invalid Date")) {
+        alert("Please make sure you have entered a check in and check out date");
+    } else if (numberOfPeople === null) {
+        alert("Please enter your number of guests");
+    } else {
+        displayOptions(numberOfDays, numberOfPeople, location);
+    }
+
+    // displayOptions();
+}
+
+
 
 
 function displayOptions(nights, guests, city){
@@ -1284,6 +1345,7 @@ function displayOptions(nights, guests, city){
     $("#searchResults").empty();
 
     for(let i = 0; i < acom.length; i++){
+
         if((nights >= acom[i].minNight && nights <= acom[i].maxNight) && (guests >= acom[i].minGuest && guests <= acom[i].maxGuest) && (city === acom[i].location)){
            generateCard(i);
            
@@ -1292,7 +1354,14 @@ function displayOptions(nights, guests, city){
            let location = {lat: acom[i].latitude, lng: acom[i].longitude};
         //    console.log(location);
 
+            let markerImage = {
+                url: acom[i].mapIcon,
+                scaledSize: new google.maps.Size(60, 80), // scaled size
+                origin: new google.maps.Point(0,0), // origin
+                };
+
            let marker = new google.maps.Marker({
+               icon: markerImage,
                position: location,
                map: map
            });
@@ -1304,13 +1373,17 @@ function displayOptions(nights, guests, city){
 
             markers.push(marker);
         }
+
+        // if((nights <acom[i].minNight && nights > acom[i].maxNight) && (guests > acom[i].minGuest && guests < acom[i].maxGuest) && (city != acom[i].location)){
+        //     alert('Sorry there are no available stays');
+        // }
     }
+
+ 
     // secondFilter.addEventListener("click", checkboxFilter);
 
 }
 displayOptions();
-
-
 
         // =====================================
         // Checkbox Filter Function Starts
@@ -1385,8 +1458,8 @@ function checkboxFilter(){
         
                 `
             );
-        };
-    };
+        }
+    }
 
     
     // for(i = 0; i < selectedType.length; i++){
@@ -1400,7 +1473,7 @@ function checkboxFilter(){
 
     console.log(selectedType);
 
-};
+}
         // checkboxFilter();
             // =====================================
             // Checkbox Filter Function Ends
@@ -1472,11 +1545,9 @@ function selection(){
                     </div>
                     <div class="content-two__amenities">
                         <h5 class="content-two-headings">Amenities</h5>
-                        <div class="content-two-amenitylist"></div>
-                    </div>
-                    <div class="content-two__sleeps">
-                        <h5 class="content-two-headings">Sleeping Arrangements</h5>
-                        <div class="content-two-rooms"></div>
+                        <div class="content-two__amenitylist">
+                            ${acom[i].amenityAppend}
+                        </div>
                     </div>
                     <div class="content-two__review">
                         <h5 class="content-two-headings">Reviews</h5>
@@ -1607,11 +1678,11 @@ function selection(){
         document.getElementById('contentTwoCheckOut').value = checkOutTransfer;
         // $('contentTwoCheckIn').datepicker('setDate', new Date(checkInTransfer));
         // $('contentTwoCheckOut').datepicker('setDate', new Date(checkOutTransfer));
-    })
+    });
 
 
 
-};
+}
 
 selection();
 
@@ -1663,34 +1734,34 @@ function mealProgress(){
                         </div>
                         <div class="content-three__breakfast">
                             <h6 class="content-three-foodheading">Breakfast - $22</h6>
-                                <input type="image" src="${acom[i].breakfastPicture1}" alt="Submit" class="content-three-img breakfast" value="22">
+                                <input id="${acom[i].id}" type="image" src="${acom[i].breakfastPicture1}" alt="Submit" class="content-three-img breakfast" value="22">
                             <p class="content-three-description">${acom[i].breakfastBio1}</p>
                             <p class="content-three-dietary">${acom[i].breakfastDiet1}</p>
-                                <input type="image" src="${acom[i].breakfastPicture2}" alt="Submit" class="content-three-img1 breakfast1" value="22">
+                                <input id="${acom[i].id}" type="image" src="${acom[i].breakfastPicture2}" alt="Submit" class="content-three-img1 breakfast1" value="22">
                             <p class="content-three-description1">${acom[i].breakfastBio2}</p>
                             <p class="content-three-dietary1">${acom[i].breakfastDiet2}</p>
                         </div>
                         <div class="content-three__lunch">
                             <h6 class="content-three-foodheading">Lunch - $25</h6>
-                                <img class="content-three-img" src="${acom[i].lunchPicture1}">
+                                <img id="${acom[i].id}" class="content-three-img" src="${acom[i].lunchPicture1}">
                                 <input type="image" src="${acom[i].lunchPicture1}" alt="Submit" class="content-three-img lunch" value="25">
                             <p class="content-three-description">${acom[i].lunchBio1}</p>
                             <p class="content-three-dietary">${acom[i].lunchDiet1}</p>
-                                <input type="image" src="${acom[i].lunchPicture2}" alt="Submit" class="content-three-img1 lunch1" value="25">
+                                <input id="${acom[i].id}" type="image" src="${acom[i].lunchPicture2}" alt="Submit" class="content-three-img1 lunch1" value="25">
                             <p class="content-three-description1">${acom[i].lunchBio2}</p>
                             <p class="content-three-dietary1">${acom[i].lunchDiet2}</p>
                         </div>
                         <div class="content-three__dinner">
                             <h6 class="content-three-foodheading">Dinner - $30</h6>
-                                <input type="image" src="${acom[i].dinnerPicture1}" alt="Submit" class="content-three-img dinner" value="30">
+                                <input id="${acom[i].id}" type="image" src="${acom[i].dinnerPicture1}" alt="Submit" class="content-three-img dinner" value="30">
                             <p class="content-three-description">${acom[i].dinnerBio1}</p>
                             <p class="content-three-dietary">${acom[i].dinnerDiet1}</p>
-                                <input type="image" src="${acom[i].dinnerPicture2}" alt="Submit" class="content-three-img1 dinner1" value="30">
+                                <input id="${acom[i].id}" type="image" src="${acom[i].dinnerPicture2}" alt="Submit" class="content-three-img1 dinner1" value="30">
                             <p class="content-three-description1">${acom[i].dinnerBio2}</p>
                             <p class="content-three-dietary1">${acom[i].dinnerDiet2}</p>
                         </div>
                     `
-                )
+                );
 
                 $("#contentThreeRight").empty().append(
                     `
@@ -1729,7 +1800,7 @@ function mealProgress(){
                                 <div class="content-three__final-calc">
                                     <p>Total</p>
                                     <p>-</p>
-                                    <p>$${acom[i].priceNight * totalNights + acom[i].serviceFee}</p>
+                                    <p>$${acom[i].priceNight * totalNights + acom[i].serviceFee + foodPrice}</p>
                                 </div>
                             </div>
                             <div class="content-three__bottomright">
@@ -1738,7 +1809,7 @@ function mealProgress(){
                             </div>
                         </div>
                     `
-                )
+                );
 
                 // $( "#contentThreeCheckIn" ).datepicker( "setDate", checkInTransfer );
                 // $( "#contentThreeCheckOut" ).datepicker( "setDate", checkOutTransfer );
@@ -1755,6 +1826,7 @@ function mealProgress(){
         let mealDinner = $(".dinner").val();
         console.log(mealDinner);
         foodPrice.push(mealDinner);
+        console.log(foodPrice);
 
         let mealLunch = $(".lunch").val();
         foodPrice.push(mealLunch);
@@ -1769,137 +1841,198 @@ function mealProgress(){
         $('.dinner').click(function(){
             console.log(mealValue);
 
-            $('#contentThreeFoodCalc').append(
-                `
-                <div class="content-three__calc">
-                    <p>Spaghetti Bolognese</p>
-                    <p>-</p>
-                    <p class="foodValue">$${mealDinner}</p>
-                </div>
-                `
-            )
+            let i = 0;
+            for(i = 0; i < acom.length; i++){
+                if(parseInt(this.id) === acom[i].id){
 
-            $('#contentFourMeal').append(
-                `
-                <div class="content-four__box">
-                    <h6 class="content-four__box-header">Dinner</h6>
-                    <p class="content-four__box-content">${acom[i].dinnerBio1}</p>
-                </div>
-                `
-            )
-        })
+                    $('#contentThreeFoodCalc').append(
+                        `
+                        <div class="content-three__calc">
+                            <p>Spaghetti Bolognese</p>
+                            <p>-</p>
+                            <p class="foodValue">${mealDinner}</p>
+                        </div>
+                        `
+                    );
+        
+                    $('#contentFourMeal').append(
+                        `
+                        <div class="content-four__box">
+                            <h6 class="content-four__box-header">Dinner</h6>
+                            <p class="content-four__box-content">${acom[i].dinnerBio1}</p>
+                        </div>
+                        `
+                    );
+                    
+                }
+            }
+            confirmationPage();
+
+        });
     
         $('.lunch').click(function(){
-            $('#contentThreeFoodCalc').append(
-                `
-                <div class="content-three__calc">
-                    <p>Burger w/ fries & aioli</p>
-                    <p>-</p>
-                    <p class="foodValue">$${mealLunch}</p>
-                </div>
-                `
-            )
 
-            $('#contentFourMeal').append(
-                `
-                <div class="content-four__box">
-                    <h6 class="content-four__box-header">Lunch</h6>
-                    <p class="content-four__box-content">${acom[i].lunchBio1}</p>
-                </div>
-                `
-            )
-        })
+            let i = 0;
+            for(i = 0; i < acom.length; i++){
+                if(parseInt(this.id) === acom[i].id){
+
+                    $('#contentThreeFoodCalc').append(
+                        `
+                        <div class="content-three__calc">
+                            <p>Burger w/ fries & aioli</p>
+                            <p>-</p>
+                            <p class="foodValue">${mealLunch}</p>
+                        </div>
+                        `
+                    );
+        
+                    $('#contentFourMeal').append(
+                        `
+                        <div class="content-four__box">
+                            <h6 class="content-four__box-header">Lunch</h6>
+                            <p class="content-four__box-content">${acom[i].lunchBio1}</p>
+                        </div>
+                        `
+                    );
+                    
+                }
+            }
+            confirmationPage();
+
+        });
     
         $('.breakfast').click(function(){
-            $('#contentThreeFoodCalc').append(
-                `
-                <div class="content-three__calc">
-                    <p>Eggs & Avacado on toast</p>
-                    <p>-</p>
-                    <p class="foodValue">$${mealBreakfast}</p>
-                </div>
-                `
-            )
 
-            $('#contentFourMeal').append(
-                `
-                <div class="content-four__box">
-                    <h6 class="content-four__box-header">Breakfast</h6>
-                    <p class="content-four__box-content">${acom[i].breakfastBio1}</p>
-                </div>
-                `
-            )
+            let i = 0;
+            for(i = 0; i < acom.length; i++){
+                if(parseInt(this.id) === acom[i].id){
+
+                    $('#contentThreeFoodCalc').append(
+                        `
+                        <div class="content-three__calc">
+                            <p>Eggs & Avacado on toast</p>
+                            <p>-</p>
+                            <p class="foodValue">${mealBreakfast}</p>
+                        </div>
+                        `
+                    );
+        
+                    $('#contentFourMeal').append(
+                        `
+                        <div class="content-four__box">
+                            <h6 class="content-four__box-header">Breakfast</h6>
+                            <p class="content-four__box-content">${acom[i].breakfastBio1}</p>
+                        </div>
+                        `
+                    );
+                    
+                }
+            }
+            confirmationPage();
             
         });
 
         $('.dinner1').click(function(){
             console.log(mealDinner);
-            $('#contentThreeFoodCalc').append(
-                `
-                <div class="content-three__calc">
-                    <p>Steak Dinner</p>
-                    <p>-</p>
-                    <p class="foodValue">$${mealDinner}</p>
-                </div>
-                `
-            )
 
-            $('#contentFourMeal').append(
-                `
-                <div class="content-four__box">
-                    <h6 class="content-four__box-header">Dinner</h6>
-                    <p class="content-four__box-content">${acom[i].dinnerBio2}</p>
-                </div>
-                `
-            )
-        })
+            let i = 0;
+            for(i = 0; i < acom.length; i++){
+                if(parseInt(this.id) === acom[i].id){
+
+                    $('#contentThreeFoodCalc').append(
+                        `
+                        <div class="content-three__calc">
+                            <p>Steak Dinner</p>
+                            <p>-</p>
+                            <p class="foodValue">${mealDinner}</p>
+                        </div>
+                        `
+                    );
+        
+                    $('#contentFourMeal').append(
+                        `
+                        <div class="content-four__box">
+                            <h6 class="content-four__box-header">Dinner</h6>
+                            <p class="content-four__box-content">${acom[i].dinnerBio2}</p>
+                        </div>
+                        `
+                    );
+                    
+                }
+            }
+
+            confirmationPage();
+
+        });
     
         $('.lunch1').click(function(){
-            $('#contentThreeFoodCalc').append(
-                `
-                <div class="content-three__calc">
-                    <p>Pizza</p>
-                    <p>-</p>
-                    <p class="foodValue">$${mealLunch}</p>
-                </div>
-                `
-            )
 
-            $('#contentFourMeal').append(
-                `
-                <div class="content-four__box">
-                    <h6 class="content-four__box-header">Lunch</h6>
-                    <p class="content-four__box-content">${acom[i].lunchBio2}</p>
-                </div>
-                `
-            )
-        })
+            let i = 0;
+            for(i = 0; i < acom.length; i++){
+                if(parseInt(this.id) === acom[i].id){
+
+                    $('#contentThreeFoodCalc').append(
+                        `
+                        <div class="content-three__calc">
+                            <p>Pizza</p>
+                            <p>-</p>
+                            <p class="foodValue">${mealLunch}</p>
+                        </div>
+                        `
+                    );
+        
+                    $('#contentFourMeal').append(
+                        `
+                        <div class="content-four__box">
+                            <h6 class="content-four__box-header">Lunch</h6>
+                            <p class="content-four__box-content">${acom[i].lunchBio2}</p>
+                        </div>
+                        `
+                    );
+                    
+                }
+            }
+
+
+
+            confirmationPage();
+        });
     
         $('.breakfast1').click(function(){
-            $('#contentThreeFoodCalc').append(
-                `
-                <div class="content-three__calc">
-                    <p>Buckwheat pancakes</p>
-                    <p>-</p>
-                    <p class="foodValue">$${mealBreakfast}</p>
-                </div>
-                `
-            )
 
-            $('#contentFourMeal').append(
-                `
-                <div class="content-four__box">
-                    <h6 class="content-four__box-header">Breakfast</h6>
-                    <p class="content-four__box-content">${acom[i].breakfastBio2}</p>
-                </div>
-                `
-            )
+            let i = 0;
+            for(i = 0; i < acom.length; i++){
+                if(parseInt(this.id) === acom[i].id){
+
+                    $('#contentThreeFoodCalc').append(
+                        `
+                        <div class="content-three__calc">
+                            <p>Buckwheat pancakes</p>
+                            <p>-</p>
+                            <p class="foodValue">${mealBreakfast}</p>
+                        </div>
+                        `
+                    );
+        
+                    $('#contentFourMeal').append(
+                        `
+                        <div class="content-four__box">
+                            <h6 class="content-four__box-header">Breakfast</h6>
+                            <p class="content-four__box-content">${acom[i].breakfastBio2}</p>
+                        </div>
+                        `
+                    );
+                    
+                }
+            }
+
+            confirmationPage();
             
         });
         confirmationPage();
-    })
+    });
     
-};
+}
 mealProgress();
 
 
@@ -1909,7 +2042,7 @@ function confirmationPage(){
     console.log('dat shit workin cuz');
 
     $(".content-three-btn").click(function(){
-        console.log("clickedDat")
+        console.log("clickedDat");
         $("#contentThree").hide();
         $("#contentFour").show();
         $("#contentFour").css("display", "flex");
@@ -1953,7 +2086,7 @@ function confirmationPage(){
                         </div>
                     </div>  
                     `
-                )
+                );
 
                 $("#contentFourRight").empty().append(
                     `
@@ -1983,14 +2116,14 @@ function confirmationPage(){
                     </div>
                     <button id="${acom[i].id}" class="content-four-btn">Confirm</button>
                     `
-                )
+                );
             }
         }
         mealProgress();
         paymentPage();
 
-    })
-};
+    });
+}
 confirmationPage();
 
 // =====================================
@@ -1998,10 +2131,10 @@ confirmationPage();
 // =====================================
 
 function paymentPage(){
-    console.log('YAH')
+    console.log('YAH');
     
     $(".content-four-btn").click(function(){
-        console.log("clickedDat")
+        console.log("clickedDat");
         $("#contentFour").hide();
         $("#contentFive").show();
         $("#contentFive").css("display", "flex");
@@ -2023,13 +2156,13 @@ function paymentPage(){
                     `
                     <button id="${acom[i].id}" class="content-five-btn">Confirm</button>
                     `
-                )
+                );
                 
             }
         }
         finalConfirmation();
-    })
-};
+    });
+}
 paymentPage();
 // =====================================
 // Payment Page Ends
@@ -2044,51 +2177,93 @@ function finalConfirmation(){
     console.log('SOCLOSE');
 
     $(".content-five-btn").click(function(){
-        console.log("clickedDat")
+        console.log("clickedDat");
         $("#contentFive").hide();
         $("#contentSix").show();
-        $("#contentFive").css("display", "flex");
-        $("#contentFive").css("flex-direction", "column");
+        $("#contentSix").css("display", "flex");
+        $("#contentSix").css("flex-direction", "column");
         $(".footer-indicator__box").css("background", "#00abdd");
         
     });
 
-    $("#contentSix").empty().append(
-        `
-        <div class="content-four__block">
-            <div class="content-four__info">
-                <h4 class="content-four__right-header">Information</h4>
-                <div class="content-four__box">
-                    <h6 class="content-four__box-header">Check-In</h6>
-                    <p class="content-four__box-content">${checkInTransfer}</p>
-                </div>
-                <div class="content-four__box">
-                    <h6 class="content-four__box-header">Check-Out</h6>
-                    <p class="content-four__box-content">${checkOutTransfer}</p>
-                </div>
-                <div class="content-four__box">
-                    <h6 class="content-four__box-header">Visitors</h6>
-                    <p class="content-four__box-content">${guestos}</p>
-                </div>
-                <div class="content-four__box">
-                    <h6 class="content-four__box-header">Total Cost</h6>
-                    <p class="content-four__box-content">$${acom[i].priceNight * totalNights + acom[i].serviceFee}</p>
-                </div>
-            </div>
-            <div id="contentFourMeal" class="content-four__meal">
-                <h4 class="content-four__right-header">Meal Options</h4>
-            </div>
-        </div>
-        <button id="${acom[i].id}" class="content-four-btn">Confirm</button>
-        `
-    )
+    $(".content-five-btn").click(function(){
+        console.log("heyBro");
+        let i = 0;
+        for(i = 0; i < acom.length; i++){
+            if(parseInt(this.id) === acom[i].id){
+                console.log(acom[i].name);
 
-};
-finalConfirmation();
+
+                $("#contentSix").empty().append(
+                    `
+                    <div class="content-six__header-block">
+                    <h3 class="content-six-header">Your booking is confirmed</h3>
+                    <h4 class="content-six-subheader">You'll recieve a confirmation email shortly</h4>
+                    </div>
+                    <div class="content-six__info">
+                    <div class="content-six__box">
+                        <h6 class="content-six__box-header">Check-In</h6>
+                        <p class="content-six__box-content">${checkInTransfer}</p>
+                    </div>
+                    <div class="content-six__box">
+                        <h6 class="content-six__box-header">Check-Out</h6>
+                        <p class="content-six__box-content">${checkOutTransfer}</p>
+                    </div>
+                    <div class="content-six__box">
+                        <h6 class="content-six__box-header">Visitors</h6>
+                        <p class="content-six__box-content">${guestos}</p>
+                    </div>
+                    <div class="content-six__box">
+                        <h6 class="content-six__box-header">Where</h6>
+                        <p class="content-six__box-content">${acom[i].location}</p>
+                    </div>
+                    </div>
+                    <div class="content-six__host">
+                    <div class="content-six__person">
+                        <img src="${acom[i].hostImg}" alt="" class="content-six-img">
+                        <div class="content-six__person-box">
+                            <h6 class="content-six-names">${acom[i].hostName}</h6>
+                            <p class="content-six-text">${acom[i].thankYou}</p>
+                        </div>
+                    </div>
+                    </div>
+                    <div class="content-six__bottom">
+                        <button id="${acom[i].id}" class="content-six-btn">Book Another Stay</button>
+                    </div>
+                    `
+                );
+            }
+        }
+
+    });
+    function flowRestart(){
+
+        $(".content-six-btn").click(function(){
+            $("#contentSix").hide();
+            $("#nav").hide();
+            $("#footer").hide();
+            $("#heroTop").show();
+        });
+        
+    }
+    flowRestart();
+}
+// finalConfirmation();
 
 // =====================================
 // Final Confirmation Ends
 // =====================================
+
+
+// =====================================
+// Final hide Show Starts
+// =====================================
+
+
+// =====================================
+// Final hide Show Ends
+// =====================================
+
 
 
 
@@ -2151,7 +2326,7 @@ function generateCard(x){
                     <div class="card-price-section">
                         <p class="card-price-day">$${acom[x].priceNight} NZD/night</p>
                         <p>|</p>
-                        <p class="card-price-stay">$${acom[x].priceNight * totalNights} NZD/total</p>
+                        <p class="card-price-stay">${acom[x].type}</p>
                     </div>
                 </div>
             </div>
@@ -2159,7 +2334,7 @@ function generateCard(x){
         `
     );
     selection();
-};
+}
 
 function generateCardFilter(x){
     // let x = i;
@@ -2206,7 +2381,7 @@ function generateCardFilter(x){
                     <div class="card-price-section">
                         <p class="card-price-day">$${acom[x].priceNight} NZD/night</p>
                         <p>|</p>
-                        <p class="card-price-stay">$${acom[x].priceNight * totalNights} NZD/total</p>
+                        <p class="card-price-stay">${acom[x].type}</p>
                     </div>
                 </div>
             </div>
@@ -2214,7 +2389,7 @@ function generateCardFilter(x){
         `
     );
     selection();
-};
+}
 
 // =====================================
 // end of card generator
@@ -2236,6 +2411,7 @@ mainSearch.addEventListener("click", mainFilters);
 // =====================================
 // 
 // =====================================
+
 
 
 // =====================================

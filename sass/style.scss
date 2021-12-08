@@ -138,7 +138,7 @@ button{
         // justify-content: center;
         overflow-y: scroll;
         margin-top: 10vh;
-        margin-left: 2em;
+        justify-content: center;
     }
 
     &-map{
@@ -291,7 +291,7 @@ button{
 
 
 .content-two{
-    height: 330vh;
+    height: 270vh;
     display: none;
     font-family: $mainFont;
 
@@ -322,6 +322,21 @@ button{
 
     &__amenities{
         @include propertyContentMargin;
+    }
+
+    &__amenitylist{
+        display: flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        font-size: 2rem;
+        gap: 1.5em;
+    }
+
+    &__amenity-box{
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        gap: 0.5em;
     }
 
     &__sleeps{
@@ -403,6 +418,10 @@ button{
     &__rating{
         padding: 0.5em 1em;
         @include ratingBoxStyling;
+    }
+
+    &__rating p{
+        font-size: 2em;
     }
 
     &__amenitiesShort{
@@ -849,6 +868,10 @@ button{
         @include ratingBoxStyling;
     }
 
+    &__rating p{
+        font-size: 2em;
+    }
+
     &-heading{
         font-size: 3.5rem;
     }
@@ -1020,6 +1043,86 @@ button{
         border-color: rgba(255, 255, 255, 0);
     }
 };
+
+.content-six{
+    padding-top: 10vh;
+    height: 90vh;
+    display: none;
+    font-family: $mainFont;
+    margin-left: 15%;
+    margin-right: 15%;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    gap: 4em;
+
+    &-header{
+        font-size: 3.5rem;
+    }
+
+    &-subheader{
+        font-size: 2rem;
+    }
+
+    &__info{
+        display: flex;
+        flex-direction: row;
+        gap: 4em;
+        font-size: 1.6rem;
+    }
+
+    &__box-header{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    &__person{
+        display: flex;
+        flex-direction: row;
+    }
+
+    &__person-box{
+        display: flex;
+        flex-direction: column;
+        margin: 2em;
+    }
+
+    &__host{
+        text-align: left;
+        width: 40%;
+    }
+
+    &-names{
+        font-size: 2rem;
+        font-weight: bold;
+    }
+
+    &-text{
+        font-size: 1.6rem;
+    }
+
+    &-img{
+        height: 20em;
+        width: auto;
+        border-radius: 100px;
+    }
+
+    &-btn{
+        margin: auto;
+        padding: 1em 2em;
+        border-style: solid;
+        border-color: $blue;
+    }
+
+    &-btn:hover{
+        border-style: solid;
+        background: $blue;
+        color: #fff;
+        border-color: rgba(255, 255, 255, 0);
+    }
+
+
+}
 
 .footer{
     // grid-row: 11/12;
